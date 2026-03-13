@@ -1,0 +1,18 @@
+{
+  "name": "cyber-sloth-suite",
+  "version": "2.0.0",
+  "description": "Sloth Flow core orchestrator — voice personas, brand tokens, agent registry, and cross-division workflow commands for the Cyber Sloth plugin family.",
+  "author": {
+    "name": "Corey Maypray"
+  },
+  "keywords": [
+    "cyber-sloth",
+    "content-creation",
+    "app-development",
+    "backend",
+    "web-design",
+    "threat-modeling",
+    "cybersecurity",
+    "maycrest"
+  ]
+}

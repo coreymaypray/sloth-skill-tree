@@ -1,0 +1,7 @@
+{
+  "name": "cyber-sloth-spatial",
+  "version": "1.0.0",
+  "description": "Sloth Flow spatial computing division — Metal GPU rendering, visionOS development, XR immersive experiences, spatial UI/UX, cockpit interfaces, and terminal integration.",
+  "author": { "name": "Corey Maypray" },
+  "keywords": ["cyber-sloth", "spatial", "visionos", "xr", "metal", "ar", "vr", "apple-vision-pro"]
+}

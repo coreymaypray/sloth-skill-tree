@@ -1,0 +1,7 @@
+{
+  "name": "cyber-sloth-project-mgmt",
+  "version": "1.0.0",
+  "description": "Sloth Flow project management division — senior PM oversight, studio production, operations planning, Jira workflows, risk management, and experiment tracking.",
+  "author": { "name": "Corey Maypray" },
+  "keywords": ["cyber-sloth", "project-management", "pm", "operations", "jira", "experiments"]
+}
