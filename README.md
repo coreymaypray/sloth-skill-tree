@@ -253,15 +253,15 @@ A standalone career coaching skill with 8 reference documents. Not tied to any p
 
 Every division has a **dispatcher** (division lead) that analyzes your task and routes you to the best specialist(s). And above them all sits the **CEO**.
 
-### `/dispatch` — The CEO (Chief Executive Orchestrator)
+### `/sloth-command` — The CEO (Chief Executive Orchestrator)
 
 The master router. Describe **any** task — the CEO assesses it strategically, identifies the best division(s) and skill(s), builds a phased execution plan, and gets your approval before running it.
 
 ```
-/dispatch I need to build a booking app for a barbershop client
-/dispatch Help me market my cybersecurity consulting practice
-/dispatch I have user feedback and need to plan the next sprint
-/dispatch I honestly don't know where to start
+/sloth-command I need to build a booking app for a barbershop client
+/sloth-command Help me market my cybersecurity consulting practice
+/sloth-command I have user feedback and need to plan the next sprint
+/sloth-command I honestly don't know where to start
 ```
 
 The CEO thinks like an executive: understands the real goal behind the surface ask, picks the minimum viable team, sequences work for impact, and adapts the plan as execution reveals new information.
@@ -287,7 +287,7 @@ If you already know which division you need but not which specialist, invoke the
 ### How It Works
 
 ```
-You: /dispatch I need to improve our app's retention
+You: /sloth-command I need to improve our app's retention
 
 CEO analyzes → Product Division + Design Division
 ├── Phase 1: feedback-synthesizer → understand current churn signals

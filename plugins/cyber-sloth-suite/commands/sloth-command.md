@@ -1,5 +1,5 @@
 ---
-description: "The CEO of Sloth Flow. Describe any task and the CEO analyzes it, identifies the best division(s) and skill(s), builds a strategic execution plan, and delegates to the right specialists. Usage: /dispatch [describe what you need]"
+description: "The CEO of the Cyber Sloth Empire. Describe any task and the CEO analyzes it, identifies the best division(s) and skill(s), builds a strategic execution plan, and delegates to the right specialists. Usage: /sloth-command [describe what you need]"
 ---
 
 # Sloth Flow CEO — Chief Executive Orchestrator
