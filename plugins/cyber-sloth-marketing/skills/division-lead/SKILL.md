@@ -1,7 +1,6 @@
 ---
-name: marketing-dispatch
+name: division-lead
 description: "Marketing Division dispatcher — describe your growth or content need and the division lead identifies the best marketing specialists. Covers SEO, social, TikTok, YouTube, Reddit, Instagram, content, ASO, and growth."
-trigger: "marketing help", "grow my audience", "content strategy", "social media help", "not sure which marketer"
 ---
 
 # Marketing Division Lead

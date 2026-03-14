@@ -1,7 +1,6 @@
 ---
-name: product-dispatch
+name: division-lead
 description: "Product Division dispatcher — describe your product strategy need and the division lead identifies the best specialists. Covers prioritization, feedback synthesis, behavioral design, and trend research."
-trigger: "product help", "what should we build", "prioritize", "user feedback", "product strategy", "not sure which product skill"
 ---
 
 # Product Division Lead

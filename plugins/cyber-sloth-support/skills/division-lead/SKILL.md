@@ -1,7 +1,6 @@
 ---
-name: support-dispatch
+name: division-lead
 description: "Support & Ops Division dispatcher — describe your operations, finance, compliance, or infrastructure need and the division lead identifies the best specialists."
-trigger: "ops help", "support help", "finance question", "compliance check", "infrastructure", "not sure which support skill"
 ---
 
 # Support & Operations Division Lead

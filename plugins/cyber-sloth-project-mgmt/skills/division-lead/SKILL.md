@@ -1,7 +1,6 @@
 ---
-name: project-mgmt-dispatch
+name: division-lead
 description: "Project Management Division dispatcher — describe your project or operations need and the division lead identifies the best specialists. Covers PM, Jira, studio ops, experiments, client comms, and production."
-trigger: "PM help", "project management", "organize this work", "plan a sprint", "client communication", "not sure which PM skill"
 ---
 
 # Project Management Division Lead

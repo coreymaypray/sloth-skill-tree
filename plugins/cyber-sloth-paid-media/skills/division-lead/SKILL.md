@@ -1,7 +1,6 @@
 ---
-name: paid-media-dispatch
+name: division-lead
 description: "Paid Media Division dispatcher — describe your advertising or paid acquisition need and the division lead identifies the best specialists. Covers PPC, paid social, programmatic, tracking, creative, and campaign audits."
-trigger: "ads help", "paid media", "Google Ads", "Facebook ads", "ad spend", "campaign help", "not sure which ad specialist"
 ---
 
 # Paid Media Division Lead

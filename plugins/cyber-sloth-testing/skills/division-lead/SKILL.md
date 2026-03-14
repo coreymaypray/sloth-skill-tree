@@ -1,7 +1,6 @@
 ---
-name: testing-dispatch
+name: division-lead
 description: "Testing Division dispatcher — describe your QA or testing need and the division lead identifies the best testing specialists. Covers API testing, accessibility, performance, evidence collection, and workflow optimization."
-trigger: "testing help", "QA help", "is this ready to ship", "run tests", "quality check", "not sure which tester"
 ---
 
 # Testing Division Lead

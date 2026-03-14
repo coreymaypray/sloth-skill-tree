@@ -1,7 +1,6 @@
 ---
-name: specialized-dispatch
+name: division-lead
 description: "Specialized Division dispatcher — describe your niche operational need and the division lead identifies the best specialists. Covers AP, multi-agent orchestration, compliance, data consolidation, DevRel, model QA, and reporting."
-trigger: "specialized help", "niche task", "automation", "data consolidation", "model testing", "not sure which specialized skill"
 ---
 
 # Specialized Division Lead

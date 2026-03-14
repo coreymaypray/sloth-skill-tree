@@ -1,7 +1,6 @@
 ---
-name: engineering-dispatch
+name: division-lead
 description: "Engineering Division dispatcher — describe your technical task and the division lead identifies and deploys the best engineering specialists. Covers backend, frontend, mobile, DevOps, security, AI, data, and threat detection."
-trigger: "engineering help", "I need a developer", "technical task", "code something", "build something technical", "not sure which engineer"
 ---
 
 # Engineering Division Lead

@@ -1,7 +1,6 @@
 ---
-name: spatial-dispatch
+name: division-lead
 description: "Spatial Computing Division dispatcher — describe your XR, VisionOS, or spatial computing need and the division lead identifies the best specialists. Covers visionOS, WebXR, Metal, spatial UX, cockpits, and terminal integration."
-trigger: "spatial help", "XR help", "Vision Pro", "visionOS", "WebXR", "immersive", "not sure which spatial skill"
 ---
 
 # Spatial Computing Division Lead

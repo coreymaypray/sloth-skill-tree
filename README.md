@@ -272,17 +272,17 @@ If you already know which division you need but not which specialist, invoke the
 
 | Division | Dispatcher Skill | What It Does |
 |----------|-----------------|-------------|
-| **Engineering** | `cyber-sloth-engineering:dispatch` | Routes to the right engineer (backend, frontend, mobile, DevOps, security, AI, data, etc.) |
-| **Design** | `cyber-sloth-design:dispatch` | Routes to the right designer (UI, UX, brand, accessibility, visual storytelling, etc.) |
-| **Marketing** | `cyber-sloth-marketing:dispatch` | Routes to the right marketer (SEO, social, TikTok, YouTube, Reddit, growth, etc.) |
-| **Testing** | `cyber-sloth-testing:dispatch` | Routes to the right QA specialist (API testing, accessibility, performance, etc.) |
-| **Game Dev** | `cyber-sloth-gamedev:dispatch` | Routes to the right game dev (Unity, Unreal, Godot, narrative, audio, etc.) |
-| **Spatial** | `cyber-sloth-spatial:dispatch` | Routes to the right spatial dev (visionOS, WebXR, Metal, cockpit UI, etc.) |
-| **Paid Media** | `cyber-sloth-paid-media:dispatch` | Routes to the right ad specialist (PPC, paid social, programmatic, tracking, etc.) |
-| **Product** | `cyber-sloth-product:dispatch` | Routes to the right product skill (prioritization, feedback, behavioral design, trends) |
-| **Project Mgmt** | `cyber-sloth-project-mgmt:dispatch` | Routes to the right PM (project planning, Jira, client comms, studio ops, etc.) |
-| **Support** | `cyber-sloth-support:dispatch` | Routes to the right ops skill (finance, compliance, infra, analytics, etc.) |
-| **Specialized** | `cyber-sloth-specialized:dispatch` | Routes to niche specialists (AP, orchestration, compliance, data, DevRel, model QA, etc.) |
+| **Engineering** | `cyber-sloth-engineering:division-lead` | Routes to the right engineer (backend, frontend, mobile, DevOps, security, AI, data, etc.) |
+| **Design** | `cyber-sloth-design:division-lead` | Routes to the right designer (UI, UX, brand, accessibility, visual storytelling, etc.) |
+| **Marketing** | `cyber-sloth-marketing:division-lead` | Routes to the right marketer (SEO, social, TikTok, YouTube, Reddit, growth, etc.) |
+| **Testing** | `cyber-sloth-testing:division-lead` | Routes to the right QA specialist (API testing, accessibility, performance, etc.) |
+| **Game Dev** | `cyber-sloth-gamedev:division-lead` | Routes to the right game dev (Unity, Unreal, Godot, narrative, audio, etc.) |
+| **Spatial** | `cyber-sloth-spatial:division-lead` | Routes to the right spatial dev (visionOS, WebXR, Metal, cockpit UI, etc.) |
+| **Paid Media** | `cyber-sloth-paid-media:division-lead` | Routes to the right ad specialist (PPC, paid social, programmatic, tracking, etc.) |
+| **Product** | `cyber-sloth-product:division-lead` | Routes to the right product skill (prioritization, feedback, behavioral design, trends) |
+| **Project Mgmt** | `cyber-sloth-project-mgmt:division-lead` | Routes to the right PM (project planning, Jira, client comms, studio ops, etc.) |
+| **Support** | `cyber-sloth-support:division-lead` | Routes to the right ops skill (finance, compliance, infra, analytics, etc.) |
+| **Specialized** | `cyber-sloth-specialized:division-lead` | Routes to niche specialists (AP, orchestration, compliance, data, DevRel, model QA, etc.) |
 
 ### How It Works
 

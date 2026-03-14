@@ -1,7 +1,6 @@
 ---
-name: gamedev-dispatch
+name: division-lead
 description: "Game Dev Division dispatcher — describe your game development need and the division lead identifies the best specialists. Covers Unity, Unreal, Godot, game design, narrative, audio, level design, and VFX."
-trigger: "game dev help", "build a game", "game design", "Unity help", "Unreal help", "Godot help", "not sure which game dev"
 ---
 
 # Game Dev Division Lead

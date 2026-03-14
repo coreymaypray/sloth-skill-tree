@@ -1,7 +1,6 @@
 ---
-name: design-dispatch
+name: division-lead
 description: "Design Division dispatcher — describe your design need and the division lead identifies the best design specialists. Covers UI, UX, brand, visual storytelling, accessibility, AI image prompts, and whimsy."
-trigger: "design help", "I need a designer", "make this look good", "brand work", "UX help", "not sure which designer"
 ---
 
 # Design Division Lead
