@@ -1,6 +1,8 @@
-# Cyber Sloth Empire — Claude Code Skills Library
+# 🦥 Sloth Skill Tree
 
-A portable collection of 120+ Claude Code skills, commands, and plugins built by [Corey Maypray](https://github.com/coreymaypray) for the **Cyber Sloth Empire** / **Maycrest** ecosystem.
+*The Cyber Sloth Empire's portable Claude Code brain — 120+ skills, commands, and plugins in one repo.*
+
+Built by [Corey Maypray](https://github.com/coreymaypray) for the **Cyber Sloth Empire** / **Maycrest** ecosystem. Clone it, install it, and your Claude Code instance inherits the full empire.
 
 ## What's Inside
 
@@ -303,7 +305,7 @@ CEO presents plan → You approve/modify → Execution begins
 ## Repository Structure
 
 ```
-claude-skills-library/
+sloth-skill-tree/
 ├── plugins/                          # Local Claude Code plugins
 │   ├── cyber-sloth-suite/            # Core orchestrator
 │   │   ├── .claude-plugin/plugin.json
@@ -343,7 +345,7 @@ claude-skills-library/
 ### Step 1: Clone the Repo
 
 ```bash
-git clone https://github.com/coreymaypray/claude-skills-library.git
+git clone https://github.com/coreymaypray/sloth-skill-tree.git
 ```
 
 ### Step 2: Register the Marketplace
@@ -351,7 +353,7 @@ git clone https://github.com/coreymaypray/claude-skills-library.git
 The plugins ship as a **local marketplace**. Register it with Claude Code:
 
 ```bash
-claude plugin marketplace add /path/to/claude-skills-library/plugins
+claude plugin marketplace add /path/to/sloth-skill-tree/plugins
 ```
 
 This tells Claude Code where to find the Cyber Sloth Empire plugins. You'll see:
@@ -472,7 +474,7 @@ Many skills activate automatically based on context. For example:
 Pull the latest changes and the marketplace auto-updates:
 
 ```bash
-cd claude-skills-library
+cd sloth-skill-tree
 git pull origin main
 ```
 

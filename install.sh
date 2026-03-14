@@ -9,7 +9,7 @@ CLAUDE_DIR="$HOME/.claude"
 PLUGINS_DIR="$CLAUDE_DIR/plugins/local"
 SKILLS_DIR="$CLAUDE_DIR/skills"
 
-echo "=== Cyber Sloth Empire Skills Installer ==="
+echo "🦥 === Sloth Skill Tree Installer ==="
 echo ""
 
 # Ensure directories exist
