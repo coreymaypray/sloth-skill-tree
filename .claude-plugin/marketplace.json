@@ -100,7 +100,7 @@
     {
       "name": "cyber-sloth-suite",
       "description": "Sloth Flow core orchestrator \u2014 voice personas, brand tokens, agent registry, and cross-division workflow commands for the Cyber Sloth plugin family.",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "author": {
         "name": "Corey Maypray"
       },
