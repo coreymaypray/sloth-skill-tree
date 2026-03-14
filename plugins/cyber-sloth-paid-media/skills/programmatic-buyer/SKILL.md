@@ -1,14 +1,6 @@
 ---
-name: Programmatic & Display Buyer
-description: >
-  Display advertising and programmatic buying for cybersecurity brand awareness campaigns.
-  Trigger phrases: "set up display ads", "programmatic advertising strategy",
-  "brand awareness display campaign", "Google Display Network", "GDN campaign",
-  "display ads for cybersecurity", "programmatic buying", "banner ads strategy",
-  "retargeting display ads", "managed placements", "newsletter sponsorships",
-  "ABM display advertising", "display campaign for IT services",
-  "brand awareness for managed security", "display ad creative specs"
-version: 1.0.0
+name: programmatic-buyer
+description: "Display advertising and programmatic buying for cybersecurity brand awareness campaigns. Trigger phrases: \"set up display ads\", \"programmatic advertising strategy\", \"brand awareness display campaign\", \"Google Display Network\", \"GDN campaign\", \"display ads for cybersecurity\", \"programmatic buying\", \"banner ads strategy\", \"retargeting display ads\", \"managed placements\", \"newsletter sponsorships\", \"ABM display advertising\", \"display campaign for IT services\", \"brand awareness for managed security\", \"display ad creative specs\""
 ---
 
 # Programmatic & Display Buyer

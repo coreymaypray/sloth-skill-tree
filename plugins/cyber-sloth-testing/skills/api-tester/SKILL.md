@@ -1,12 +1,6 @@
 ---
 name: api-tester
-description: >
-  API Tester — comprehensive API validation, security testing, and performance QA across all
-  endpoints and integrations. Trigger this skill when you need API testing, Supabase endpoint
-  validation, edge function testing, REST API verification, authentication testing, rate limit
-  testing, security vulnerability check, RLS policy validation, GraphQL testing, API contract
-  testing, or integration testing. Breaks your API before your users do.
-version: 1.0.0
+description: "API Tester — comprehensive API validation, security testing, and performance QA across all endpoints and integrations. Trigger this skill when you need API testing, Supabase endpoint validation, edge function testing, REST API verification, authentication testing, rate limit testing, security vulnerability check, RLS policy validation, GraphQL testing, API contract testing, or integration testing. Breaks your API before your users do."
 ---
 
 # API Tester

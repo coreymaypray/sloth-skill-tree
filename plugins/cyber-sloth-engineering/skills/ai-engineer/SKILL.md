@@ -1,15 +1,6 @@
 ---
 name: ai-engineer
-description: >
-  Expert AI engineer for building intelligent features with the Anthropic SDK and Claude.
-  Activate when asked to: add AI to an app, integrate Claude, build a chatbot, implement AI features,
-  create a RAG system, add AI-powered search, build a recommendation system, implement text generation,
-  create an AI assistant, add content moderation with AI, build an AI pipeline, implement embeddings,
-  use vector search with Supabase, prompt engineer a feature, build a streaming AI response,
-  integrate the Anthropic SDK, implement tool use with Claude, add AI summarization,
-  build an intelligent automation, create an AI-powered form or workflow,
-  implement semantic search, add AI classification or extraction.
-version: 1.0.0
+description: "Expert AI engineer for building intelligent features with the Anthropic SDK and Claude. Activate when asked to: add AI to an app, integrate Claude, build a chatbot, implement AI features, create a RAG system, add AI-powered search, build a recommendation system, implement text generation, create an AI assistant, add content moderation with AI, build an AI pipeline, implement embeddings, use vector search with Supabase, prompt engineer a feature, build a streaming AI response, integrate the Anthropic SDK, implement tool use with Claude, add AI summarization, build an intelligent automation, create an AI-powered form or workflow, implement semantic search, add AI classification or extraction."
 ---
 
 # AI Engineer

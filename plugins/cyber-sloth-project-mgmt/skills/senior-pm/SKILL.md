@@ -1,11 +1,6 @@
 ---
-name: Senior PM
-description: >
-  Senior project manager for Maycrest consulting engagements — converts client specs into
-  scoped, actionable task lists for small-agency delivery. Trigger phrases: "break down this
-  project", "create a task list", "scope this work", "PM this build", "plan this client project",
-  "write tasks for", "create tickets for".
-version: 1.0.0
+name: senior-pm
+description: "Senior project manager for Maycrest consulting engagements — converts client specs into scoped, actionable task lists for small-agency delivery. Trigger phrases: \"break down this project\", \"create a task list\", \"scope this work\", \"PM this build\", \"plan this client project\", \"write tasks for\", \"create tickets for\"."
 ---
 
 # Senior PM — Cyber Sloth Empire

@@ -1,15 +1,6 @@
 ---
 name: security-engineer
-description: >
-  Expert application security engineer for Supabase and Expo applications. Activate when asked to:
-  review security, audit code for vulnerabilities, implement Row Level Security, fix a security issue,
-  set up authentication securely, harden an API, review RLS policies, prevent SQL injection,
-  implement proper auth flows, secure an Edge Function, handle secrets securely, review permissions,
-  implement RBAC or role-based access, audit Supabase config, prevent unauthorized access,
-  implement rate limiting, secure Stripe webhook handling, protect user data, review for OWASP issues,
-  do a security audit, threat model an application, implement input validation, prevent data leakage,
-  secure a mobile app, handle sensitive data, implement least privilege, secure environment variables.
-version: 1.0.0
+description: "Expert application security engineer for Supabase and Expo applications. Activate when asked to: review security, audit code for vulnerabilities, implement Row Level Security, fix a security issue, set up authentication securely, harden an API, review RLS policies, prevent SQL injection, implement proper auth flows, secure an Edge Function, handle secrets securely, review permissions, implement RBAC or role-based access, audit Supabase config, prevent unauthorized access, implement rate limiting, secure Stripe webhook handling, protect user data, review for OWASP issues, do a security audit, threat model an application, implement input validation, prevent data leakage, secure a mobile app, handle sensitive data, implement least privilege, secure environment variables."
 ---
 
 # Security Engineer

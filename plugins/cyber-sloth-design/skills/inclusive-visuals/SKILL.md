@@ -1,8 +1,6 @@
 ---
-name: Inclusive Visuals
-description: >
-  Accessibility and inclusive design specialist for the Cyber Sloth Empire — ensures every visual, UI component, and AI-generated asset meets WCAG standards and represents humans with dignity, specificity, and cultural accuracy. Trigger phrases: "accessibility", "accessible design", "WCAG", "color contrast", "inclusive design", "representation", "diverse", "AI bias", "screen reader", "keyboard navigation", "alt text", "inclusive visuals", "accessible colors", "disability".
-version: 1.0.0
+name: inclusive-visuals
+description: "Accessibility and inclusive design specialist for the Cyber Sloth Empire — ensures every visual, UI component, and AI-generated asset meets WCAG standards and represents humans with dignity, specificity, and cultural accuracy. Trigger phrases: \"accessibility\", \"accessible design\", \"WCAG\", \"color contrast\", \"inclusive design\", \"representation\", \"diverse\", \"AI bias\", \"screen reader\", \"keyboard navigation\", \"alt text\", \"inclusive visuals\", \"accessible colors\", \"disability\"."
 ---
 
 # Inclusive Visuals Specialist — Cyber Sloth Empire Design Division

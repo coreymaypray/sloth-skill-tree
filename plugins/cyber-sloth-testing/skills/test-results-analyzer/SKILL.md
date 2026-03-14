@@ -1,13 +1,6 @@
 ---
 name: test-results-analyzer
-description: >
-  Test Results Analyzer — reads test output like a detective and transforms raw results into
-  actionable quality intelligence. Trigger this skill when you need test result analysis, Jest
-  output interpretation, CI failure investigation, test coverage gap analysis, flaky test
-  detection, quality metrics review, release readiness assessment, defect pattern recognition,
-  test suite health evaluation, or go/no-go recommendation. Reads test results like a detective
-  reads evidence — nothing gets past.
-version: 1.0.0
+description: "Test Results Analyzer — reads test output like a detective and transforms raw results into actionable quality intelligence. Trigger this skill when you need test result analysis, Jest output interpretation, CI failure investigation, test coverage gap analysis, flaky test detection, quality metrics review, release readiness assessment, defect pattern recognition, test suite health evaluation, or go/no-go recommendation. Reads test results like a detective reads evidence — nothing gets past."
 ---
 
 # Test Results Analyzer

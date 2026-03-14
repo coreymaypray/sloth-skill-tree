@@ -1,0 +1,10 @@
+{
+  "name": "cyber-sloth-design",
+  "displayName": "Cyber Sloth Design",
+  "description": "Sloth Flow design division \u2014 UI/UX design, brand guardianship, visual storytelling, accessibility, and AI image prompt engineering.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Corey Maypray"
+  },
+  "skills": "./skills/"
+}

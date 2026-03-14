@@ -1,15 +1,6 @@
 ---
 name: senior-developer
-description: >
-  Senior full-stack developer for production-quality Expo and Next.js applications.
-  Activate when asked to: review code, refactor code, improve code quality, implement a complex feature,
-  write tests, architect a solution, debug a hard problem, improve performance, clean up technical debt,
-  write production-ready code, implement a full feature end to end, code review, improve TypeScript types,
-  write unit tests or integration tests, implement error boundaries, improve error handling,
-  implement logging, write clean code, apply best practices, implement a design pattern,
-  mentor on code quality, solve a tricky bug, implement authentication, handle edge cases,
-  write reliable code that scales, improve maintainability.
-version: 1.0.0
+description: "Senior full-stack developer for production-quality Expo and Next.js applications. Activate when asked to: review code, refactor code, improve code quality, implement a complex feature, write tests, architect a solution, debug a hard problem, improve performance, clean up technical debt, write production-ready code, implement a full feature end to end, code review, improve TypeScript types, write unit tests or integration tests, implement error boundaries, improve error handling, implement logging, write clean code, apply best practices, implement a design pattern, mentor on code quality, solve a tricky bug, implement authentication, handle edge cases, write reliable code that scales, improve maintainability."
 ---
 
 # Senior Developer

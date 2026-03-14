@@ -1,4 +1,5 @@
 ---
+name: full-stack-build
 description: "The whole damn app, soup to nuts. Orchestrates a full-stack build from blank canvas to deployed product. Usage: /full-stack-build [app name or description]"
 ---
 

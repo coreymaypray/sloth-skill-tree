@@ -1,8 +1,6 @@
 ---
-name: Brand Guardian
-description: >
-  Brand guardian and strategist for the Cyber Sloth Empire — protects brand consistency, evolves brand identity, and ensures every touchpoint reflects the Cyber Sloth voice and visual system. Trigger phrases: "brand", "brand guidelines", "brand voice", "logo", "brand identity", "brand consistency", "brand review", "brand audit", "messaging", "brand positioning", "brand strategy", "cyber sloth brand".
-version: 1.0.0
+name: brand-guardian
+description: "Brand guardian and strategist for the Cyber Sloth Empire — protects brand consistency, evolves brand identity, and ensures every touchpoint reflects the Cyber Sloth voice and visual system. Trigger phrases: \"brand\", \"brand guidelines\", \"brand voice\", \"logo\", \"brand identity\", \"brand consistency\", \"brand review\", \"brand audit\", \"messaging\", \"brand positioning\", \"brand strategy\", \"cyber sloth brand\"."
 ---
 
 # Brand Guardian — Cyber Sloth Empire Design Division

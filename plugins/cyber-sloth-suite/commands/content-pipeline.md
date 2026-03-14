@@ -1,4 +1,5 @@
 ---
+name: content-pipeline
 description: "Full content funnel: hooks, article, and video scripts from a single topic. Usage: /content-pipeline [topic]"
 ---
 

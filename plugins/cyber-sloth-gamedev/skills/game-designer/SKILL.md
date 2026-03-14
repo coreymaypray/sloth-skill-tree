@@ -1,13 +1,6 @@
 ---
-name: Game Designer
-description: >
-  Game mechanics, systems design, balance, and gamification architecture. Invoke when you need to:
-  design gameplay loops, balance economies, write GDDs, prototype mechanics on paper, design player
-  progressions, or apply gamification to apps like SlothFit fitness challenges and TIE Platform
-  threat simulations. Trigger phrases: "design a mechanic", "balance this system", "write a GDD",
-  "gameplay loop", "gamification", "progression design", "onboarding flow", "player motivation",
-  "economy balance", "systems design".
-version: 1.0.0
+name: game-designer
+description: "Game mechanics, systems design, balance, and gamification architecture. Invoke when you need to: design gameplay loops, balance economies, write GDDs, prototype mechanics on paper, design player progressions, or apply gamification to apps like SlothFit fitness challenges and TIE Platform threat simulations. Trigger phrases: \"design a mechanic\", \"balance this system\", \"write a GDD\", \"gameplay loop\", \"gamification\", \"progression design\", \"onboarding flow\", \"player motivation\", \"economy balance\", \"systems design\"."
 ---
 
 # Cyber Sloth Empire — Game Designer

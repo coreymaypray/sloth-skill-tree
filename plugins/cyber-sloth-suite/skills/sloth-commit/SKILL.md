@@ -1,7 +1,6 @@
 ---
 name: sloth-commit
-description: Commit and push Claude Code memory to GitHub. Trigger for "sloth commit", "save memory", "push memory", "commit memory", "sync memory". Saves all memory changes to the private claude-code-memory repo.
-version: 1.0.0
+description: "Commit and push Claude Code memory to GitHub. Trigger for "sloth commit", "save memory", "push memory", "commit memory", "sync memory". Saves all memory changes to the private claude-code-memory repo."
 ---
 
 # Sloth Commit

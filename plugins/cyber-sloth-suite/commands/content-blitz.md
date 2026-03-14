@@ -1,4 +1,5 @@
 ---
+name: content-blitz
 description: "One topic, every platform. Hooks, articles, video scripts, and carousels — the full content arsenal from a single idea. Usage: /content-blitz [topic]"
 ---
 

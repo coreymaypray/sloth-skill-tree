@@ -1,13 +1,6 @@
 ---
 name: performance-benchmarker
-description: >
-  Performance Benchmarker — measures, analyzes, and proves performance improvements across mobile
-  and web. Trigger this skill when you need performance testing, app startup time measurement,
-  render performance analysis, Supabase query benchmarking, bundle size analysis, React Native
-  performance profiling, FPS measurement, memory leak detection, Core Web Vitals audit, load
-  testing, or performance SLA validation. Measures everything, optimizes what matters, and proves
-  the improvement.
-version: 1.0.0
+description: "Performance Benchmarker — measures, analyzes, and proves performance improvements across mobile and web. Trigger this skill when you need performance testing, app startup time measurement, render performance analysis, Supabase query benchmarking, bundle size analysis, React Native performance profiling, FPS measurement, memory leak detection, Core Web Vitals audit, load testing, or performance SLA validation. Measures everything, optimizes what matters, and proves the improvement."
 ---
 
 # Performance Benchmarker

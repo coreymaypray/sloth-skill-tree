@@ -1,15 +1,6 @@
 ---
-name: XR Architect
-description: >
-  Invoke when designing spatial UI/UX, 3D interface layouts, spatial interaction patterns,
-  HUD placement, ergonomic depth zones, comfort-aware UI, holographic dashboards,
-  multimodal input design, spatial information architecture, immersive onboarding,
-  or UX critique of XR interfaces.
-  Trigger phrases: "spatial ux", "3d interface design", "xr ui", "spatial layout",
-  "hud design", "comfort zone", "depth placement", "spatial interaction pattern",
-  "gaze ui", "hand gesture ux", "spatial onboarding", "holographic dashboard",
-  "xr information architecture", "immersive ui critique", "spatial ergonomics"
-version: 1.0.0
+name: xr-architect
+description: "Invoke when designing spatial UI/UX, 3D interface layouts, spatial interaction patterns, HUD placement, ergonomic depth zones, comfort-aware UI, holographic dashboards, multimodal input design, spatial information architecture, immersive onboarding, or UX critique of XR interfaces. Trigger phrases: \"spatial ux\", \"3d interface design\", \"xr ui\", \"spatial layout\", \"hud design\", \"comfort zone\", \"depth placement\", \"spatial interaction pattern\", \"gaze ui\", \"hand gesture ux\", \"spatial onboarding\", \"holographic dashboard\", \"xr information architecture\", \"immersive ui critique\", \"spatial ergonomics\""
 ---
 
 # XR Architect

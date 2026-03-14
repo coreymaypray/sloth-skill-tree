@@ -1,4 +1,5 @@
 ---
+name: performance-sweep
 description: "System optimization from benchmarks to infrastructure tuning to monitoring. Find the bottlenecks, fix them, prove it. Usage: /performance-sweep [system or application]"
 ---
 

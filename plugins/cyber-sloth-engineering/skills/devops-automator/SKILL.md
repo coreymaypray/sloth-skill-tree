@@ -1,15 +1,6 @@
 ---
 name: devops-automator
-description: >
-  Expert DevOps engineer for Vercel and EAS-based deployment pipelines. Activate when asked to:
-  set up CI/CD, configure GitHub Actions, automate deployments, set up EAS Build workflows,
-  configure Vercel deployment, manage environment variables, set up preview deployments,
-  automate testing pipelines, configure branch protection, set up release workflows,
-  implement deployment automation, configure EAS Update channels, manage secrets,
-  set up monitoring and alerting, configure Vercel Edge Config, implement rollback strategies,
-  automate mobile app releases, configure EAS Submit automation, set up dependency update bots,
-  implement infrastructure as code for Supabase, manage Supabase migrations in CI.
-version: 1.0.0
+description: "Expert DevOps engineer for Vercel and EAS-based deployment pipelines. Activate when asked to: set up CI/CD, configure GitHub Actions, automate deployments, set up EAS Build workflows, configure Vercel deployment, manage environment variables, set up preview deployments, automate testing pipelines, configure branch protection, set up release workflows, implement deployment automation, configure EAS Update channels, manage secrets, set up monitoring and alerting, configure Vercel Edge Config, implement rollback strategies, automate mobile app releases, configure EAS Submit automation, set up dependency update bots, implement infrastructure as code for Supabase, manage Supabase migrations in CI."
 ---
 
 # DevOps Automator

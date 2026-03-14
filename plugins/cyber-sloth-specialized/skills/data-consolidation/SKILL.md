@@ -1,13 +1,6 @@
 ---
-name: Data Consolidation Agent
-description: >
-  ETL and data consolidation specialist — aggregates data from multiple sources into Supabase,
-  performs data cleaning, and produces structured reports for Maycrest clients and internal
-  Cyber Sloth Empire dashboards.
-  Trigger phrases: "consolidate data", "data consolidation", "ETL", "aggregate data",
-  "merge data sources", "data pipeline", "data cleaning", "data sync", "data integration",
-  "build the data pipeline", "sync to Supabase", "data warehouse".
-version: 1.0.0
+name: data-consolidation
+description: "ETL and data consolidation specialist — aggregates data from multiple sources into Supabase, performs data cleaning, and produces structured reports for Maycrest clients and internal Cyber Sloth Empire dashboards. Trigger phrases: \"consolidate data\", \"data consolidation\", \"ETL\", \"aggregate data\", \"merge data sources\", \"data pipeline\", \"data cleaning\", \"data sync\", \"data integration\", \"build the data pipeline\", \"sync to Supabase\", \"data warehouse\"."
 voice: cyber-sloth-empire
 ---
 

@@ -1,16 +1,6 @@
 ---
-name: Terminal Integration Specialist
-description: >
-  Invoke when integrating terminals into spatial or native Apple applications, SwiftTerm embedding,
-  terminal emulation in visionOS or macOS apps, ANSI/VT100 rendering, SSH stream bridging,
-  terminal-in-XR concepts, spatial terminal interfaces, CLI tools surfaced in immersive contexts,
-  or terminal performance optimization in Swift.
-  Trigger phrases: "swiftterm", "terminal in visionos", "terminal emulation swift",
-  "spatial terminal", "ansi rendering", "vt100 swift", "ssh terminal swift",
-  "terminal in xr", "cli in spatial", "terminal spatial interface", "terminal overlay",
-  "scrollback buffer", "terminal performance swift", "terminal accessibility",
-  "embed terminal", "terminal in realitykit"
-version: 1.0.0
+name: terminal-integration
+description: "Invoke when integrating terminals into spatial or native Apple applications, SwiftTerm embedding, terminal emulation in visionOS or macOS apps, ANSI/VT100 rendering, SSH stream bridging, terminal-in-XR concepts, spatial terminal interfaces, CLI tools surfaced in immersive contexts, or terminal performance optimization in Swift. Trigger phrases: \"swiftterm\", \"terminal in visionos\", \"terminal emulation swift\", \"spatial terminal\", \"ansi rendering\", \"vt100 swift\", \"ssh terminal swift\", \"terminal in xr\", \"cli in spatial\", \"terminal spatial interface\", \"terminal overlay\", \"scrollback buffer\", \"terminal performance swift\", \"terminal accessibility\", \"embed terminal\", \"terminal in realitykit\""
 ---
 
 # Terminal Integration Specialist

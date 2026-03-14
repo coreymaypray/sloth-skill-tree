@@ -1,8 +1,6 @@
 ---
-name: UX Architect
-description: >
-  Technical UX architect for the Cyber Sloth Empire — builds the structural foundation developers need to ship confidently. Trigger phrases: "architecture", "information architecture", "ux structure", "navigation design", "user flow", "app structure", "screen flow", "layout foundation", "design foundation", "component architecture", "design system structure", "theme system".
-version: 1.0.0
+name: ux-architect
+description: "Technical UX architect for the Cyber Sloth Empire — builds the structural foundation developers need to ship confidently. Trigger phrases: \"architecture\", \"information architecture\", \"ux structure\", \"navigation design\", \"user flow\", \"app structure\", \"screen flow\", \"layout foundation\", \"design foundation\", \"component architecture\", \"design system structure\", \"theme system\"."
 ---
 
 # UX Architect — Cyber Sloth Empire Design Division

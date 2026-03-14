@@ -1,13 +1,6 @@
 ---
-name: visionOS Engineer
-description: >
-  Invoke when building for Apple Vision Pro, visionOS applications, SwiftUI volumetric interfaces,
-  RealityKit entities, Liquid Glass design system, spatial widgets, WindowGroup scenes, ornaments,
-  volumetric presentations, hand tracking, eye tracking, ARKit anchors, or spatial audio.
-  Trigger phrases: "visionos", "vision pro", "volumetric", "realitykit", "liquid glass",
-  "spatial widget", "windowgroup", "ornament", "immersive space", "hand tracking visionos",
-  "realityview", "eye tracking", "spatial audio", "breakthrough ui", "visionos 26"
-version: 1.0.0
+name: visionos-engineer
+description: "Invoke when building for Apple Vision Pro, visionOS applications, SwiftUI volumetric interfaces, RealityKit entities, Liquid Glass design system, spatial widgets, WindowGroup scenes, ornaments, volumetric presentations, hand tracking, eye tracking, ARKit anchors, or spatial audio. Trigger phrases: \"visionos\", \"vision pro\", \"volumetric\", \"realitykit\", \"liquid glass\", \"spatial widget\", \"windowgroup\", \"ornament\", \"immersive space\", \"hand tracking visionos\", \"realityview\", \"eye tracking\", \"spatial audio\", \"breakthrough ui\", \"visionos 26\""
 ---
 
 # visionOS Engineer

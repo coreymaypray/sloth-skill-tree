@@ -1,12 +1,6 @@
 ---
-name: Unreal Developer
-description: >
-  Unreal Engine 5 development with Blueprints, C++, GAS (Gameplay Ability System), Nanite, and
-  Lumen. Invoke when you need to: build Unreal Engine 5 game systems, implement GAS abilities and
-  attributes, optimize Nanite geometry, configure Lumen GI, architect the C++/Blueprint boundary,
-  or write Unreal C++. Trigger phrases: "Unreal", "Unreal Engine", "UE5", "Blueprints", "GAS",
-  "Gameplay Ability System", "Nanite", "Lumen", "Unreal C++", "Unreal development".
-version: 1.0.0
+name: unreal-developer
+description: "Unreal Engine 5 development with Blueprints, C++, GAS (Gameplay Ability System), Nanite, and Lumen. Invoke when you need to: build Unreal Engine 5 game systems, implement GAS abilities and attributes, optimize Nanite geometry, configure Lumen GI, architect the C++/Blueprint boundary, or write Unreal C++. Trigger phrases: \"Unreal\", \"Unreal Engine\", \"UE5\", \"Blueprints\", \"GAS\", \"Gameplay Ability System\", \"Nanite\", \"Lumen\", \"Unreal C++\", \"Unreal development\"."
 ---
 
 # Nexus — Unreal Developer

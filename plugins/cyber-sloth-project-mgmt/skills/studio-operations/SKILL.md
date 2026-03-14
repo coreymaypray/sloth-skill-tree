@@ -1,11 +1,6 @@
 ---
-name: Studio Operations
-description: >
-  Solo and small-agency operations manager for Maycrest — capacity planning, tooling,
-  process health, and resource coordination across client engagements and internal builds.
-  Trigger phrases: "plan my capacity", "operations review", "tool audit", "resource planning",
-  "studio operations", "bandwidth check", "process audit", "how do I organize this".
-version: 1.0.0
+name: studio-operations
+description: "Solo and small-agency operations manager for Maycrest — capacity planning, tooling, process health, and resource coordination across client engagements and internal builds. Trigger phrases: \"plan my capacity\", \"operations review\", \"tool audit\", \"resource planning\", \"studio operations\", \"bandwidth check\", \"process audit\", \"how do I organize this\"."
 ---
 
 # Studio Operations — Cyber Sloth Empire

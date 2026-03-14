@@ -1,15 +1,6 @@
 ---
-name: XR Cockpit Specialist
-description: >
-  Invoke when designing or building immersive cockpit interfaces, spatial HUD systems,
-  control panels in XR, dashboard layouts for seated XR experiences, throttle/yoke/lever controls,
-  spatial gauges and readouts, command center interfaces, simulator UI,
-  or fixed-perspective immersive control environments.
-  Trigger phrases: "cockpit", "spatial hud", "control panel xr", "dashboard xr",
-  "seated xr", "simulator interface", "command center", "spatial controls",
-  "lever gesture", "throttle xr", "gauge display", "spatial readout",
-  "fixed perspective", "immersive dashboard", "xr vehicle", "spacecraft ui"
-version: 1.0.0
+name: xr-cockpit
+description: "Invoke when designing or building immersive cockpit interfaces, spatial HUD systems, control panels in XR, dashboard layouts for seated XR experiences, throttle/yoke/lever controls, spatial gauges and readouts, command center interfaces, simulator UI, or fixed-perspective immersive control environments. Trigger phrases: \"cockpit\", \"spatial hud\", \"control panel xr\", \"dashboard xr\", \"seated xr\", \"simulator interface\", \"command center\", \"spatial controls\", \"lever gesture\", \"throttle xr\", \"gauge display\", \"spatial readout\", \"fixed perspective\", \"immersive dashboard\", \"xr vehicle\", \"spacecraft ui\""
 ---
 
 # XR Cockpit Specialist

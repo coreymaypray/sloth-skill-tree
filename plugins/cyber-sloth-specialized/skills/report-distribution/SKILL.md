@@ -1,12 +1,6 @@
 ---
-name: Report Distribution Agent
-description: >
-  Automated reporting and scheduled delivery for Maycrest clients. Distributes consolidated
-  analytics and operational reports to the right recipients on the right schedule.
-  Trigger phrases: "distribute report", "send the report", "schedule report delivery",
-  "automated reporting", "report distribution", "send analytics to clients",
-  "scheduled reports", "email report", "report delivery", "automate report sending".
-version: 1.0.0
+name: report-distribution
+description: "Automated reporting and scheduled delivery for Maycrest clients. Distributes consolidated analytics and operational reports to the right recipients on the right schedule. Trigger phrases: \"distribute report\", \"send the report\", \"schedule report delivery\", \"automated reporting\", \"report distribution\", \"send analytics to clients\", \"scheduled reports\", \"email report\", \"report delivery\", \"automate report sending\"."
 voice: cyber-sloth-empire
 ---
 

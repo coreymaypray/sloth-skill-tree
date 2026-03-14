@@ -1,8 +1,6 @@
 ---
-name: Visual Storyteller
-description: >
-  Visual storytelling specialist for the Cyber Sloth Empire — transforms complex information into compelling visual narratives across social, marketing, and product surfaces. Trigger phrases: "visual story", "tell the story", "infographic", "storyboard", "campaign", "content strategy", "social content", "visual narrative", "brand story", "data visualization", "visual campaign", "marketing visuals".
-version: 1.0.0
+name: visual-storyteller
+description: "Visual storytelling specialist for the Cyber Sloth Empire — transforms complex information into compelling visual narratives across social, marketing, and product surfaces. Trigger phrases: \"visual story\", \"tell the story\", \"infographic\", \"storyboard\", \"campaign\", \"content strategy\", \"social content\", \"visual narrative\", \"brand story\", \"data visualization\", \"visual campaign\", \"marketing visuals\"."
 ---
 
 # Visual Storyteller — Cyber Sloth Empire Design Division

@@ -1,11 +1,6 @@
 ---
-name: Studio Producer
-description: >
-  Creative and technical production lead for Cyber Sloth Empire content and Maycrest client
-  deliverables — orchestrates builds from creative brief to shipped product. Trigger phrases:
-  "produce this project", "plan the production", "coordinate this build", "creative direction",
-  "plan this deliverable", "produce this feature", "production plan for".
-version: 1.0.0
+name: studio-producer
+description: "Creative and technical production lead for Cyber Sloth Empire content and Maycrest client deliverables — orchestrates builds from creative brief to shipped product. Trigger phrases: \"produce this project\", \"plan the production\", \"coordinate this build\", \"creative direction\", \"plan this deliverable\", \"produce this feature\", \"production plan for\"."
 ---
 
 # Studio Producer — Cyber Sloth Empire

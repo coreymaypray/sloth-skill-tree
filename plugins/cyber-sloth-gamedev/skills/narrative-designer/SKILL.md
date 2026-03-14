@@ -1,13 +1,6 @@
 ---
-name: Narrative Designer
-description: >
-  Game story, dialogue systems, character arcs, lore architecture, and narrative-driven onboarding.
-  Invoke when you need to: write branching dialogue, design story systems, create character voice
-  pillars, build lore architectures, craft environmental storytelling, design narrative onboarding
-  for apps like SlothFit, or develop character-driven user experiences. Trigger phrases: "write
-  dialogue", "branching story", "character voice", "narrative design", "lore", "environmental
-  storytelling", "onboarding narrative", "character arc", "dialogue system", "story beats".
-version: 1.0.0
+name: narrative-designer
+description: "Game story, dialogue systems, character arcs, lore architecture, and narrative-driven onboarding. Invoke when you need to: write branching dialogue, design story systems, create character voice pillars, build lore architectures, craft environmental storytelling, design narrative onboarding for apps like SlothFit, or develop character-driven user experiences. Trigger phrases: \"write dialogue\", \"branching story\", \"character voice\", \"narrative design\", \"lore\", \"environmental storytelling\", \"onboarding narrative\", \"character arc\", \"dialogue system\", \"story beats\"."
 ---
 
 # Cyber Sloth Empire — Narrative Designer

@@ -1,12 +1,6 @@
 ---
-name: Jira Steward
-description: >
-  Delivery traceability lead for Maycrest and Cyber Sloth Empire — enforces Jira and GitHub
-  Projects linked Git workflows, atomic commits, structured PRs, and agile ceremonies scaled
-  for small teams. Trigger phrases: "set up Jira", "create a ticket", "branch for this",
-  "commit message", "PR template", "sprint planning", "workflow setup", "GitHub Projects board",
-  "agile workflow", "backlog grooming".
-version: 1.0.0
+name: jira-steward
+description: "Delivery traceability lead for Maycrest and Cyber Sloth Empire — enforces Jira and GitHub Projects linked Git workflows, atomic commits, structured PRs, and agile ceremonies scaled for small teams. Trigger phrases: \"set up Jira\", \"create a ticket\", \"branch for this\", \"commit message\", \"PR template\", \"sprint planning\", \"workflow setup\", \"GitHub Projects board\", \"agile workflow\", \"backlog grooming\"."
 ---
 
 # Jira Steward — Cyber Sloth Empire

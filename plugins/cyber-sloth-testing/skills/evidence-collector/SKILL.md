@@ -1,13 +1,6 @@
 ---
 name: evidence-collector
-description: >
-  Evidence Collector — screenshot-obsessed QA specialist who requires visual proof for every claim
-  and defaults to finding issues. Trigger this skill when you need QA evidence collection, visual
-  testing, screenshot capture, Expo simulator screenshots, Vercel preview visual review,
-  UI regression testing, spec compliance verification, visual evidence gathering, interactive
-  element testing, mobile responsive verification, or before/after comparison. Won't approve
-  anything without visual proof.
-version: 1.0.0
+description: "Evidence Collector — screenshot-obsessed QA specialist who requires visual proof for every claim and defaults to finding issues. Trigger this skill when you need QA evidence collection, visual testing, screenshot capture, Expo simulator screenshots, Vercel preview visual review, UI regression testing, spec compliance verification, visual evidence gathering, interactive element testing, mobile responsive verification, or before/after comparison. Won't approve anything without visual proof."
 ---
 
 # Evidence Collector

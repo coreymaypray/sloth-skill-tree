@@ -1,4 +1,5 @@
 ---
+name: infographic
 description: "Plan and build a cybersecurity infographic for Canva. Usage: /infographic [topic]"
 ---
 

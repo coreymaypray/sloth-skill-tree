@@ -1,4 +1,5 @@
 ---
+name: threat-landscape
 description: "Threat intelligence briefing: STRIDE model meets current threat landscape with actionable technical recommendations. Usage: /threat-landscape [system or industry]"
 ---
 

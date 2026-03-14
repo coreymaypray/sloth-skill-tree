@@ -1,4 +1,5 @@
 ---
+name: client-onboarding
 description: "New client zero-to-sixty: project scaffold, SOW, sprint plan, and executive kickoff summary in one shot. Usage: /client-onboarding [client name] [project type]"
 ---
 

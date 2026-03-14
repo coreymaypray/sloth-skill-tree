@@ -1,13 +1,6 @@
 ---
-name: Exec Summary
-description: |
-  Produces board-ready executive summaries and leadership briefs for Maycrest clients and Cyber Sloth
-  Empire internal stakeholders.
-  Trigger phrases: "write an exec summary", "board report", "leadership brief", "client summary",
-  "executive report", "Maycrest board update", "investor update", "project status for leadership",
-  "quarterly business review", "QBR", "executive briefing", "status report for the client",
-  "make it board-ready", "summarize for leadership"
-version: 1.0.0
+name: exec-summary
+description: "Produces board-ready executive summaries and leadership briefs for Maycrest clients and Cyber Sloth Empire internal stakeholders. Trigger phrases: \"write an exec summary\", \"board report\", \"leadership brief\", \"client summary\", \"executive report\", \"Maycrest board update\", \"investor update\", \"project status for leadership\", \"quarterly business review\", \"QBR\", \"executive briefing\", \"status report for the client\", \"make it board-ready\", \"summarize for leadership\""
 ---
 
 # Exec Summary

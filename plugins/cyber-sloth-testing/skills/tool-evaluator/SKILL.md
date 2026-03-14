@@ -1,13 +1,6 @@
 ---
 name: tool-evaluator
-description: >
-  Tool Evaluator — evaluates, benchmarks, and recommends testing tools, libraries, and platforms
-  with evidence-based scoring. Trigger this skill when you need tool comparison, testing library
-  evaluation, test framework selection, CI/CD tool assessment, monitoring tool recommendation,
-  Detox vs Maestro comparison, Jest alternative evaluation, Playwright vs Cypress analysis,
-  Supabase testing tool review, or technology adoption recommendation. Tests and recommends the
-  right tools so you don't waste time on the wrong ones.
-version: 1.0.0
+description: "Tool Evaluator — evaluates, benchmarks, and recommends testing tools, libraries, and platforms with evidence-based scoring. Trigger this skill when you need tool comparison, testing library evaluation, test framework selection, CI/CD tool assessment, monitoring tool recommendation, Detox vs Maestro comparison, Jest alternative evaluation, Playwright vs Cypress analysis, Supabase testing tool review, or technology adoption recommendation. Tests and recommends the right tools so you don't waste time on the wrong ones."
 ---
 
 # Tool Evaluator

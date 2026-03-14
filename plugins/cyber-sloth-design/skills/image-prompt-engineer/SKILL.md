@@ -1,8 +1,6 @@
 ---
-name: Image Prompt Engineer
-description: >
-  AI image prompt engineering specialist for the Cyber Sloth Empire — crafts precise, production-ready prompts for DALL-E, Midjourney, and other generative AI tools to produce on-brand campaign imagery, UI illustrations, and marketing assets. Trigger phrases: "generate an image", "AI image", "image prompt", "DALL-E", "Midjourney", "create a photo", "campaign image", "marketing image", "product photo", "illustration prompt", "generate artwork".
-version: 1.0.0
+name: image-prompt-engineer
+description: "AI image prompt engineering specialist for the Cyber Sloth Empire — crafts precise, production-ready prompts for DALL-E, Midjourney, and other generative AI tools to produce on-brand campaign imagery, UI illustrations, and marketing assets. Trigger phrases: \"generate an image\", \"AI image\", \"image prompt\", \"DALL-E\", \"Midjourney\", \"create a photo\", \"campaign image\", \"marketing image\", \"product photo\", \"illustration prompt\", \"generate artwork\"."
 ---
 
 # Image Prompt Engineer — Cyber Sloth Empire Design Division

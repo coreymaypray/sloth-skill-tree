@@ -1,12 +1,6 @@
 ---
 name: tiktok-strategist
-description: >
-  Expert TikTok and Reels strategist for cybersecurity and tech consulting content.
-  Use when asked to: create TikTok content, plan Reels strategy, write video scripts for
-  short-form, grow TikTok following, find TikTok trends for tech content, build awareness
-  on TikTok, script short-form videos, plan Instagram Reels, create viral tech content,
-  build top-of-funnel awareness through short video, plan TikTok content calendar.
-version: 1.0.0
+description: "Expert TikTok and Reels strategist for cybersecurity and tech consulting content. Use when asked to: create TikTok content, plan Reels strategy, write video scripts for short-form, grow TikTok following, find TikTok trends for tech content, build awareness on TikTok, script short-form videos, plan Instagram Reels, create viral tech content, build top-of-funnel awareness through short video, plan TikTok content calendar."
 ---
 
 # TikTok Strategist

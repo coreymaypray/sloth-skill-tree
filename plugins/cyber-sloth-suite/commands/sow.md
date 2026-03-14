@@ -1,4 +1,5 @@
 ---
+name: sow
 description: "Generate a Statement of Work for a client engagement. Usage: /sow [client name] [project type]"
 ---
 

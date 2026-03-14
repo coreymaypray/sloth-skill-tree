@@ -1,7 +1,6 @@
 ---
 name: maycrest-web-design
-description: Comprehensive web design strategy, UI/UX patterns, inspiration references, and design system specifications for Maycrest — an Agentic-Enabled Managed Intelligence Provider serving SMBs in Indianapolis. Use this skill whenever Corey asks about designing the Maycrest website, building any frontend component or page for Maycrest, choosing fonts or colors for Maycrest, creating UI artifacts, landing pages, or dashboards for any of the three service arms (Creative Services, AI Solutions, Cybersecurity), designing the TIE Platform, or asking for web design inspiration. Also trigger for any question about Maycrest's brand aesthetics, competitor sites, motion design, or how to position Maycrest visually vs. local competitors.
-version: 1.0.0
+description: "Comprehensive web design strategy, UI/UX patterns, inspiration references, and design system specifications for Maycrest — an Agentic-Enabled Managed Intelligence Provider serving SMBs in Indianapolis. Use this skill whenever Corey asks about designing the Maycrest website, building any frontend component or page for Maycrest, choosing fonts or colors for Maycrest, creating UI artifacts, landing pages, or dashboards for any of the three service arms (Creative Services, AI Solutions, Cybersecurity), designing the TIE Platform, or asking for web design inspiration. Also trigger for any question about Maycrest's brand aesthetics, competitor sites, motion design, or how to position Maycrest visually vs. local competitors."
 ---
 
 # Maycrest Web Design

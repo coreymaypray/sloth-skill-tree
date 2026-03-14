@@ -1,0 +1,131 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "sloth-skill-tree",
+  "description": "Cyber Sloth Empire skills marketplace \u2014 12 divisions, 120+ specialist skills for development, design, marketing, and operations",
+  "owner": {
+    "name": "Corey Maypray",
+    "email": "corey@maycrest.com"
+  },
+  "plugins": [
+    {
+      "name": "cyber-sloth-design",
+      "description": "Sloth Flow design division \u2014 UI/UX design, brand guardianship, visual storytelling, accessibility, and AI image prompt engineering.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Corey Maypray"
+      },
+      "source": "./plugins/cyber-sloth-design",
+      "category": "development"
+    },
+    {
+      "name": "cyber-sloth-engineering",
+      "description": "Sloth Flow engineering division \u2014 13 specialized agents for frontend, backend, mobile, AI, DevOps, security, and more. Part of the Cyber Sloth plugin family.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Corey Maypray"
+      },
+      "source": "./plugins/cyber-sloth-engineering",
+      "category": "development"
+    },
+    {
+      "name": "cyber-sloth-gamedev",
+      "description": "Sloth Flow game development division \u2014 game design, level design, narrative design, technical art, audio engineering, Unity, Unreal Engine, and Godot development.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Corey Maypray"
+      },
+      "source": "./plugins/cyber-sloth-gamedev",
+      "category": "development"
+    },
+    {
+      "name": "cyber-sloth-marketing",
+      "description": "Sloth Flow marketing division \u2014 11 specialized agents for growth, content, social media, SEO, and platform-specific strategy. Part of the Cyber Sloth plugin family.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Corey Maypray"
+      },
+      "source": "./plugins/cyber-sloth-marketing",
+      "category": "development"
+    },
+    {
+      "name": "cyber-sloth-paid-media",
+      "description": "Sloth Flow paid media division \u2014 campaign auditing, ad creative strategy, paid social, PPC, programmatic buying, search query analysis, and conversion tracking.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Corey Maypray"
+      },
+      "source": "./plugins/cyber-sloth-paid-media",
+      "category": "development"
+    },
+    {
+      "name": "cyber-sloth-product",
+      "description": "Sloth Flow product division \u2014 sprint prioritization, user feedback synthesis, market trend research, and behavioral nudge design.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Corey Maypray"
+      },
+      "source": "./plugins/cyber-sloth-product",
+      "category": "development"
+    },
+    {
+      "name": "cyber-sloth-project-mgmt",
+      "description": "Sloth Flow project management division \u2014 senior PM oversight, studio production, operations planning, Jira workflows, risk management, and experiment tracking.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Corey Maypray"
+      },
+      "source": "./plugins/cyber-sloth-project-mgmt",
+      "category": "development"
+    },
+    {
+      "name": "cyber-sloth-spatial",
+      "description": "Sloth Flow spatial computing division \u2014 Metal GPU rendering, visionOS development, XR immersive experiences, spatial UI/UX, cockpit interfaces, and terminal integration.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Corey Maypray"
+      },
+      "source": "./plugins/cyber-sloth-spatial",
+      "category": "development"
+    },
+    {
+      "name": "cyber-sloth-specialized",
+      "description": "Sloth Flow specialized division \u2014 agent orchestration, developer advocacy, cultural intelligence, AI model QA, compliance auditing, data analytics, data consolidation, report distribution, and accounts payable.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Corey Maypray"
+      },
+      "source": "./plugins/cyber-sloth-specialized",
+      "category": "development"
+    },
+    {
+      "name": "cyber-sloth-suite",
+      "description": "Sloth Flow core orchestrator \u2014 voice personas, brand tokens, agent registry, and cross-division workflow commands for the Cyber Sloth plugin family.",
+      "version": "2.0.0",
+      "author": {
+        "name": "Corey Maypray"
+      },
+      "source": "./plugins/cyber-sloth-suite",
+      "category": "development"
+    },
+    {
+      "name": "cyber-sloth-support",
+      "description": "Sloth Flow support division \u2014 customer support, analytics reporting, finance tracking, infrastructure maintenance, legal compliance, and executive summaries.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Corey Maypray"
+      },
+      "source": "./plugins/cyber-sloth-support",
+      "category": "development"
+    },
+    {
+      "name": "cyber-sloth-testing",
+      "description": "Sloth Flow testing division \u2014 8 specialized agents for QA, accessibility, API testing, performance, and test analysis. Part of the Cyber Sloth plugin family.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Corey Maypray"
+      },
+      "source": "./plugins/cyber-sloth-testing",
+      "category": "development"
+    }
+  ]
+}

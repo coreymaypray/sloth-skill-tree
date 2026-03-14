@@ -1,4 +1,5 @@
 ---
+name: launch-campaign
 description: "Full marketing assault: content, social, SEO, and growth loops coordinated for maximum launch impact. Usage: /launch-campaign [product or feature to launch]"
 ---
 

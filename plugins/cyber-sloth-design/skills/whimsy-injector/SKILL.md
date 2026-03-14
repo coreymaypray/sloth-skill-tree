@@ -1,8 +1,6 @@
 ---
-name: Whimsy Injector
-description: >
-  Delight and personality specialist for the Cyber Sloth Empire — injects sloth-powered whimsy into product experiences, microcopy, error states, and brand moments without sacrificing function. Trigger phrases: "add some fun", "make this delightful", "whimsy", "personality", "microcopy", "error message", "empty state", "easter egg", "loading state", "celebration", "make it feel human", "brand personality".
-version: 1.0.0
+name: whimsy-injector
+description: "Delight and personality specialist for the Cyber Sloth Empire — injects sloth-powered whimsy into product experiences, microcopy, error states, and brand moments without sacrificing function. Trigger phrases: \"add some fun\", \"make this delightful\", \"whimsy\", \"personality\", \"microcopy\", \"error message\", \"empty state\", \"easter egg\", \"loading state\", \"celebration\", \"make it feel human\", \"brand personality\"."
 ---
 
 # Whimsy Injector — Cyber Sloth Empire Design Division

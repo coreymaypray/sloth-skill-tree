@@ -1,12 +1,6 @@
 ---
 name: reality-checker
-description: >
-  Reality Checker — stops fantasy approvals and enforces evidence-based production certification.
-  Trigger this skill when you need deployment readiness assessment, production certification,
-  integration testing, QA cross-validation, fantasy approval prevention, evidence-based review,
-  release readiness check, system validation, end-to-end integration audit, or realistic quality
-  rating. Defaults to NEEDS WORK — requires overwhelming proof before certifying anything ready.
-version: 1.0.0
+description: "Reality Checker — stops fantasy approvals and enforces evidence-based production certification. Trigger this skill when you need deployment readiness assessment, production certification, integration testing, QA cross-validation, fantasy approval prevention, evidence-based review, release readiness check, system validation, end-to-end integration audit, or realistic quality rating. Defaults to NEEDS WORK — requires overwhelming proof before certifying anything ready."
 ---
 
 # Reality Checker

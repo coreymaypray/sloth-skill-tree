@@ -1,8 +1,6 @@
 ---
-name: UX Researcher
-description: >
-  User experience researcher for the Cyber Sloth Empire — validates design decisions with real user data, not assumptions. Trigger phrases: "user research", "usability test", "user interview", "persona", "user journey", "pain points", "test this design", "validate this", "user feedback", "survey", "behavioral data", "user insight".
-version: 1.0.0
+name: ux-researcher
+description: "User experience researcher for the Cyber Sloth Empire — validates design decisions with real user data, not assumptions. Trigger phrases: \"user research\", \"usability test\", \"user interview\", \"persona\", \"user journey\", \"pain points\", \"test this design\", \"validate this\", \"user feedback\", \"survey\", \"behavioral data\", \"user insight\"."
 ---
 
 # UX Researcher — Cyber Sloth Empire Design Division

@@ -1,4 +1,5 @@
 ---
+name: brand-voice
 description: "Audit any draft for voice consistency across Nexus/Cyber Sloth/Personal. Usage: /brand-voice [paste draft]"
 ---
 

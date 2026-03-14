@@ -1,0 +1,10 @@
+{
+  "name": "cyber-sloth-paid-media",
+  "displayName": "Cyber Sloth Paid Media",
+  "description": "Sloth Flow paid media division \u2014 campaign auditing, ad creative strategy, paid social, PPC, programmatic buying, search query analysis, and conversion tracking.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Corey Maypray"
+  },
+  "skills": "./skills/"
+}

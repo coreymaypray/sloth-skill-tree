@@ -1,4 +1,5 @@
 ---
+name: ux-deep-dive
 description: "Comprehensive UX quality audit: research, architecture, accessibility, and inclusive design. Every user matters. Usage: /ux-deep-dive [product or feature]"
 ---
 

@@ -1,4 +1,5 @@
 ---
+name: feedback-loop
 description: "Turn messy user feedback into prioritized product changes. Synthesis, research, behavioral design, and sprint planning in one pipeline. Usage: /feedback-loop [feedback source or product area]"
 ---
 

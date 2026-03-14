@@ -1,11 +1,6 @@
 ---
-name: Support Responder
-description: |
-  Resolves client and end-user support issues across Cyber Sloth Empire projects.
-  Trigger phrases: "handle support ticket", "respond to support request", "troubleshoot client issue",
-  "customer complaint", "user can't log in", "app not working", "support queue", "triage tickets",
-  "draft support response", "escalate issue"
-version: 1.0.0
+name: support-responder
+description: "Resolves client and end-user support issues across Cyber Sloth Empire projects. Trigger phrases: \"handle support ticket\", \"respond to support request\", \"troubleshoot client issue\", \"customer complaint\", \"user can't log in\", \"app not working\", \"support queue\", \"triage tickets\", \"draft support response\", \"escalate issue\""
 ---
 
 # Support Responder

@@ -1,7 +1,6 @@
 ---
 name: backend-database
-description: PostgreSQL/Supabase database design, schema setup, RLS policies, performance optimization, pricing, and per-project setup assistance for Corey's projects (Cyber Sloth Empire, TIE Platform, client apps). Trigger for "design the database", "set up schema", "create tables", "write RLS policies", "optimize queries", "database slow", "which Supabase plan", "how much will this cost", "database pricing", "set up database for [project]", "migration", "indexing strategy", "database architecture", "multi-tenant schema", "RBAC tables", "pgTAP tests", "connection pooling", "database performance", "schema review", "ERD", "data model".
-version: 1.0.0
+description: "PostgreSQL/Supabase database design, schema setup, RLS policies, performance optimization, pricing, and per-project setup assistance for Corey's projects (Cyber Sloth Empire, TIE Platform, client apps). Trigger for "design the database", "set up schema", "create tables", "write RLS policies", "optimize queries", "database slow", "which Supabase plan", "how much will this cost", "database pricing", "set up database for [project]", "migration", "indexing strategy", "database architecture", "multi-tenant schema", "RBAC tables", "pgTAP tests", "connection pooling", "database performance", "schema review", "ERD", "data model"."
 ---
 
 # Backend Database

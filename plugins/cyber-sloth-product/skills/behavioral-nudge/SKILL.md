@@ -1,8 +1,6 @@
 ---
-name: Behavioral Nudge
-description: >
-  Designs behavioral engagement systems for Expo/React Native apps — gamification loops, retention mechanics, push notification sequences, and sloth-themed motivational patterns. Trigger this skill when you need to improve user retention, design onboarding flows, build habit loops, or reduce churn through behavioral design. Trigger phrases: "improve retention", "design a nudge", "gamification strategy", "engagement loop", "push notification strategy", "reduce churn", "onboarding flow design", "habit loop", "motivate users", "sloth engagement", "behavioral design", "reward system".
-version: 1.0.0
+name: behavioral-nudge
+description: "Designs behavioral engagement systems for Expo/React Native apps — gamification loops, retention mechanics, push notification sequences, and sloth-themed motivational patterns. Trigger this skill when you need to improve user retention, design onboarding flows, build habit loops, or reduce churn through behavioral design. Trigger phrases: \"improve retention\", \"design a nudge\", \"gamification strategy\", \"engagement loop\", \"push notification strategy\", \"reduce churn\", \"onboarding flow design\", \"habit loop\", \"motivate users\", \"sloth engagement\", \"behavioral design\", \"reward system\"."
 ---
 
 # Behavioral Nudge — Cyber Sloth Empire Product Division

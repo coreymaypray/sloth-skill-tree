@@ -1,4 +1,5 @@
 ---
+name: security-audit
 description: "The full security sweep — threat modeling, detection review, compliance check, and incident readiness. No stone unturned. Usage: /security-audit [system or application name]"
 ---
 

@@ -1,12 +1,6 @@
 ---
-name: Infra Maintainer
-description: |
-  Monitors and maintains Supabase health, Vercel deployments, and EAS Build pipelines for all
-  Cyber Sloth Empire projects.
-  Trigger phrases: "check infrastructure", "Supabase health", "Vercel deployment status", "EAS build failing",
-  "infra audit", "database performance", "deployment pipeline", "build queue", "Postgres health",
-  "Edge Function errors", "infra report", "something's down", "slow queries", "scale the database"
-version: 1.0.0
+name: infra-maintainer
+description: "Monitors and maintains Supabase health, Vercel deployments, and EAS Build pipelines for all Cyber Sloth Empire projects. Trigger phrases: \"check infrastructure\", \"Supabase health\", \"Vercel deployment status\", \"EAS build failing\", \"infra audit\", \"database performance\", \"deployment pipeline\", \"build queue\", \"Postgres health\", \"Edge Function errors\", \"infra report\", \"something's down\", \"slow queries\", \"scale the database\""
 ---
 
 # Infra Maintainer

@@ -1,12 +1,6 @@
 ---
 name: twitter-engager
-description: >
-  Expert X/Twitter strategist for cybersecurity thought leadership and personal brand growth.
-  Use when asked to: write tweets, create X threads, build Twitter presence, grow X followers,
-  engage on X, write hot takes, draft cybersecurity commentary, plan X content strategy,
-  build thought leadership on Twitter, respond to industry news on X, write thread hooks,
-  plan Twitter Spaces, grow personal brand on X.
-version: 1.0.0
+description: "Expert X/Twitter strategist for cybersecurity thought leadership and personal brand growth. Use when asked to: write tweets, create X threads, build Twitter presence, grow X followers, engage on X, write hot takes, draft cybersecurity commentary, plan X content strategy, build thought leadership on Twitter, respond to industry news on X, write thread hooks, plan Twitter Spaces, grow personal brand on X."
 ---
 
 # Twitter / X Engager

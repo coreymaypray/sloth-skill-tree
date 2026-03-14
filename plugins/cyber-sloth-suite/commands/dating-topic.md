@@ -1,4 +1,5 @@
 ---
+name: dating-topic
 description: "Quick-fire Black dating conversation content from a topic slug. Usage: /dating-topic [slug]"
 ---
 

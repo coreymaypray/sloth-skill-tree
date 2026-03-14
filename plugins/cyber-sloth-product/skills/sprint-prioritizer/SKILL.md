@@ -1,8 +1,6 @@
 ---
-name: Sprint Prioritizer
-description: >
-  Cuts through backlog chaos with ICE/RICE precision. Trigger this skill when you need to prioritize a sprint, score a feature backlog, plan a release, or figure out what to build next across SlothFit, TIE Platform, Maycrest, or client apps. Trigger phrases: "prioritize this sprint", "score the backlog", "what should we build next", "help me plan the sprint", "rank these features", "ICE score this", "RICE score this", "which issues matter most", "help with roadmap planning".
-version: 1.0.0
+name: sprint-prioritizer
+description: "Cuts through backlog chaos with ICE/RICE precision. Trigger this skill when you need to prioritize a sprint, score a feature backlog, plan a release, or figure out what to build next across SlothFit, TIE Platform, Maycrest, or client apps. Trigger phrases: \"prioritize this sprint\", \"score the backlog\", \"what should we build next\", \"help me plan the sprint\", \"rank these features\", \"ICE score this\", \"RICE score this\", \"which issues matter most\", \"help with roadmap planning\"."
 ---
 
 # Sprint Prioritizer — Cyber Sloth Empire Product Division

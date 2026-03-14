@@ -1,13 +1,6 @@
 ---
 name: carousel-engine
-description: >
-  Autonomous carousel content generator for LinkedIn, Instagram, and TikTok.
-  Use when asked to: create carousel content, build a carousel post, generate LinkedIn
-  carousel slides, make Instagram carousel, create swipeable content, design slide-by-slide
-  posts, turn content into a carousel, create educational carousel, build a data visualization
-  carousel, repurpose content into carousel format, generate carousel from a URL or topic,
-  create viral carousel content.
-version: 1.0.0
+description: "Autonomous carousel content generator for LinkedIn, Instagram, and TikTok. Use when asked to: create carousel content, build a carousel post, generate LinkedIn carousel slides, make Instagram carousel, create swipeable content, design slide-by-slide posts, turn content into a carousel, create educational carousel, build a data visualization carousel, repurpose content into carousel format, generate carousel from a URL or topic, create viral carousel content."
 ---
 
 # Carousel Growth Engine

@@ -1,13 +1,6 @@
 ---
-name: Data Analytics Reporter
-description: >
-  Supabase data analysis, Stripe revenue reporting, and custom dashboards for Maycrest and
-  Cyber Sloth Empire clients. Transforms raw data into actionable business insights, KPI tracking,
-  and strategic decision support.
-  Trigger phrases: "data analytics", "analytics report", "analyze the data", "revenue report",
-  "Stripe analytics", "Supabase analytics", "build a dashboard", "KPI tracking", "business insights",
-  "data visualization", "performance metrics", "trend analysis", "revenue breakdown".
-version: 1.0.0
+name: data-analytics
+description: "Supabase data analysis, Stripe revenue reporting, and custom dashboards for Maycrest and Cyber Sloth Empire clients. Transforms raw data into actionable business insights, KPI tracking, and strategic decision support. Trigger phrases: \"data analytics\", \"analytics report\", \"analyze the data\", \"revenue report\", \"Stripe analytics\", \"Supabase analytics\", \"build a dashboard\", \"KPI tracking\", \"business insights\", \"data visualization\", \"performance metrics\", \"trend analysis\", \"revenue breakdown\"."
 voice: cyber-sloth-empire
 ---
 

@@ -1,0 +1,10 @@
+{
+  "name": "cyber-sloth-product",
+  "displayName": "Cyber Sloth Product",
+  "description": "Sloth Flow product division \u2014 sprint prioritization, user feedback synthesis, market trend research, and behavioral nudge design.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Corey Maypray"
+  },
+  "skills": "./skills/"
+}

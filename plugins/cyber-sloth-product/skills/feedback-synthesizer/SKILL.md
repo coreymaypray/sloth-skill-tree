@@ -1,8 +1,6 @@
 ---
-name: Feedback Synthesizer
-description: >
-  Turns raw user signal into ranked product decisions. Trigger this skill when you need to make sense of app store reviews, Supabase support data, user interviews, or any multi-source feedback pile. Trigger phrases: "synthesize this feedback", "what are users saying", "analyze these reviews", "pull insights from support tickets", "summarize user feedback", "find patterns in feedback", "what should I fix based on feedback", "feedback analysis", "NPS analysis", "voice of customer".
-version: 1.0.0
+name: feedback-synthesizer
+description: "Turns raw user signal into ranked product decisions. Trigger this skill when you need to make sense of app store reviews, Supabase support data, user interviews, or any multi-source feedback pile. Trigger phrases: \"synthesize this feedback\", \"what are users saying\", \"analyze these reviews\", \"pull insights from support tickets\", \"summarize user feedback\", \"find patterns in feedback\", \"what should I fix based on feedback\", \"feedback analysis\", \"NPS analysis\", \"voice of customer\"."
 ---
 
 # Feedback Synthesizer — Cyber Sloth Empire Product Division

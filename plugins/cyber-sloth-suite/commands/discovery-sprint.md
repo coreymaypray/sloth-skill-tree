@@ -1,4 +1,5 @@
 ---
+name: discovery-sprint
 description: "Product discovery done right: market research, user insights, technical feasibility, and a prioritized feature list. Know before you build. Usage: /discovery-sprint [product idea or problem space]"
 ---
 

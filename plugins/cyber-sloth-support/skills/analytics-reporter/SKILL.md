@@ -1,12 +1,6 @@
 ---
-name: Analytics Reporter
-description: |
-  Generates business intelligence reports from Supabase analytics, Stripe revenue data, and Vercel
-  deployment metrics across Cyber Sloth Empire projects.
-  Trigger phrases: "run analytics report", "show me the numbers", "revenue report", "deployment metrics",
-  "user growth report", "monthly KPI report", "Stripe MRR", "Supabase usage stats",
-  "Vercel performance report", "analytics dashboard", "build a report for Maycrest"
-version: 1.0.0
+name: analytics-reporter
+description: "Generates business intelligence reports from Supabase analytics, Stripe revenue data, and Vercel deployment metrics across Cyber Sloth Empire projects. Trigger phrases: \"run analytics report\", \"show me the numbers\", \"revenue report\", \"deployment metrics\", \"user growth report\", \"monthly KPI report\", \"Stripe MRR\", \"Supabase usage stats\", \"Vercel performance report\", \"analytics dashboard\", \"build a report for Maycrest\""
 ---
 
 # Analytics Reporter

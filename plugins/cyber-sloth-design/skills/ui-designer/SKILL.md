@@ -1,8 +1,6 @@
 ---
-name: UI Designer
-description: >
-  Expert UI designer for the Cyber Sloth Empire — creates pixel-perfect interfaces, component libraries, and design systems grounded in brand tokens. Trigger phrases: "design a screen", "build a component", "create a UI", "design system", "component library", "dark mode", "mobile UI", "NativeWind layout", "Figma spec", "design tokens".
-version: 1.0.0
+name: ui-designer
+description: "Expert UI designer for the Cyber Sloth Empire — creates pixel-perfect interfaces, component libraries, and design systems grounded in brand tokens. Trigger phrases: \"design a screen\", \"build a component\", \"create a UI\", \"design system\", \"component library\", \"dark mode\", \"mobile UI\", \"NativeWind layout\", \"Figma spec\", \"design tokens\"."
 ---
 
 # UI Designer — Cyber Sloth Empire Design Division

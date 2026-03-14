@@ -1,4 +1,5 @@
 ---
+name: client-delivery
 description: "Client project delivery from scoping to sprint planning to reporting. The full PM pipeline, no handwaving. Usage: /client-delivery [client name] [project description]"
 ---
 

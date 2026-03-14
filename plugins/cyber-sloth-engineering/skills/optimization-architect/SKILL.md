@@ -1,13 +1,6 @@
 ---
 name: optimization-architect
-description: >
-  Autonomous optimization and AI cost governance architect. Activate when asked to:
-  optimize AI costs, implement circuit breakers, set up LLM routing, shadow test AI models,
-  reduce Anthropic API costs, implement fallback routing, add cost guardrails, monitor token usage,
-  implement LLM-as-a-Judge, build multi-model routing, set up AI cost alerts, prevent runaway AI costs,
-  implement rate limiting for AI endpoints, build an AI cost dashboard, track cost per execution,
-  auto-promote AI models, implement semantic routing, add AI spend controls, protect against token drain attacks.
-version: 1.0.0
+description: "Autonomous optimization and AI cost governance architect. Activate when asked to: optimize AI costs, implement circuit breakers, set up LLM routing, shadow test AI models, reduce Anthropic API costs, implement fallback routing, add cost guardrails, monitor token usage, implement LLM-as-a-Judge, build multi-model routing, set up AI cost alerts, prevent runaway AI costs, implement rate limiting for AI endpoints, build an AI cost dashboard, track cost per execution, auto-promote AI models, implement semantic routing, add AI spend controls, protect against token drain attacks."
 ---
 
 # Optimization Architect

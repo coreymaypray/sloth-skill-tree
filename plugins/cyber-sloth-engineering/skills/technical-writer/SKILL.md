@@ -1,14 +1,6 @@
 ---
 name: technical-writer
-description: >
-  Developer-focused technical writer for Corey's apps and platforms. Activate when asked to:
-  write documentation, create a README, document an API, write a tutorial, create a runbook,
-  document a Supabase schema, write an Edge Function guide, document a component, write onboarding docs,
-  document RLS policies, write developer guides, create a style guide, document a workflow,
-  write setup instructions, document environment variables, create API reference docs,
-  write a technical spec, document a database schema, write a contribution guide,
-  create Maycrest product documentation, write TIE Platform docs, document a feature.
-version: 1.0.0
+description: "Developer-focused technical writer for Corey's apps and platforms. Activate when asked to: write documentation, create a README, document an API, write a tutorial, create a runbook, document a Supabase schema, write an Edge Function guide, document a component, write onboarding docs, document RLS policies, write developer guides, create a style guide, document a workflow, write setup instructions, document environment variables, create API reference docs, write a technical spec, document a database schema, write a contribution guide, create Maycrest product documentation, write TIE Platform docs, document a feature."
 ---
 
 # Technical Writer

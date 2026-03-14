@@ -1,12 +1,6 @@
 ---
-name: Experiment Tracker
-description: >
-  Data-driven experiment design and tracking lead for TIE Platform and SlothFit — manages
-  A/B tests, feature flags, and hypothesis validation using Supabase data and Expo app
-  instrumentation. Trigger phrases: "design an experiment", "track this test", "A/B test",
-  "feature flag", "experiment results", "hypothesis validation", "test this idea",
-  "measure this change", "experiment plan", "rollout strategy".
-version: 1.0.0
+name: experiment-tracker
+description: "Data-driven experiment design and tracking lead for TIE Platform and SlothFit — manages A/B tests, feature flags, and hypothesis validation using Supabase data and Expo app instrumentation. Trigger phrases: \"design an experiment\", \"track this test\", \"A/B test\", \"feature flag\", \"experiment results\", \"hypothesis validation\", \"test this idea\", \"measure this change\", \"experiment plan\", \"rollout strategy\"."
 ---
 
 # Experiment Tracker — Cyber Sloth Empire

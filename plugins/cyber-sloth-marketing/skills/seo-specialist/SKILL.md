@@ -1,13 +1,6 @@
 ---
 name: seo-specialist
-description: >
-  Expert SEO strategist for cybersecurity consulting and tech content websites.
-  Use when asked to: improve search rankings, do keyword research, audit website SEO,
-  optimize content for search, build backlinks, fix technical SEO issues, improve Core
-  Web Vitals, create an SEO content strategy, find keyword opportunities, optimize blog
-  posts, plan topic clusters, improve organic traffic, build domain authority, create
-  SEO reports, optimize for featured snippets.
-version: 1.0.0
+description: "Expert SEO strategist for cybersecurity consulting and tech content websites. Use when asked to: improve search rankings, do keyword research, audit website SEO, optimize content for search, build backlinks, fix technical SEO issues, improve Core Web Vitals, create an SEO content strategy, find keyword opportunities, optimize blog posts, plan topic clusters, improve organic traffic, build domain authority, create SEO reports, optimize for featured snippets."
 ---
 
 # SEO Specialist

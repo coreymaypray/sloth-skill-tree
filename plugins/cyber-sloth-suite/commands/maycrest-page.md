@@ -1,4 +1,5 @@
 ---
+name: maycrest-page
 description: "Design and build a Maycrest website page or component. Usage: /maycrest-page [page name or component]"
 ---
 

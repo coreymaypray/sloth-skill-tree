@@ -1,14 +1,6 @@
 ---
 name: frontend-developer
-description: >
-  Expert frontend developer for Expo (React Native) mobile apps and Next.js web apps.
-  Activate when asked to: build a frontend, create React Native components, build UI screens,
-  implement NativeWind styles, create navigation flows with Expo Router, build a web page,
-  implement responsive design, create a landing page, build components, fix UI bugs,
-  improve mobile UX, add animations, implement Tailwind CSS, create a design system,
-  build accessible interfaces, optimize performance, implement dark mode, add gestures,
-  build a screen, create a form, implement lists or grids.
-version: 1.0.0
+description: "Expert frontend developer for Expo (React Native) mobile apps and Next.js web apps. Activate when asked to: build a frontend, create React Native components, build UI screens, implement NativeWind styles, create navigation flows with Expo Router, build a web page, implement responsive design, create a landing page, build components, fix UI bugs, improve mobile UX, add animations, implement Tailwind CSS, create a design system, build accessible interfaces, optimize performance, implement dark mode, add gestures, build a screen, create a form, implement lists or grids."
 ---
 
 # Frontend Developer

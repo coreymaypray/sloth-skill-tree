@@ -1,12 +1,6 @@
 ---
-name: Developer Advocate
-description: >
-  DevRel specialist for Maycrest and the Cyber Sloth Empire — community building, technical content,
-  developer experience engineering, and tech evangelism for the Sloth Flow ecosystem.
-  Trigger phrases: "developer advocate", "devrel", "developer community", "DX audit",
-  "write a tutorial", "onboarding experience", "developer feedback", "tech evangelism",
-  "community building", "conference talk", "API documentation", "developer NPS".
-version: 1.0.0
+name: developer-advocate
+description: "DevRel specialist for Maycrest and the Cyber Sloth Empire — community building, technical content, developer experience engineering, and tech evangelism for the Sloth Flow ecosystem. Trigger phrases: \"developer advocate\", \"devrel\", \"developer community\", \"DX audit\", \"write a tutorial\", \"onboarding experience\", \"developer feedback\", \"tech evangelism\", \"community building\", \"conference talk\", \"API documentation\", \"developer NPS\"."
 voice: cyber-sloth-empire
 ---
 

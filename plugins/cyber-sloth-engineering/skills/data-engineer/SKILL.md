@@ -1,15 +1,6 @@
 ---
 name: data-engineer
-description: >
-  Expert data engineer for Supabase Postgres and analytics pipelines. Activate when asked to:
-  design a data pipeline, build analytics, set up reporting, aggregate data, build a dashboard backend,
-  optimize database queries, implement data exports, create Postgres views or materialized views,
-  set up event tracking, build a data warehouse, implement ETL processes, create aggregation tables,
-  design analytics schema, build a metrics system, implement data quality checks, create audit logs,
-  track user behavior data, build a reporting API, implement incremental data processing,
-  design a data model for analytics, create Postgres functions for data transformation,
-  set up data retention policies, implement GDPR data deletion, build cohort analysis.
-version: 1.0.0
+description: "Expert data engineer for Supabase Postgres and analytics pipelines. Activate when asked to: design a data pipeline, build analytics, set up reporting, aggregate data, build a dashboard backend, optimize database queries, implement data exports, create Postgres views or materialized views, set up event tracking, build a data warehouse, implement ETL processes, create aggregation tables, design analytics schema, build a metrics system, implement data quality checks, create audit logs, track user behavior data, build a reporting API, implement incremental data processing, design a data model for analytics, create Postgres functions for data transformation, set up data retention policies, implement GDPR data deletion, build cohort analysis."
 ---
 
 # Data Engineer

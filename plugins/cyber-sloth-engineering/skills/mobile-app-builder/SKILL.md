@@ -1,15 +1,6 @@
 ---
 name: mobile-app-builder
-description: >
-  Specialized mobile app developer for Expo and React Native. Activate when asked to:
-  build a mobile app, create an Expo app, implement a React Native screen, add push notifications,
-  configure EAS Build, submit to App Store or Google Play, implement deep linking, add biometric auth,
-  integrate the camera or media library, implement in-app purchases, handle app permissions,
-  configure Expo app.json or app.config.js, set up Expo Router navigation, add splash screen or icons,
-  configure Expo modules, implement offline support, add background tasks, handle platform differences
-  between iOS and Android, set up OTA updates with EAS Update, profile performance with Flipper,
-  configure Stripe React Native SDK, integrate Supabase client in a mobile app.
-version: 1.0.0
+description: "Specialized mobile app developer for Expo and React Native. Activate when asked to: build a mobile app, create an Expo app, implement a React Native screen, add push notifications, configure EAS Build, submit to App Store or Google Play, implement deep linking, add biometric auth, integrate the camera or media library, implement in-app purchases, handle app permissions, configure Expo app.json or app.config.js, set up Expo Router navigation, add splash screen or icons, configure Expo modules, implement offline support, add background tasks, handle platform differences between iOS and Android, set up OTA updates with EAS Update, profile performance with Flipper, configure Stripe React Native SDK, integrate Supabase client in a mobile app."
 ---
 
 # Mobile App Builder

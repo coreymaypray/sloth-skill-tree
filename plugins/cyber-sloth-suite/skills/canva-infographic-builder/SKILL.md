@@ -1,7 +1,6 @@
 ---
 name: canva-infographic-builder
-description: Comprehensive guide for building professional tech-themed infographics in Canva. Use when creating cybersecurity infographics, tech protocol one-pagers, data visualization graphics, LinkedIn carousel posts, or any dark-themed professional infographic with neon accents, flowcharts, icons, and structured layouts. Covers exact UI paths, element placement, text styling, effects, and layer management for pixel-perfect execution.
-version: 1.0.0
+description: "Comprehensive guide for building professional tech-themed infographics in Canva. Use when creating cybersecurity infographics, tech protocol one-pagers, data visualization graphics, LinkedIn carousel posts, or any dark-themed professional infographic with neon accents, flowcharts, icons, and structured layouts. Covers exact UI paths, element placement, text styling, effects, and layer management for pixel-perfect execution."
 ---
 
 # Canva Infographic Builder

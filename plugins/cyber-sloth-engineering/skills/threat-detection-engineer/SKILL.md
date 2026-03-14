@@ -1,16 +1,6 @@
 ---
 name: threat-detection-engineer
-description: >
-  Expert threat detection engineer and security operations specialist. Activate when asked to:
-  write SIEM detection rules, build threat detections, map ATT&CK coverage, write Sigma rules,
-  tune alert noise, hunt for threats, build a detection pipeline, assess MITRE ATT&CK gaps,
-  write Splunk SPL queries, write Sentinel KQL queries, implement detection-as-code,
-  build a detection catalog, write threat hunt playbooks, reduce false positives,
-  validate detections, implement purple team exercises, write IOC-based detections,
-  build behavioral detections, analyze attacker TTPs, set up security log ingestion,
-  assess SIEM coverage, write detection rules for Corey's Supabase apps, detect API abuse,
-  detect Supabase auth anomalies, detect Stripe fraud patterns.
-version: 1.0.0
+description: "Expert threat detection engineer and security operations specialist. Activate when asked to: write SIEM detection rules, build threat detections, map ATT&CK coverage, write Sigma rules, tune alert noise, hunt for threats, build a detection pipeline, assess MITRE ATT&CK gaps, write Splunk SPL queries, write Sentinel KQL queries, implement detection-as-code, build a detection catalog, write threat hunt playbooks, reduce false positives, validate detections, implement purple team exercises, write IOC-based detections, build behavioral detections, analyze attacker TTPs, set up security log ingestion, assess SIEM coverage, write detection rules for Corey's Supabase apps, detect API abuse, detect Supabase auth anomalies, detect Stripe fraud patterns."
 ---
 
 # Threat Detection Engineer

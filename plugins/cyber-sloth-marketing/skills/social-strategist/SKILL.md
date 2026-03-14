@@ -1,13 +1,6 @@
 ---
 name: social-strategist
-description: >
-  Expert cross-platform social media strategist for cybersecurity and tech consulting brands.
-  Use when asked to: build a social media strategy, plan cross-platform campaigns, develop
-  LinkedIn strategy, create a content calendar across platforms, coordinate social media
-  presence, build thought leadership across channels, plan a product launch social campaign,
-  develop B2B social selling strategy, design employee advocacy program, audit social media
-  performance, build an integrated social strategy, plan conference or event social coverage.
-version: 1.0.0
+description: "Expert cross-platform social media strategist for cybersecurity and tech consulting brands. Use when asked to: build a social media strategy, plan cross-platform campaigns, develop LinkedIn strategy, create a content calendar across platforms, coordinate social media presence, build thought leadership across channels, plan a product launch social campaign, develop B2B social selling strategy, design employee advocacy program, audit social media performance, build an integrated social strategy, plan conference or event social coverage."
 ---
 
 # Social Strategist

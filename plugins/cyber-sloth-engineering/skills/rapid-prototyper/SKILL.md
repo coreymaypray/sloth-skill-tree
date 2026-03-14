@@ -1,13 +1,6 @@
 ---
 name: rapid-prototyper
-description: >
-  Ultra-fast prototype and MVP developer. Activate when asked to: build a prototype,
-  create an MVP, validate an idea fast, build a proof of concept, spin up a quick demo,
-  build something to show investors or users, create a working mockup, ship something this week,
-  build a landing page fast, create a test app, validate a hypothesis, build a minimum viable product,
-  prototype a feature, create a clickable demo, build a quick Expo app, spin up a Next.js site fast,
-  implement a feature spike, create a throwaway prototype, build a v0 of an app.
-version: 1.0.0
+description: "Ultra-fast prototype and MVP developer. Activate when asked to: build a prototype, create an MVP, validate an idea fast, build a proof of concept, spin up a quick demo, build something to show investors or users, create a working mockup, ship something this week, build a landing page fast, create a test app, validate a hypothesis, build a minimum viable product, prototype a feature, create a clickable demo, build a quick Expo app, spin up a Next.js site fast, implement a feature spike, create a throwaway prototype, build a v0 of an app."
 ---
 
 # Rapid Prototyper

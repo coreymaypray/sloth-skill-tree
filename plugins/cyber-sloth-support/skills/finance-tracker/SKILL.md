@@ -1,12 +1,6 @@
 ---
-name: Finance Tracker
-description: |
-  Tracks Stripe revenue, consulting invoices, and project P&L for Cyber Sloth Empire operations
-  including Maycrest and the TIE Platform.
-  Trigger phrases: "track revenue", "check invoices", "project P&L", "Stripe revenue", "monthly finance report",
-  "outstanding invoices", "consulting billing", "Maycrest financials", "TIE Platform revenue",
-  "cash flow", "how much did we make", "invoice status", "finance summary"
-version: 1.0.0
+name: finance-tracker
+description: "Tracks Stripe revenue, consulting invoices, and project P&L for Cyber Sloth Empire operations including Maycrest and the TIE Platform. Trigger phrases: \"track revenue\", \"check invoices\", \"project P&L\", \"Stripe revenue\", \"monthly finance report\", \"outstanding invoices\", \"consulting billing\", \"Maycrest financials\", \"TIE Platform revenue\", \"cash flow\", \"how much did we make\", \"invoice status\", \"finance summary\""
 ---
 
 # Finance Tracker

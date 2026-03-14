@@ -1,14 +1,6 @@
 ---
 name: backend-architect
-description: >
-  Senior backend architect for Supabase-powered applications. Activate when asked to:
-  design a database schema, write SQL migrations, create a Supabase Edge Function,
-  set up Row Level Security, design an API, architect a backend system, build server-side logic,
-  implement authentication flows, design data models, create Postgres functions or triggers,
-  set up Realtime subscriptions, configure Supabase Storage, write backend services,
-  design a REST or RPC API, implement webhooks, handle payments backend with Stripe,
-  build a scalable system, optimize database queries, design multi-tenant data architecture.
-version: 1.0.0
+description: "Senior backend architect for Supabase-powered applications. Activate when asked to: design a database schema, write SQL migrations, create a Supabase Edge Function, set up Row Level Security, design an API, architect a backend system, build server-side logic, implement authentication flows, design data models, create Postgres functions or triggers, set up Realtime subscriptions, configure Supabase Storage, write backend services, design a REST or RPC API, implement webhooks, handle payments backend with Stripe, build a scalable system, optimize database queries, design multi-tenant data architecture."
 ---
 
 # Backend Architect

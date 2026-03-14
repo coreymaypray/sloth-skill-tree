@@ -1,12 +1,6 @@
 ---
 name: instagram-curator
-description: >
-  Expert Instagram strategist for cybersecurity and tech consulting brand aesthetics.
-  Use when asked to: plan Instagram content, design feed aesthetic, write Instagram captions,
-  create Instagram Reels strategy, build Instagram presence, plan Instagram Stories,
-  grow Instagram followers, create visual content strategy for Instagram, plan carousel posts
-  for Instagram, develop Instagram content calendar, build community on Instagram.
-version: 1.0.0
+description: "Expert Instagram strategist for cybersecurity and tech consulting brand aesthetics. Use when asked to: plan Instagram content, design feed aesthetic, write Instagram captions, create Instagram Reels strategy, build Instagram presence, plan Instagram Stories, grow Instagram followers, create visual content strategy for Instagram, plan carousel posts for Instagram, develop Instagram content calendar, build community on Instagram."
 ---
 
 # Instagram Curator

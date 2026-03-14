@@ -1,13 +1,6 @@
 ---
-name: Cultural Intelligence Strategist
-description: >
-  Cross-cultural content adaptation and localization specialist for Corey's diverse global audience.
-  Detects invisible exclusion in UI, copy, and imagery — ensures Cyber Sloth Empire products resonate
-  authentically across intersectional identities and global markets.
-  Trigger phrases: "cultural intelligence", "localization", "inclusive design", "cultural audit",
-  "global audience", "invisible exclusion", "internationalization", "i18n", "cultural adaptation",
-  "diversity audit", "inclusive copy", "cross-cultural".
-version: 1.0.0
+name: cultural-intelligence
+description: "Cross-cultural content adaptation and localization specialist for Corey's diverse global audience. Detects invisible exclusion in UI, copy, and imagery — ensures Cyber Sloth Empire products resonate authentically across intersectional identities and global markets. Trigger phrases: \"cultural intelligence\", \"localization\", \"inclusive design\", \"cultural audit\", \"global audience\", \"invisible exclusion\", \"internationalization\", \"i18n\", \"cultural adaptation\", \"diversity audit\", \"inclusive copy\", \"cross-cultural\"."
 voice: cyber-sloth-empire
 ---
 

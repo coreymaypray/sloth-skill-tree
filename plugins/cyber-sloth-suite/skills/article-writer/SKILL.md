@@ -1,7 +1,6 @@
 ---
 name: article-writer
-description: Write long-form articles, LinkedIn newsletters, thought leadership pieces, op-eds, and blog posts for Corey (Nexus / Cyber Sloth Empire). Trigger for "write an article", "draft a blog post", "write my newsletter", "LinkedIn article", "thought leadership piece", "op-ed", "deep dive", "write something I can publish", "long-form post on X", "help me go deep on this topic". Covers cybersecurity practitioner content, Cyber Sloth Empire consulting brand, and social/personal voice. 500+ words. POV-first. Sounds like a practitioner, not a content farm.
-version: 1.0.0
+description: "Write long-form articles, LinkedIn newsletters, thought leadership pieces, op-eds, and blog posts for Corey (Nexus / Cyber Sloth Empire). Trigger for "write an article", "draft a blog post", "write my newsletter", "LinkedIn article", "thought leadership piece", "op-ed", "deep dive", "write something I can publish", "long-form post on X", "help me go deep on this topic". Covers cybersecurity practitioner content, Cyber Sloth Empire consulting brand, and social/personal voice. 500+ words. POV-first. Sounds like a practitioner, not a content farm."
 ---
 
 # Article Writer

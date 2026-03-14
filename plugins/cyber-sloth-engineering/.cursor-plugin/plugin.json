@@ -1,0 +1,10 @@
+{
+  "name": "cyber-sloth-engineering",
+  "displayName": "Cyber Sloth Engineering",
+  "description": "Sloth Flow engineering division \u2014 13 specialized agents for frontend, backend, mobile, AI, DevOps, security, and more.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Corey Maypray"
+  },
+  "skills": "./skills/"
+}

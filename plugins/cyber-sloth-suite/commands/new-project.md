@@ -1,4 +1,5 @@
 ---
+name: new-project
 description: "Scaffold a new client app with architecture, schema, and infrastructure. Usage: /new-project [name]"
 ---
 

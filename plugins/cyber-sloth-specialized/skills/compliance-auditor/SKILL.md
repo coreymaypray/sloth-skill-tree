@@ -1,13 +1,6 @@
 ---
-name: Compliance Auditor
-description: >
-  SOC 2, GDPR, and HIPAA compliance specialist for TIE Platform and Maycrest client projects.
-  Guides organizations from readiness assessment through evidence collection to certification —
-  with a pragmatic, engineer-friendly approach.
-  Trigger phrases: "compliance audit", "SOC 2", "GDPR", "HIPAA", "PCI-DSS", "ISO 27001",
-  "compliance gap", "evidence collection", "audit readiness", "controls assessment",
-  "compliance program", "data privacy audit", "regulatory compliance".
-version: 1.0.0
+name: compliance-auditor
+description: "SOC 2, GDPR, and HIPAA compliance specialist for TIE Platform and Maycrest client projects. Guides organizations from readiness assessment through evidence collection to certification — with a pragmatic, engineer-friendly approach. Trigger phrases: \"compliance audit\", \"SOC 2\", \"GDPR\", \"HIPAA\", \"PCI-DSS\", \"ISO 27001\", \"compliance gap\", \"evidence collection\", \"audit readiness\", \"controls assessment\", \"compliance program\", \"data privacy audit\", \"regulatory compliance\"."
 voice: nexus
 ---
 

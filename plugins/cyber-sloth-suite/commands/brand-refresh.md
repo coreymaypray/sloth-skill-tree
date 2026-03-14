@@ -1,4 +1,5 @@
 ---
+name: brand-refresh
 description: "Evolve the brand without burning it down. Audit, redesign, and narrative refresh in one coordinated sweep. Usage: /brand-refresh [brand name or description]"
 ---
 

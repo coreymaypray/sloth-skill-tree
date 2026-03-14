@@ -1,4 +1,5 @@
 ---
+name: threat-model
 description: "Rapid STRIDE + ATT&CK threat model for any system. Usage: /threat-model [system name or description]"
 ---
 

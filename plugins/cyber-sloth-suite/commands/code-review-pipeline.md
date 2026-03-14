@@ -1,4 +1,5 @@
 ---
+name: code-review-pipeline
 description: "Three-layer code quality gate: architecture, security, and performance. No code ships without the gauntlet. Usage: /code-review-pipeline [file, PR, or repo path]"
 ---
 

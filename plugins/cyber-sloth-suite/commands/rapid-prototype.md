@@ -1,4 +1,5 @@
 ---
+name: rapid-prototype
 description: "From zero to MVP before your coffee gets cold. Fast prototype with just enough polish to prove the concept. Usage: /rapid-prototype [idea or feature]"
 ---
 

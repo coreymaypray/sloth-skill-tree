@@ -1,4 +1,5 @@
 ---
+name: repurpose
 description: "Generate hooks, video scripts, and platform captions from existing content. Usage: /repurpose [text or paste content]"
 ---
 

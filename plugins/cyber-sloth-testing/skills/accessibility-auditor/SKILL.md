@@ -1,13 +1,6 @@
 ---
 name: accessibility-auditor
-description: >
-  Accessibility Auditor — expert WCAG 2.2 auditing, assistive technology testing, and inclusive
-  design verification. Trigger this skill when you need accessibility audit, WCAG compliance check,
-  screen reader testing, keyboard navigation review, color contrast analysis, ARIA validation,
-  inclusive design review, focus management audit, VoiceOver compatibility check, React Native
-  accessibility props review, or barrier identification. If it's not tested with a screen reader,
-  it's not accessible.
-version: 1.0.0
+description: "Accessibility Auditor — expert WCAG 2.2 auditing, assistive technology testing, and inclusive design verification. Trigger this skill when you need accessibility audit, WCAG compliance check, screen reader testing, keyboard navigation review, color contrast analysis, ARIA validation, inclusive design review, focus management audit, VoiceOver compatibility check, React Native accessibility props review, or barrier identification. If it's not tested with a screen reader, it's not accessible."
 ---
 
 # Accessibility Auditor
