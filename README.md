@@ -334,72 +334,149 @@ claude-skills-library/
 
 ## Installation
 
-### Quick Install (symlink to your Claude config)
+### Prerequisites
+
+- [Claude Code CLI](https://docs.anthropic.com/en/docs/claude-code) installed (`npm install -g @anthropic-ai/claude-code`)
+- Node.js 18+
+- Git
+
+### Step 1: Clone the Repo
 
 ```bash
 git clone https://github.com/coreymaypray/claude-skills-library.git
-cd claude-skills-library
-chmod +x install.sh
-./install.sh
 ```
 
-### Manual Install
+### Step 2: Register the Marketplace
 
-Copy plugins to your Claude Code local plugins directory:
+The plugins ship as a **local marketplace**. Register it with Claude Code:
 
 ```bash
-# Copy all plugin divisions
-cp -R plugins/* ~/.claude/plugins/local/
+claude plugin marketplace add /path/to/claude-skills-library/plugins
+```
 
-# Copy global skills
+This tells Claude Code where to find the Cyber Sloth Empire plugins. You'll see:
+
+```
+✔ Successfully added marketplace: cyber-sloth-empire (declared in user settings)
+```
+
+### Step 3: Install All Plugins
+
+Install each plugin division:
+
+```bash
+claude plugin install cyber-sloth-suite@cyber-sloth-empire --scope user
+claude plugin install cyber-sloth-engineering@cyber-sloth-empire --scope user
+claude plugin install cyber-sloth-design@cyber-sloth-empire --scope user
+claude plugin install cyber-sloth-marketing@cyber-sloth-empire --scope user
+claude plugin install cyber-sloth-testing@cyber-sloth-empire --scope user
+claude plugin install cyber-sloth-gamedev@cyber-sloth-empire --scope user
+claude plugin install cyber-sloth-spatial@cyber-sloth-empire --scope user
+claude plugin install cyber-sloth-paid-media@cyber-sloth-empire --scope user
+claude plugin install cyber-sloth-product@cyber-sloth-empire --scope user
+claude plugin install cyber-sloth-project-mgmt@cyber-sloth-empire --scope user
+claude plugin install cyber-sloth-support@cyber-sloth-empire --scope user
+claude plugin install cyber-sloth-specialized@cyber-sloth-empire --scope user
+```
+
+Or install them all in one line:
+
+```bash
+for p in cyber-sloth-suite cyber-sloth-engineering cyber-sloth-design cyber-sloth-marketing cyber-sloth-testing cyber-sloth-gamedev cyber-sloth-spatial cyber-sloth-paid-media cyber-sloth-product cyber-sloth-project-mgmt cyber-sloth-support cyber-sloth-specialized; do claude plugin install "$p@cyber-sloth-empire" --scope user; done
+```
+
+### Step 4: Install Global Skills
+
+Copy the global skills (not tied to any plugin) to your Claude skills directory:
+
+```bash
+mkdir -p ~/.claude/skills
 cp -R skills/* ~/.claude/skills/
-
-# Enable plugins in Claude Code settings
-# Open ~/.claude/settings.json and add each plugin to the enabledPlugins array
 ```
 
-### Enable Plugins
+### Step 5: Restart Claude Code
 
-After copying, enable plugins in `~/.claude/settings.json`:
+Close and reopen Claude Code. All 12 plugins and their skills will be available.
 
-```json
-{
-  "enabledPlugins": {
-    "cyber-sloth-suite@local": { "version": "local" },
-    "cyber-sloth-engineering@local": { "version": "local" },
-    "cyber-sloth-design@local": { "version": "local" },
-    "cyber-sloth-marketing@local": { "version": "local" },
-    "cyber-sloth-testing@local": { "version": "local" },
-    "cyber-sloth-gamedev@local": { "version": "local" },
-    "cyber-sloth-spatial@local": { "version": "local" },
-    "cyber-sloth-paid-media@local": { "version": "local" },
-    "cyber-sloth-product@local": { "version": "local" },
-    "cyber-sloth-project-mgmt@local": { "version": "local" },
-    "cyber-sloth-support@local": { "version": "local" },
-    "cyber-sloth-specialized@local": { "version": "local" }
-  }
-}
-```
+### Verify Installation
+
+After restarting, run `/plugins` in Claude Code to see all installed plugins. You should see 12 Cyber Sloth divisions listed under the `cyber-sloth-empire` marketplace.
+
+---
 
 ## Usage
 
-Skills are invoked via the `Skill` tool in Claude Code or as slash commands:
+### Slash Commands
+
+The `cyber-sloth-suite` plugin includes 23 slash commands for common workflows:
 
 ```
-/threat-model [system name]
-/security-audit [target]
-/content-pipeline [topic]
-/sow [client name] [project type]
-/maycrest-page [page name]
+/sloth-command [describe any task]     # CEO routes to best skills
+/threat-model [system name]            # STRIDE + ATT&CK threat model
+/security-audit [target]               # Full security sweep
+/content-pipeline [topic]              # Hooks + article + video scripts
+/sow [client name] [project type]     # Statement of Work generator
+/full-stack-build [app description]    # Complete app build orchestration
+/rapid-prototype [idea]                # Zero to MVP fast
+/content-blitz [topic]                 # One topic, every platform
+/launch-campaign [product/service]     # Full marketing assault
+/maycrest-page [page name]            # Design a Maycrest web page
+/discovery-sprint [problem space]      # Product discovery workflow
+/performance-sweep [target]            # System optimization
+/ux-deep-dive [feature/app]           # Comprehensive UX audit
+/brand-voice [draft text]             # Voice consistency audit
+/brand-refresh [scope]                # Brand evolution strategy
+/client-delivery [client] [project]   # Scoping to sprint planning
+/client-onboarding [client name]      # New client zero-to-sixty
+/new-project [project name]           # Scaffold a new client app
+/code-review-pipeline [PR/code]       # Three-layer code quality gate
+/feedback-loop [feedback source]      # Feedback to product changes
+/infographic [topic]                  # Canva infographic builder
+/repurpose [content]                  # Cross-platform repurposing
+/dating-topic [topic]                 # Dating conversation content
+/threat-landscape [industry/org]      # Threat intelligence briefing
 ```
 
-Skills auto-trigger based on context (e.g., the `backend-database` skill activates when working with Supabase schemas).
+### Skill Invocation
+
+Skills are invoked automatically by Claude Code when context matches, or manually via the `Skill` tool:
+
+```
+# Direct skill invocation
+cyber-sloth-engineering:backend-architect
+cyber-sloth-design:ui-designer
+cyber-sloth-marketing:seo-specialist
+
+# Division dispatchers (don't know which skill? start here)
+cyber-sloth-engineering:division-lead
+cyber-sloth-design:division-lead
+```
+
+### Auto-Triggering
+
+Many skills activate automatically based on context. For example:
+- Working with Supabase schemas → `backend-database` activates
+- Writing a LinkedIn post → `article-writer` activates
+- Discussing threat models → `threat-detection-engineer` activates
+
+---
 
 ## Customization
 
 - **Voice personas**: Edit `plugins/cyber-sloth-suite/references/voice-personas.md`
 - **Session context**: Edit `plugins/cyber-sloth-suite/hooks/session-start/profile-context.md`
 - **Agent registry**: Edit `plugins/cyber-sloth-suite/references/agent-registry.md`
+
+## Updating
+
+Pull the latest changes and the marketplace auto-updates:
+
+```bash
+cd claude-skills-library
+git pull origin main
+```
+
+Then restart Claude Code. No reinstallation needed — the marketplace points to the repo directory.
 
 ## Tech Stack Context
 
