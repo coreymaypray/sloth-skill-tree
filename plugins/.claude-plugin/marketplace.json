@@ -1,0 +1,107 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "cyber-sloth-empire",
+  "description": "Cyber Sloth Empire — 120+ portable Claude Code skills, commands, and plugins",
+  "owner": {
+    "name": "Corey Maypray",
+    "email": "corey@maycrest.com"
+  },
+  "plugins": [
+    {
+      "name": "cyber-sloth-suite",
+      "description": "Sloth Flow core orchestrator — voice personas, brand tokens, agent registry, and cross-division workflow commands",
+      "version": "2.0.0",
+      "author": { "name": "Corey Maypray" },
+      "source": "./cyber-sloth-suite",
+      "category": "productivity"
+    },
+    {
+      "name": "cyber-sloth-engineering",
+      "description": "Engineering division — 13 agents for frontend, backend, mobile, AI, DevOps, security",
+      "version": "1.0.0",
+      "author": { "name": "Corey Maypray" },
+      "source": "./cyber-sloth-engineering",
+      "category": "development"
+    },
+    {
+      "name": "cyber-sloth-design",
+      "description": "Design division — UX/UI, brand, visual storytelling, inclusive design",
+      "version": "1.0.0",
+      "author": { "name": "Corey Maypray" },
+      "source": "./cyber-sloth-design",
+      "category": "productivity"
+    },
+    {
+      "name": "cyber-sloth-marketing",
+      "description": "Marketing division — SEO, social, TikTok, YouTube, Reddit, growth",
+      "version": "1.0.0",
+      "author": { "name": "Corey Maypray" },
+      "source": "./cyber-sloth-marketing",
+      "category": "productivity"
+    },
+    {
+      "name": "cyber-sloth-testing",
+      "description": "QA & testing division — API testing, accessibility, performance",
+      "version": "1.0.0",
+      "author": { "name": "Corey Maypray" },
+      "source": "./cyber-sloth-testing",
+      "category": "development"
+    },
+    {
+      "name": "cyber-sloth-gamedev",
+      "description": "Game dev division — Unity, Unreal, Godot, narrative, audio, level design",
+      "version": "1.0.0",
+      "author": { "name": "Corey Maypray" },
+      "source": "./cyber-sloth-gamedev",
+      "category": "development"
+    },
+    {
+      "name": "cyber-sloth-spatial",
+      "description": "XR/VisionOS division — spatial computing, Metal, XR architecture",
+      "version": "1.0.0",
+      "author": { "name": "Corey Maypray" },
+      "source": "./cyber-sloth-spatial",
+      "category": "development"
+    },
+    {
+      "name": "cyber-sloth-paid-media",
+      "description": "Paid media division — PPC, programmatic, paid social, tracking",
+      "version": "1.0.0",
+      "author": { "name": "Corey Maypray" },
+      "source": "./cyber-sloth-paid-media",
+      "category": "productivity"
+    },
+    {
+      "name": "cyber-sloth-product",
+      "description": "Product division — sprint prioritization, feedback, behavioral nudge",
+      "version": "1.0.0",
+      "author": { "name": "Corey Maypray" },
+      "source": "./cyber-sloth-product",
+      "category": "productivity"
+    },
+    {
+      "name": "cyber-sloth-project-mgmt",
+      "description": "Project management division — PM, Jira, studio ops, sprint planning",
+      "version": "1.0.0",
+      "author": { "name": "Corey Maypray" },
+      "source": "./cyber-sloth-project-mgmt",
+      "category": "productivity"
+    },
+    {
+      "name": "cyber-sloth-support",
+      "description": "Support & ops division — finance, legal, infrastructure, exec summaries",
+      "version": "1.0.0",
+      "author": { "name": "Corey Maypray" },
+      "source": "./cyber-sloth-support",
+      "category": "productivity"
+    },
+    {
+      "name": "cyber-sloth-specialized",
+      "description": "Specialized skills — compliance, analytics, developer advocacy, AI agents",
+      "version": "1.0.0",
+      "author": { "name": "Corey Maypray" },
+      "source": "./cyber-sloth-specialized",
+      "category": "productivity"
+    }
+  ]
+}
