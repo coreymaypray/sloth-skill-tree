@@ -249,6 +249,57 @@ A standalone career coaching skill with 8 reference documents. Not tied to any p
 
 ---
 
+## Dispatchers — Don't Know Which Skill? Start Here
+
+Every division has a **dispatcher** (division lead) that analyzes your task and routes you to the best specialist(s). And above them all sits the **CEO**.
+
+### `/dispatch` — The CEO (Chief Executive Orchestrator)
+
+The master router. Describe **any** task — the CEO assesses it strategically, identifies the best division(s) and skill(s), builds a phased execution plan, and gets your approval before running it.
+
+```
+/dispatch I need to build a booking app for a barbershop client
+/dispatch Help me market my cybersecurity consulting practice
+/dispatch I have user feedback and need to plan the next sprint
+/dispatch I honestly don't know where to start
+```
+
+The CEO thinks like an executive: understands the real goal behind the surface ask, picks the minimum viable team, sequences work for impact, and adapts the plan as execution reveals new information.
+
+### Division Dispatchers
+
+If you already know which division you need but not which specialist, invoke the division dispatcher directly:
+
+| Division | Dispatcher Skill | What It Does |
+|----------|-----------------|-------------|
+| **Engineering** | `cyber-sloth-engineering:dispatch` | Routes to the right engineer (backend, frontend, mobile, DevOps, security, AI, data, etc.) |
+| **Design** | `cyber-sloth-design:dispatch` | Routes to the right designer (UI, UX, brand, accessibility, visual storytelling, etc.) |
+| **Marketing** | `cyber-sloth-marketing:dispatch` | Routes to the right marketer (SEO, social, TikTok, YouTube, Reddit, growth, etc.) |
+| **Testing** | `cyber-sloth-testing:dispatch` | Routes to the right QA specialist (API testing, accessibility, performance, etc.) |
+| **Game Dev** | `cyber-sloth-gamedev:dispatch` | Routes to the right game dev (Unity, Unreal, Godot, narrative, audio, etc.) |
+| **Spatial** | `cyber-sloth-spatial:dispatch` | Routes to the right spatial dev (visionOS, WebXR, Metal, cockpit UI, etc.) |
+| **Paid Media** | `cyber-sloth-paid-media:dispatch` | Routes to the right ad specialist (PPC, paid social, programmatic, tracking, etc.) |
+| **Product** | `cyber-sloth-product:dispatch` | Routes to the right product skill (prioritization, feedback, behavioral design, trends) |
+| **Project Mgmt** | `cyber-sloth-project-mgmt:dispatch` | Routes to the right PM (project planning, Jira, client comms, studio ops, etc.) |
+| **Support** | `cyber-sloth-support:dispatch` | Routes to the right ops skill (finance, compliance, infra, analytics, etc.) |
+| **Specialized** | `cyber-sloth-specialized:dispatch` | Routes to niche specialists (AP, orchestration, compliance, data, DevRel, model QA, etc.) |
+
+### How It Works
+
+```
+You: /dispatch I need to improve our app's retention
+
+CEO analyzes → Product Division + Design Division
+├── Phase 1: feedback-synthesizer → understand current churn signals
+├── Phase 2: behavioral-nudge → design engagement loops
+├── Phase 3: ux-architect → restructure onboarding flow
+└── Phase 4: reality-checker → validate the changes
+
+CEO presents plan → You approve/modify → Execution begins
+```
+
+---
+
 ## Repository Structure
 
 ```
