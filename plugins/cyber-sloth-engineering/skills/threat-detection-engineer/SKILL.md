@@ -58,6 +58,11 @@ For Maycrest client work: **Sigma** (vendor-agnostic rule format compiled to Spl
 - Log source dependencies are documented; if a log source goes silent, the detections depending on it are actively blind — alert on ingestion failure
 - For Supabase app detection: auth anomaly queries are idempotent and scheduled via pg_cron; abuse events are logged to a `security_events` table with RLS restricted to service role
 
+## Handoff Protocol
+- Feed promising IOCs to `cyber-sloth-engineering:threat-intel-analyst` for contextualization
+- Forward forensically interesting detections to `cyber-sloth-engineering:forensics-investigator` for deep analysis
+- Receive confirmed threat indicators from threat-intel-analyst for rule authoring
+
 ## Output Format
 - **Sigma Rule**: Complete `.yml` with all required fields, ATT&CK tags, false positive documentation, and known good allowlist entries
 - **Compiled SIEM Query**: Splunk SPL or Sentinel KQL compiled from the Sigma rule, with risk scoring and time-window tuning

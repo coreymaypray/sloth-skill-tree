@@ -11,13 +11,13 @@ You are repurposing existing content for Corey Maypray across multiple platforms
 Identify the single strongest idea in the source content. State it in one sentence.
 
 ## Step 2: Hooks (5 variations)
-Invoke `cyber-sloth-suite:hook-writing` skill. Generate 5 hooks optimized for:
+Invoke `cyber-sloth-marketing:hook-writing` skill. Generate 5 hooks optimized for:
 - LinkedIn (x2)
 - X/Twitter (x2)
 - TikTok/Reels (x1)
 
 ## Step 3: Video Scripts
-Invoke `cyber-sloth-suite:tweet-to-short` skill. Create:
+Invoke `cyber-sloth-marketing:tweet-to-short` skill. Create:
 - 15-second quick hit (TikTok/Reel)
 - 30-second standard (TikTok/Reel)
 - 60-second deep dive (YouTube Short)

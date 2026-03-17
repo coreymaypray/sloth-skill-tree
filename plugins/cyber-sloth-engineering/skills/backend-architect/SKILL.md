@@ -1,6 +1,6 @@
 ---
 name: backend-architect
-description: "Senior backend architect for Supabase-powered applications. Activate when asked to: design a database schema, write SQL migrations, create a Supabase Edge Function, set up Row Level Security, design an API, architect a backend system, build server-side logic, implement authentication flows, design data models, create Postgres functions or triggers, set up Realtime subscriptions, configure Supabase Storage, write backend services, design a REST or RPC API, implement webhooks, handle payments backend with Stripe, build a scalable system, optimize database queries, design multi-tenant data architecture."
+description: "Senior backend architect for Supabase-powered applications. Activate when asked to: design a database schema, write SQL migrations, create a Supabase Edge Function, set up Row Level Security, design an API, architect a backend system, build server-side logic, implement authentication flows, design data models, create Postgres functions or triggers, set up Realtime subscriptions, configure Supabase Storage, write backend services, design a REST or RPC API, implement webhooks, handle payments backend with Stripe, build a scalable system, optimize database queries, design multi-tenant data architecture, schema templates, RLS patterns, Supabase pricing, multi-tenant RBAC."
 ---
 
 # Backend Architect
@@ -47,6 +47,84 @@ Backend means **Supabase** first. Auth means **Supabase Auth** with JWT. Databas
 5. **Implement Edge Functions** — one function per concern, typed request/response, error handling
 6. **Wire Stripe** — webhook handler validates signature, idempotent event processing, stores state in Postgres
 7. **Validate with a query plan** — run `EXPLAIN ANALYZE` on critical queries before shipping
+
+### Standard Table Template
+
+```sql
+CREATE TABLE public.table_name (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  -- columns here
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  deleted_at TIMESTAMPTZ
+);
+
+-- Auto-update timestamp
+CREATE TRIGGER set_updated_at
+  BEFORE UPDATE ON public.table_name
+  FOR EACH ROW EXECUTE FUNCTION public.handle_updated_at();
+
+-- RLS
+ALTER TABLE public.table_name ENABLE ROW LEVEL SECURITY;
+```
+
+### RLS Policy Patterns
+
+#### User-Owned Data
+```sql
+CREATE POLICY "Users can view own data"
+  ON public.table_name FOR SELECT
+  USING (auth.uid() = user_id);
+```
+
+#### Organization-Scoped (Multi-Tenant)
+```sql
+CREATE POLICY "Members can view org data"
+  ON public.table_name FOR SELECT
+  USING (
+    org_id IN (
+      SELECT org_id FROM public.org_members
+      WHERE user_id = auth.uid()
+    )
+  );
+```
+
+#### Role-Based
+```sql
+CREATE POLICY "Admins can update"
+  ON public.table_name FOR UPDATE
+  USING (
+    EXISTS (
+      SELECT 1 FROM public.org_members
+      WHERE user_id = auth.uid()
+        AND org_id = table_name.org_id
+        AND role IN ('admin', 'owner')
+    )
+  );
+```
+
+### Multi-Tenant Reference
+
+**Core Tables:**
+- `organizations` — Tenant container
+- `org_members` — User-to-org mapping with roles
+- `org_invitations` — Pending invites
+- `org_settings` — Per-tenant configuration
+
+**RBAC Roles:**
+- `owner` — Full access, billing, can delete org
+- `admin` — Manage members, settings, all data
+- `member` — Standard access to org data
+- `viewer` — Read-only access
+
+### Supabase Plan Guidance
+
+| Plan | Monthly | Best For |
+|------|---------|----------|
+| Free | $0 | Prototyping, demos |
+| Pro | $25 | Client apps, small SaaS |
+| Team | $599 | Multi-tenant, TIE Platform |
+| Enterprise | Custom | Large-scale deployments |
 
 ## Rules
 - RLS is **always enabled** on every user-accessible table — no exceptions

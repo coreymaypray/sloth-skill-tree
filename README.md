@@ -1,6 +1,6 @@
 # 🦥 Sloth Skill Tree
 
-*The Cyber Sloth Empire's portable Claude Code brain — 120+ skills, commands, and plugins in one repo.*
+*The Cyber Sloth Empire's portable Claude Code brain — 106 skills, commands, and plugins in one repo.*
 
 Built by [Corey Maypray](https://github.com/coreymaypray) for the **Cyber Sloth Empire** / **Maycrest** ecosystem. Clone it, install it, and your Claude Code instance inherits the full empire.
 
@@ -8,21 +8,21 @@ Built by [Corey Maypray](https://github.com/coreymaypray) for the **Cyber Sloth 
 
 | Division | Skills | Focus |
 |----------|--------|-------|
-| **cyber-sloth-suite** | 9 skills, 23 commands | Core orchestrator — content, security, client delivery |
-| **cyber-sloth-engineering** | 12 skills | Security, backend, frontend, DevOps, AI, mobile |
-| **cyber-sloth-design** | 8 skills | UX/UI, brand, visual storytelling, inclusive design |
-| **cyber-sloth-marketing** | 10 skills | SEO, social, TikTok, YouTube, Reddit, growth |
-| **cyber-sloth-specialized** | 9 skills | Compliance, analytics, developer advocacy, AI agents |
-| **cyber-sloth-gamedev** | 8 skills | Unity, Unreal, Godot, narrative, audio, level design |
-| **cyber-sloth-testing** | 8 skills | API testing, accessibility, performance, QA |
-| **cyber-sloth-paid-media** | 7 skills | PPC, programmatic, paid social, tracking |
-| **cyber-sloth-spatial** | 6 skills | VisionOS, XR, Metal, spatial computing |
-| **cyber-sloth-project-mgmt** | 6 skills | PM, Jira, studio ops, sprint planning |
-| **cyber-sloth-support** | 6 skills | Finance, legal, infrastructure, exec summaries |
-| **cyber-sloth-product** | 4 skills | Sprint prioritization, feedback, behavioral nudge |
+| **cyber-sloth-suite** | 5 skills, 23 commands | Core orchestrator — CEO, CoS, commits, web design |
+| **cyber-sloth-engineering** | 18 skills | Security, backend, frontend, DevOps, AI, threat intel, forensics |
+| **cyber-sloth-design** | 10 skills | UX/UI, brand, visual storytelling, inclusive design, infographics |
+| **cyber-sloth-marketing** | 15 skills | SEO, social, TikTok, YouTube, Reddit, growth, content |
+| **cyber-sloth-specialized** | 8 skills | Agent orchestration, developer advocacy, data, compliance |
+| **cyber-sloth-gamedev** | 9 skills | Unity, Unreal, Godot, narrative, audio, level design |
+| **cyber-sloth-testing** | 7 skills | API testing, accessibility, performance, QA |
+| **cyber-sloth-paid-media** | 8 skills | PPC, programmatic, paid social, tracking, creative |
+| **cyber-sloth-spatial** | 7 skills | VisionOS, XR, Metal, spatial computing |
+| **cyber-sloth-project-mgmt** | 7 skills | PM, Jira, studio ops, sprint planning |
+| **cyber-sloth-support** | 6 skills | Finance, infrastructure, analytics, exec summaries |
+| **cyber-sloth-product** | 5 skills | Sprint prioritization, feedback, behavioral nudge, trends |
 | **resume-career-coach** | 1 skill + 8 refs | Resume, cover letter, LinkedIn, interview prep |
 
-**Total: 101 plugin skills + 23 commands + 1 global skill + 8 reference docs**
+**Total: 106 plugin skills + 23 commands + 1 global skill + 8 reference docs**
 
 ---
 
@@ -34,16 +34,11 @@ The command center. This plugin contains the primary workflow skills, 23 slash c
 
 | Skill | What It Does |
 |-------|-------------|
-| **article-writer** | Writes long-form articles, LinkedIn newsletters, and thought leadership pieces. Adapts to Nexus (cybersecurity), Cyber Sloth Empire (consulting), or Personal voice. |
-| **backend-database** | Designs PostgreSQL/Supabase schemas, writes migrations, sets up Row Level Security policies, and optimizes queries. Your go-to for any database work. |
-| **backend-infrastructure** | Full backend setup — Vercel config, Apple sign-in, environment variables, webhooks, Edge Functions, and deployment pipelines. |
+| **sloth-command** | The CEO — strategic task routing across all 12 divisions. Analyzes goals, assembles teams, sequences execution. |
+| **chief-of-staff** | Operational coordinator — tracks cross-division work, maintains context, handles follow-ups. |
 | **black-dating-convo** | Generates culturally-grounded dating and relationship conversation content. Authentic voice, no corporate polish. |
-| **canva-infographic-builder** | Step-by-step guide for building professional tech/cybersecurity infographics in Canva with the Cyber Sloth dark-mode aesthetic. |
-| **cyber-sloth-app-dev** | Full application development lifecycle — from architecture planning to design systems to shipping. Covers Expo, Supabase, Stripe, the whole stack. |
-| **hook-writing** | Writes scroll-stopping hooks, opening lines, headlines, email subject lines, and video intros that grab attention. |
 | **maycrest-web-design** | Comprehensive web design strategy for the Maycrest brand — UI/UX patterns, landing pages, color system, component specs. |
 | **sloth-commit** | Commits and pushes Claude Code memory to GitHub. Keeps your agent memory synced across machines. |
-| **tweet-to-short** | Converts tweets, LinkedIn posts, or short-form text into TikTok/Reels/Shorts video scripts with hooks, talking points, and CTAs. |
 
 **23 Slash Commands** include: `/threat-model`, `/security-audit`, `/content-pipeline`, `/sow`, `/maycrest-page`, `/content-blitz`, `/launch-campaign`, `/full-stack-build`, `/rapid-prototype`, `/discovery-sprint`, `/performance-sweep`, `/ux-deep-dive`, `/brand-voice`, `/brand-refresh`, `/client-delivery`, `/client-onboarding`, `/new-project`, `/code-review-pipeline`, `/feedback-loop`, `/infographic`, `/repurpose`, `/dating-topic`, `/threat-landscape`
 
@@ -51,33 +46,38 @@ The command center. This plugin contains the primary workflow skills, 23 slash c
 
 ### cyber-sloth-engineering — Engineering Division
 
-The builders. 12 specialist agents covering every layer of the stack, from threat detection to mobile shipping.
+The builders. 18 specialist agents covering every layer of the stack, from threat intelligence to mobile shipping.
 
 | Skill | What It Does |
 |-------|-------------|
 | **ai-engineer** | Builds intelligent features — Claude API integration, RAG systems, chatbots, AI-powered search, prompt engineering, and LLM cost optimization. |
 | **backend-architect** | Senior Supabase architect — database schemas, Edge Functions, RLS policies, API design, multi-tenant patterns, and performance tuning. |
+| **cloud-security-architect** | Cloud security posture — AWS/Azure/GCP audit, IAM review, S3 bucket policies, network segmentation, and cloud-native hardening. |
+| **compliance-auditor** | Deep compliance auditing — SOC 2, GDPR, HIPAA, PCI-DSS, ISO 27001 gap analysis, evidence collection, and remediation tracking. |
 | **data-engineer** | Designs analytics pipelines, aggregation queries, reporting backends, and dashboard data layers on Supabase Postgres. |
 | **devops-automator** | CI/CD pipelines, GitHub Actions, EAS Build workflows, Vercel deployment config, environment management, and automated testing gates. |
-| **frontend-developer** | React Native (Expo) and Next.js development — components, NativeWind styling, navigation flows, state management, and responsive layouts. |
+| **forensics-investigator** | Digital forensics — disk imaging, memory analysis with Volatility, browser forensics, artifact extraction, and evidence chain of custody. |
+| **frontend-developer** | React Native (Expo) and Next.js development — components, NativeWind styling, navigation flows, state management, and responsive layouts. Also handles mobile app building (Expo, EAS Build, push notifications, app store submission). |
 | **incident-response-commander** | Production incident management — outage response, on-call rotations, post-mortems, SLO/SLI definition, and reliability engineering. |
-| **mobile-app-builder** | Expo specialist — React Native screens, push notifications, EAS Build config, deep linking, native modules, and app store submission. |
+| **offensive-security-engineer** | Red team operations — penetration testing, exploit validation, attack simulation, and offensive security assessments. |
 | **optimization-architect** | AI cost governance — circuit breakers, LLM routing, model shadow testing, token budgets, and Anthropic API cost reduction strategies. |
 | **rapid-prototyper** | Zero to MVP fast. Proof of concepts, quick demos, validation prototypes. Speed over polish. |
 | **security-engineer** | Application security — vulnerability audits, RLS review, authentication hardening, OWASP checks, and security issue remediation. |
 | **senior-developer** | Full-stack code quality — reviews, refactoring, complex feature implementation, testing strategy, and architectural decisions. |
 | **technical-writer** | Developer docs — READMEs, API documentation, tutorials, runbooks, and Supabase schema documentation. |
 | **threat-detection-engineer** | Security operations — SIEM detection rules, Sigma rules, ATT&CK coverage mapping, alert tuning, and threat hunting queries. |
+| **threat-intel-analyst** | Threat intelligence — APT analysis, campaign attribution, MISP integration, CTI reports, and threat landscape assessment. |
 
 ---
 
 ### cyber-sloth-design — Design Division
 
-The visual identity crew. 8 skills for UX, UI, branding, and making everything look like it belongs in the Cyber Sloth universe.
+The visual identity crew. 10 skills for UX, UI, branding, and making everything look like it belongs in the Cyber Sloth universe.
 
 | Skill | What It Does |
 |-------|-------------|
 | **brand-guardian** | Protects brand consistency across all touchpoints — audits drafts, enforces guidelines, reviews logos, and maintains identity coherence. |
+| **canva-infographic-builder** | Step-by-step guide for building professional tech/cybersecurity infographics in Canva with the Cyber Sloth dark-mode aesthetic. |
 | **image-prompt-engineer** | Crafts AI image prompts for DALL-E, Midjourney, and generative AI tools. Produces campaign visuals, marketing images, and brand-aligned art. |
 | **inclusive-visuals** | Accessibility specialist — WCAG compliance, color contrast validation, inclusive representation, and bias-free AI-generated imagery. |
 | **ui-designer** | Pixel-perfect interfaces — design systems, component libraries, dark mode implementations, mobile UI specs, and Figma-to-code translation. |
@@ -90,19 +90,22 @@ The visual identity crew. 8 skills for UX, UI, branding, and making everything l
 
 ### cyber-sloth-marketing — Marketing Division
 
-The growth engine. 10 skills covering every platform from LinkedIn to TikTok.
+The growth engine. 15 skills covering every platform from LinkedIn to TikTok.
 
 | Skill | What It Does |
 |-------|-------------|
 | **app-store-optimizer** | App Store Optimization — keyword research, listing copy, screenshot strategy, and download conversion improvement. |
+| **article-writer** | Writes long-form articles, LinkedIn newsletters, and thought leadership pieces. Adapts to Nexus, Cyber Sloth Empire, or Personal voice. |
 | **carousel-engine** | Generates swipeable carousel content for LinkedIn and Instagram — slide structure, copy, visual direction, and CTAs. |
 | **content-creator** | Content strategist — editorial calendars, content pillars, blog posts, video scripts, and cross-platform content planning. |
 | **growth-hacker** | Growth experiments — audience building, funnel optimization, conversion rate improvement, and channel identification. |
+| **hook-writing** | Writes scroll-stopping hooks, opening lines, headlines, email subject lines, and video intros that grab attention. |
 | **instagram-curator** | Instagram strategy — feed aesthetics, caption writing, Reels strategy, hashtag research, and visual brand consistency. |
 | **reddit-builder** | Reddit community strategy — subreddit identification, engagement tactics, post crafting, and authentic community presence. |
 | **seo-specialist** | Search engine optimization — keyword research, technical SEO audits, content optimization, backlink strategy, and ranking improvement. |
 | **social-strategist** | Cross-platform social strategy — LinkedIn, X, Instagram, TikTok playbooks, content calendars, and campaign coordination. |
 | **tiktok-strategist** | TikTok and Reels strategy — trend identification, video scripting, hook optimization, and short-form growth tactics. |
+| **tweet-to-short** | Converts tweets, LinkedIn posts, or short-form text into TikTok/Reels/Shorts video scripts with hooks, talking points, and CTAs. |
 | **twitter-engager** | X/Twitter thought leadership — tweet writing, thread creation, engagement tactics, hot takes, and cybersecurity commentary. |
 | **youtube-strategist** | YouTube strategy — content planning, video scripting, thumbnail design, SEO optimization, and subscriber growth. |
 
@@ -110,24 +113,22 @@ The growth engine. 10 skills covering every platform from LinkedIn to TikTok.
 
 ### cyber-sloth-testing — QA & Testing Division
 
-The quality gate. 8 skills that catch problems before your users do.
+The quality gate. 7 skills that catch problems before your users do.
 
 | Skill | What It Does |
 |-------|-------------|
 | **accessibility-auditor** | WCAG 2.2 compliance auditing — screen reader testing, keyboard navigation, color contrast analysis, and ARIA validation. |
 | **api-tester** | API validation — Supabase endpoint testing, Edge Function verification, auth flow testing, rate limit checks, and security scanning. |
-| **evidence-collector** | Screenshot-obsessed QA — visual regression testing, Expo simulator captures, Vercel preview review, and UI evidence collection. |
 | **performance-benchmarker** | Performance measurement — app startup time, render performance, Supabase query benchmarks, bundle size analysis, and optimization recs. |
 | **reality-checker** | Deployment readiness certification — integration testing, cross-validation, release gates, and production certification. Stops fantasy approvals. |
-| **test-results-analyzer** | Test output analysis — Jest interpretation, CI failure investigation, coverage gap identification, and flaky test detection. |
-| **tool-evaluator** | Testing tool evaluation — framework comparison (Detox vs Maestro, etc.), library assessment, and CI/CD tool recommendations. |
-| **workflow-optimizer** | CI/CD and testing workflow optimization — pipeline speed, GitHub Actions improvements, flaky test elimination, and developer experience. |
+| **test-analyzer** | Test output analysis and evidence collection — Jest interpretation, CI failure investigation, visual regression testing, coverage gaps, and QA evidence. |
+| **workflow-optimizer** | CI/CD and testing workflow optimization — pipeline speed, GitHub Actions improvements, tool evaluation, flaky test elimination, and developer experience. |
 
 ---
 
 ### cyber-sloth-gamedev — Game Dev Division
 
-The game builders. 8 skills for any engine, any genre.
+The game builders. 9 skills for any engine, any genre.
 
 | Skill | What It Does |
 |-------|-------------|
@@ -144,7 +145,7 @@ The game builders. 8 skills for any engine, any genre.
 
 ### cyber-sloth-spatial — XR & Spatial Computing Division
 
-The spatial pioneers. 6 skills for Vision Pro, WebXR, and immersive interfaces.
+The spatial pioneers. 7 skills for Vision Pro, WebXR, and immersive interfaces.
 
 | Skill | What It Does |
 |-------|-------------|
@@ -159,7 +160,7 @@ The spatial pioneers. 6 skills for Vision Pro, WebXR, and immersive interfaces.
 
 ### cyber-sloth-paid-media — Paid Media Division
 
-The ad spend optimizers. 7 skills for getting ROI from every dollar.
+The ad spend optimizers. 8 skills for getting ROI from every dollar.
 
 | Skill | What It Does |
 |-------|-------------|
@@ -175,7 +176,7 @@ The ad spend optimizers. 7 skills for getting ROI from every dollar.
 
 ### cyber-sloth-product — Product Division
 
-The prioritizers. 4 skills for knowing what to build and why.
+The prioritizers. 5 skills for knowing what to build and why.
 
 | Skill | What It Does |
 |-------|-------------|
@@ -188,7 +189,7 @@ The prioritizers. 4 skills for knowing what to build and why.
 
 ### cyber-sloth-project-mgmt — Project Management Division
 
-The organizers. 6 skills for keeping client work and studio ops on track.
+The organizers. 7 skills for keeping client work and studio ops on track.
 
 | Skill | What It Does |
 |-------|-------------|
@@ -211,22 +212,19 @@ The operators. 6 skills for keeping the lights on and the money flowing.
 | **exec-summary** | Executive summaries — board reports, leadership briefs, client summaries, quarterly business reviews, and decision-ready documentation. |
 | **finance-tracker** | Financial tracking — Stripe revenue monitoring, invoice management, project P&L, monthly finance reports, and outstanding payment tracking. |
 | **infra-maintainer** | Infrastructure health — Supabase monitoring, Vercel deployment status, EAS build troubleshooting, database performance, and infra audits. |
-| **legal-compliance** | Compliance management — GDPR reviews, privacy policies, SOC2 readiness, data handling audits, and user data rights enforcement. |
 | **support-responder** | Client and end-user support — ticket resolution, troubleshooting, customer complaints, login issues, and support request handling. |
 
 ---
 
 ### cyber-sloth-specialized — Specialized Skills
 
-The specialists. 9 niche skills for specific operational needs.
+The specialists. 8 niche skills for specific operational needs.
 
 | Skill | What It Does |
 |-------|-------------|
 | **accounts-payable** | Stripe invoicing and vendor management — contractor payments, bill processing, invoice creation, and payment automation. |
 | **agents-orchestrator** | Multi-agent pipeline conductor — coordinates multiple Sloth Flow agents, spawns parallel workflows, and manages complex automation chains. |
-| **compliance-auditor** | Deep compliance auditing — SOC 2, GDPR, HIPAA, PCI-DSS, ISO 27001 gap analysis, evidence collection, and remediation tracking. |
 | **cultural-intelligence** | Cross-cultural content adaptation — localization, inclusive design audits, internationalization, global audience targeting, and invisible exclusion detection. |
-| **data-analytics** | Business analytics — Supabase data analysis, Stripe revenue reporting, dashboard creation, and metric tracking. |
 | **data-consolidation** | ETL and data integration — source aggregation, data pipeline construction, cleaning, merging, and cross-system consolidation. |
 | **developer-advocate** | DevRel — developer community building, DX audits, tutorial writing, onboarding experience optimization, and developer education. |
 | **model-qa** | LLM quality assurance — Claude model testing, prompt evaluation, AI output auditing, response quality benchmarking, and regression testing. |
@@ -310,7 +308,7 @@ sloth-skill-tree/
 │   ├── cyber-sloth-suite/            # Core orchestrator
 │   │   ├── .claude-plugin/plugin.json
 │   │   ├── commands/                 # 23 slash commands
-│   │   ├── skills/                   # 9 core skills
+│   │   ├── skills/                   # 5 core skills
 │   │   ├── hooks/                    # Session startup hooks
 │   │   └── references/               # Voice personas, agent registry
 │   ├── cyber-sloth-engineering/      # Engineering division

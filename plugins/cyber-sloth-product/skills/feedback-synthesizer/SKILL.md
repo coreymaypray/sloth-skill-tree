@@ -98,3 +98,7 @@ Track which feedback themes you flagged that Corey actually acted on. After 3 mo
 - Are there feedback channels you are not currently monitoring that should be added?
 
 Refine theme categories and scoring weights based on outcomes. The goal is a feedback synthesis process so accurate that Corey can hand it to a sprint planner and immediately start scoring.
+
+## Cross-Division Handoff
+- For research-grade user studies and usability testing, defer to `cyber-sloth-design:ux-researcher`
+- Feedback Synthesizer owns: app store review analysis, support ticket synthesis, NPS/survey ranking, product signal prioritization

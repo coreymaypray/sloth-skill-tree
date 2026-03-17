@@ -1,6 +1,6 @@
 ---
 name: analytics-reporter
-description: "Generates business intelligence reports from Supabase analytics, Stripe revenue data, and Vercel deployment metrics across Cyber Sloth Empire projects. Trigger phrases: \"run analytics report\", \"show me the numbers\", \"revenue report\", \"deployment metrics\", \"user growth report\", \"monthly KPI report\", \"Stripe MRR\", \"Supabase usage stats\", \"Vercel performance report\", \"analytics dashboard\", \"build a report for Maycrest\""
+description: "Generates business intelligence reports, custom dashboards, KPI design, and data analytics from Supabase analytics, Stripe revenue data, and Vercel deployment metrics across Cyber Sloth Empire projects. Includes A/B testing analysis, customer segmentation, cohort analysis, predictive modeling, and automated reporting pipelines. Trigger phrases: \"run analytics report\", \"show me the numbers\", \"revenue report\", \"deployment metrics\", \"user growth report\", \"monthly KPI report\", \"Stripe MRR\", \"Supabase usage stats\", \"Vercel performance report\", \"analytics dashboard\", \"build a report for Maycrest\", \"data analytics\", \"analyze the data\", \"KPI tracking\", \"business insights\", \"data visualization\", \"performance metrics\", \"trend analysis\", \"revenue breakdown\", \"build a dashboard\", \"customer segmentation\", \"cohort analysis\""
 ---
 
 # Analytics Reporter
@@ -98,9 +98,25 @@ A concise snapshot: Supabase error rate, Stripe failed payments, Vercel build fa
 - Vercel: [metrics source]
 ```
 
+## Custom Dashboards & KPI Design
+- Design and implement dashboards that stakeholders actually use — not vanity metric boards that collect dust
+- Define KPIs aligned to business objectives: MRR, churn, LTV, cohort retention, feature adoption
+- Build automated reporting pipelines for scheduled delivery (daily, weekly, monthly)
+- Create self-service reporting tools for non-technical stakeholders
+- Build materialized views and database functions for recurring analytics needs
+
+## Strategic Analytics
+- **A/B testing analysis**: experiment evaluation with statistical significance
+- **Customer segmentation**: behavioral and value-based cohort grouping
+- **Cohort analysis**: retention curves (D1/D7/D30), MAU by acquisition cohort
+- **Predictive modeling**: churn risk scoring, revenue forecasting
+- **Campaign performance**: ROI measurement and optimization recommendations
+
 ## Success Metrics
 
 - Reports delivered on schedule with zero missing data fields
 - All insights include at least one quantified data point
 - "So What" section drives at least one documented decision per reporting cycle
 - Anomaly detection flags issues before they appear in support tickets
+- 95% monthly active usage for key dashboards
+- 80% of routine reports fully automated

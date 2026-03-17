@@ -9,7 +9,7 @@ You are running the Cyber Sloth Empire's content factory at full tilt. One topic
 
 ## Stage 1: Hook Generation
 
-Invoke the `cyber-sloth-suite:hook-writing` skill. Generate attention-grabbers:
+Invoke the `cyber-sloth-marketing:hook-writing` skill. Generate attention-grabbers:
 - 10 hooks across LinkedIn, X, and TikTok/Reels styles
 - Rank the top 3 by stopping power
 - Identify which hook works best for which platform
@@ -17,7 +17,7 @@ Invoke the `cyber-sloth-suite:hook-writing` skill. Generate attention-grabbers:
 
 ## Stage 2: Long-Form Article
 
-Invoke the `cyber-sloth-suite:article-writer` skill. Write the anchor piece:
+Invoke the `cyber-sloth-marketing:article-writer` skill. Write the anchor piece:
 - 800-1500 word article using the strongest hook as the opener
 - Structure for both readability and SEO
 - Include 2-3 quotable one-liners (these feed the short-form content)
@@ -26,7 +26,7 @@ Invoke the `cyber-sloth-suite:article-writer` skill. Write the anchor piece:
 
 ## Stage 3: Short-Form Video Scripts
 
-Invoke the `cyber-sloth-suite:tweet-to-short` skill. Create video content:
+Invoke the `cyber-sloth-marketing:tweet-to-short` skill. Create video content:
 - 15-second TikTok/Reel script (the hot take version)
 - 30-second TikTok/Reel script (the story version)
 - 60-second YouTube Short script (the teach version)

@@ -1,6 +1,6 @@
 ---
 name: workflow-optimizer
-description: "Workflow Optimizer — analyzes, streamlines, and automates testing and development workflows for maximum velocity. Trigger this skill when you need CI/CD pipeline optimization, GitHub Actions workflow improvement, test suite speed improvement, flaky test elimination, developer workflow streamlining, automation opportunity identification, process bottleneck analysis, pre-commit hook setup, testing pipeline design, or development feedback loop acceleration. Finds the bottleneck, fixes the process, automates the rest."
+description: "Workflow Optimizer — analyzes, streamlines, and automates testing and development workflows for maximum velocity. Trigger this skill when you need CI/CD pipeline optimization, GitHub Actions workflow improvement, test suite speed improvement, flaky test elimination, developer workflow streamlining, automation opportunity identification, process bottleneck analysis, pre-commit hook setup, testing pipeline design, development feedback loop acceleration, tool evaluation, testing library comparison, tool benchmarking, framework selection, or technology adoption recommendation. Finds the bottleneck, fixes the process, picks the right tools, automates the rest."
 ---
 
 # Workflow Optimizer
@@ -178,6 +178,53 @@ module.exports = {
 - E2E tests should be gated behind conditions — not run on every commit
 - Caching is almost always worth the complexity — uncached `npm install` is a known expensive step
 - Flaky tests must be quarantined and tracked, not silently retried
+
+## Tool Evaluation
+
+When a workflow optimization requires choosing or replacing a tool, apply structured evaluation:
+
+### Structured Tool Comparison
+- Score tools against weighted criteria specific to the stack: Expo compatibility (25%), DX/ease of use (20%), CI integration (20%), community/maintenance (15%), performance (10%), cost (10%)
+- Research community health: GitHub stars, open issues, last commit, npm download trends
+- Assess hidden costs: migration effort, CI setup complexity, learning curve, ongoing maintenance
+- Test tools with representative code where possible -- measure setup time, authoring DX, and CI run time
+
+### Common Comparison Categories
+- **E2E Testing**: Detox vs. Maestro vs. Appium for Expo React Native
+- **Unit/Integration**: Jest vs. Vitest for React Native
+- **Web E2E**: Playwright vs. Cypress vs. Puppeteer for Vercel preview
+- **Visual Regression**: Chromatic vs. Percy vs. Playwright screenshots
+- **CI**: GitHub Actions vs. CircleCI vs. Bitrise for React Native builds
+- **Performance**: Lighthouse CI vs. WebPageTest vs. Calibre
+
+### TCO & Risk Analysis
+- Licensing cost, setup time to first useful test in CI, learning curve, maintenance burden
+- Vendor/project abandonment risk (community health, funding, corporate backing)
+- Expo SDK upgrade compatibility risk and lock-in risk
+- Migration cost if replacing an existing tool
+
+### Scoring Matrix
+```markdown
+| Criterion | Weight | Tool A | Tool B | Tool C |
+|-----------|--------|--------|--------|--------|
+| Expo compatibility | 25% | X/10 | X/10 | X/10 |
+| DX / ease of use | 20% | X/10 | X/10 | X/10 |
+| CI integration | 20% | X/10 | X/10 | X/10 |
+| Community health | 15% | X/10 | X/10 | X/10 |
+| Performance | 10% | X/10 | X/10 | X/10 |
+| Cost (TCO) | 10% | X/10 | X/10 | X/10 |
+| **Weighted Total** | | **X.X** | **X.X** | **X.X** |
+```
+
+### Tool Evaluation Rules
+- Expo compatibility is a hard requirement for mobile tooling -- a tool that requires ejecting is disqualified
+- Score every tool against the same criteria -- no cherry-picking
+- Include setup complexity -- a powerful tool with 3-day setup is not practical for a solo developer
+- Always include TCO analysis -- free tools can have high hidden costs
+- State confidence level -- if the hands-on test was limited, say so
+- Provide a migration plan if replacing an existing tool, with re-evaluation triggers
+
+---
 
 ## Output Format
 

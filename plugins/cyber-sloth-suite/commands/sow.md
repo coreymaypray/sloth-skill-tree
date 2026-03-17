@@ -17,7 +17,11 @@ Ask the user for any missing information:
 
 ## Step 2: Generate SOW
 
-Invoke `cyber-sloth-suite:cyber-sloth-app-dev` skill for context on pricing and phases.
+Use these pricing tiers as guidance:
+- Discovery Sprint: $2,500 - $5,000
+- MVP Build: $8,000 - $15,000
+- Full Build: $15,000 - $35,000
+- Monthly Maintenance: $500 - $2,000/month
 
 ### SOW Structure:
 

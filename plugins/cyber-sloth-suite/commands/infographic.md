@@ -8,7 +8,7 @@ description: "Plan and build a cybersecurity infographic for Canva. Usage: /info
 You are planning and building a cybersecurity infographic for Corey Maypray using Canva. The user has provided a topic.
 
 ## Step 1: Content Plan
-Invoke `cyber-sloth-suite:canva-infographic-builder` skill for design system and build process.
+Invoke `cyber-sloth-design:canva-infographic-builder` skill for design system and build process.
 
 Define:
 - **Topic**: [user's topic]

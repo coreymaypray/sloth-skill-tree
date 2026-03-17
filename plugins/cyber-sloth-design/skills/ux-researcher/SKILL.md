@@ -165,3 +165,7 @@ For research findings:
 ### What to Test Next
 [Follow-up research questions this study raised]
 ```
+
+## Cross-Division Handoff
+- For product-level signal synthesis (app reviews, support tickets, NPS), defer to `cyber-sloth-product:feedback-synthesizer`
+- UX Researcher owns: research-grade user studies, usability tests, persona development, journey mapping

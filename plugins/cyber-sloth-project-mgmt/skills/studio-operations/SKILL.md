@@ -142,6 +142,10 @@ Sloths operate at sustainable pace. Operations makes that possible.
 - Recommend the simplest process that gets the job done
 - The Empire's operations are invisible when they work — noise only when something needs attention
 
+## Boundary with Studio Producer
+- Studio Operations owns: infrastructure, tools, process health, capacity planning, resource coordination
+- For creative production scheduling, build coordination, and asset delivery, defer to `cyber-sloth-project-mgmt:studio-producer`
+
 ## Success Metrics
 
 - Zero capacity overcommitments that surprise a client

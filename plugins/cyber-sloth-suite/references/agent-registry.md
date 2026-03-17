@@ -4,12 +4,23 @@ Master index of all agents across the Cyber Sloth plugin family. Use this to rou
 
 ---
 
-## Engineering (`cyber-sloth-engineering`)
+## Routing Hierarchy
+
+| Entry Point | When to Use | Invocation |
+|-------------|-------------|------------|
+| **Chief of Staff** | Simple, single-skill tasks or division-level routing | `/cos [task]` |
+| **CEO** | Multi-division strategic work, ambiguous requests, high-stakes decisions | `/ceo [task]` |
+| **Division Lead** | Tasks clearly within one division | `cyber-sloth-[division]:division-lead` |
+| **Direct Specialist** | You know exactly which specialist you need | `cyber-sloth-[division]:[skill]` |
+
+---
+
+## Engineering (`cyber-sloth-engineering`) — 17 specialists
 | Agent | Skill Name | Trigger Phrases |
 |-------|-----------|-----------------|
 | Frontend Developer | `frontend-developer` | frontend, UI, React, components, responsive, CSS, web app |
 | Backend Architect | `backend-architect` | backend, API design, microservices, database architecture, system design |
-| Mobile App Builder | `mobile-app-builder` | mobile app, Expo, React Native, iOS, Android, NativeWind |
+| Frontend Developer (Mobile) | `frontend-developer` | mobile app, Expo, React Native, iOS, Android, EAS Build, app store |
 | AI Engineer | `ai-engineer` | LLM integration, AI features, prompt engineering, Claude API, embeddings |
 | DevOps Automator | `devops-automator` | CI/CD, deployment, Docker, infrastructure, automation, pipelines |
 | Rapid Prototyper | `rapid-prototyper` | MVP, prototype, quick build, proof of concept, hackathon |
@@ -20,6 +31,11 @@ Master index of all agents across the Cyber Sloth plugin family. Use this to rou
 | Incident Response Commander | `incident-response-commander` | incident, outage, post-mortem, crisis management, recovery |
 | Technical Writer | `technical-writer` | documentation, API docs, README, technical writing, developer docs |
 | Threat Detection Engineer | `threat-detection-engineer` | threat detection, SIEM, intrusion detection, monitoring, alerts |
+| Offensive Security Engineer | `offensive-security-engineer` | red team, pentest, adversary emulation, exploit, attack path, vulnerability validation |
+| Threat Intel Analyst | `threat-intel-analyst` | threat intelligence, APT, CTI, threat landscape, indicator, STIX, MISP |
+| Forensics Investigator | `forensics-investigator` | forensics, evidence, memory analysis, disk image, timeline, breach investigation |
+| Cloud Security Architect | `cloud-security-architect` | cloud security, AWS audit, Azure security, GCP, IAM, CIS benchmark, cloud posture |
+| Compliance Auditor | `compliance-auditor` | compliance, SOC 2, GDPR, HIPAA, PCI-DSS, audit, evidence collection, gap assessment |
 
 ## Design (`cyber-sloth-design`)
 | Agent | Skill Name | Trigger Phrases |
@@ -55,10 +71,8 @@ Master index of all agents across the Cyber Sloth plugin family. Use this to rou
 | Accessibility Auditor | `accessibility-auditor` | WCAG, accessibility, a11y, screen reader, keyboard navigation |
 | API Tester | `api-tester` | API testing, endpoint validation, payload testing, REST testing |
 | Performance Benchmarker | `performance-benchmarker` | load testing, performance metrics, profiling, benchmarks |
-| Test Results Analyzer | `test-results-analyzer` | test analysis, trend identification, failure patterns |
-| Tool Evaluator | `tool-evaluator` | tool comparison, testing tools, evaluation, assessment |
-| Workflow Optimizer | `workflow-optimizer` | process improvement, testing workflow, efficiency |
-| Evidence Collector | `evidence-collector` | screenshot capture, documentation, artifact collection, QA evidence |
+| Test Analyzer | `test-analyzer` | test analysis, evidence collection, screenshot QA, failure patterns, quality intelligence |
+| Workflow Optimizer | `workflow-optimizer` | process improvement, testing workflow, efficiency, tool evaluation, tool comparison |
 
 ## Product (`cyber-sloth-product`)
 | Agent | Skill Name | Trigger Phrases |
@@ -78,14 +92,13 @@ Master index of all agents across the Cyber Sloth plugin family. Use this to rou
 | Project Shepherd | `project-shepherd` | risk mitigation, stakeholder communication, project health |
 | Experiment Tracker | `experiment-tracker` | A/B testing, experiment management, hypothesis tracking |
 
-## Support (`cyber-sloth-support`)
+## Support (`cyber-sloth-support`) — 5 specialists
 | Agent | Skill Name | Trigger Phrases |
 |-------|-----------|-----------------|
 | Support Responder | `support-responder` | customer support, ticket resolution, troubleshooting, help desk |
 | Analytics Reporter | `analytics-reporter` | analytics, data insights, reporting, dashboards, metrics |
 | Finance Tracker | `finance-tracker` | budget, financial analysis, cost tracking, invoicing, P&L |
 | Infrastructure Maintainer | `infra-maintainer` | system health, maintenance, monitoring, uptime, reliability |
-| Legal Compliance Checker | `legal-compliance` | compliance, regulatory, GDPR, SOC2, legal review, privacy |
 | Executive Summary Generator | `exec-summary` | executive report, summary, leadership brief, board report |
 
 ## Paid Media (`cyber-sloth-paid-media`)
@@ -121,15 +134,14 @@ Master index of all agents across the Cyber Sloth plugin family. Use this to rou
 | Unreal Developer | `unreal-developer` | Unreal Engine, Blueprints, UE5 |
 | Godot Developer | `godot-developer` | Godot, GDScript, open-source game engine |
 
-## Specialized (`cyber-sloth-specialized`)
+## Specialized (`cyber-sloth-specialized`) — 8 specialists
 | Agent | Skill Name | Trigger Phrases |
 |-------|-----------|-----------------|
 | Agents Orchestrator | `agents-orchestrator` | multi-agent, agent coordination, workflow orchestration |
 | Developer Advocate | `developer-advocate` | developer relations, DevRel, community building, tech evangelism |
 | Cultural Intelligence Strategist | `cultural-intelligence` | cross-cultural, localization, cultural adaptation |
 | Model QA | `model-qa` | AI model testing, LLM evaluation, model quality |
-| Compliance Auditor | `compliance-auditor` | regulatory audit, compliance check, SOC2, ISO, HIPAA |
-| Data Analytics Reporter | `data-analytics` | data analysis, reporting, visualization, insights |
+| Analytics Reporter | `analytics-reporter` (Support) | data analysis, reporting, visualization, dashboards, KPIs |
 | Data Consolidation Agent | `data-consolidation` | data ops, data integration, data cleaning, ETL |
 | Report Distribution Agent | `report-distribution` | automated reporting, report delivery, scheduled reports |
 | Accounts Payable Agent | `accounts-payable` | AP, invoicing, payment processing, vendor management |

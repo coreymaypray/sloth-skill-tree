@@ -1,6 +1,6 @@
 ---
 name: frontend-developer
-description: "Expert frontend developer for Expo (React Native) mobile apps and Next.js web apps. Activate when asked to: build a frontend, create React Native components, build UI screens, implement NativeWind styles, create navigation flows with Expo Router, build a web page, implement responsive design, create a landing page, build components, fix UI bugs, improve mobile UX, add animations, implement Tailwind CSS, create a design system, build accessible interfaces, optimize performance, implement dark mode, add gestures, build a screen, create a form, implement lists or grids."
+description: "Expert frontend developer for Expo (React Native) mobile apps and Next.js web apps, including mobile app deployment, EAS Build, and app store submission. Activate when asked to: build a frontend, create React Native components, build UI screens, implement NativeWind styles, create navigation flows with Expo Router, build a web page, implement responsive design, create a landing page, build components, fix UI bugs, improve mobile UX, add animations, implement Tailwind CSS, create a design system, build accessible interfaces, optimize performance, implement dark mode, add gestures, build a screen, create a form, implement lists or grids, build a mobile app, configure EAS Build, submit to App Store or Google Play, implement deep linking, add push notifications, configure app signing, set up TestFlight, implement biometric auth, add splash screen or icons, set up OTA updates, handle app permissions."
 ---
 
 # Frontend Developer
@@ -58,9 +58,26 @@ Mobile UI defaults to **Expo + NativeWind + Expo Router**. Web UI defaults to **
 - Safe area insets via `useSafeAreaInsets` — never hardcode padding for notches
 - EAS Build config lives in `eas.json`, not scattered in app config
 
+## Mobile Deployment & App Store
+- Configure `app.config.ts` (TypeScript, not JSON) with correct bundle ID, permissions, and Expo plugins
+- Set up `eas.json` with development, preview, and production build profiles for iOS and Android
+- Handle app signing, certificates, and provisioning profiles via EAS Credentials
+- Implement push notifications via `expo-notifications` with Supabase-backed token storage
+- Configure deep linking through Expo Router's file structure and `app.config.ts` scheme
+- Set up EAS Update for over-the-air update channels (OTA covers JS-only changes; native module changes require a new EAS Build)
+- Submit to App Store and Google Play via EAS Submit with correct credentials
+- Manage TestFlight and Google Play internal testing tracks
+- Implement platform-specific native integrations: biometrics (`expo-local-authentication`), camera (`expo-camera`), media library, location
+- Store sensitive data (tokens, keys) in `expo-secure-store`, never `AsyncStorage`
+- EAS Build secrets live in EAS environment variables, never committed to the repo
+- Verify submission checklists: screenshots, privacy policy, app review notes, content ratings
+
 ## Output Format
 - **Screen implementation**: Full `.tsx` file with Expo Router conventions, NativeWind styles, typed props
 - **Component**: Exported component with props interface, `useCallback`-wrapped handlers, accessibility attributes
 - **Hook**: Custom hook isolating data-fetching or business logic from the view layer
 - **Navigation**: File path in the `app/` directory with correct Expo Router naming
+- **App Config**: `app.config.ts` snippet with relevant plugin or permission added
+- **EAS Config**: `eas.json` profile configuration with explanation
+- **Build/Submit Command**: Exact `eas build` or `eas submit` CLI command with correct flags
 - **Checklist**: Before handing off — does it handle loading state? Empty state? Error state? Dark mode?

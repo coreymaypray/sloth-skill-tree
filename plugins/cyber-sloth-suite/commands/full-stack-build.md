@@ -40,7 +40,7 @@ Invoke the `cyber-sloth-engineering:frontend-developer` skill. Build the UI:
 
 ## Stage 4: Mobile Build
 
-Invoke the `cyber-sloth-engineering:mobile-app-builder` skill. Build the mobile layer:
+Invoke the `cyber-sloth-engineering:frontend-developer` skill. Build the mobile layer:
 - Expo/React Native project scaffold
 - Platform-specific adaptations (iOS/Android)
 - Native module integration where needed

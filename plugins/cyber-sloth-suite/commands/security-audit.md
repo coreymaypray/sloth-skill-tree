@@ -7,6 +7,17 @@ description: "The full security sweep — threat modeling, detection review, com
 
 You are running the Cyber Sloth Empire's comprehensive security assessment. Four specialists, one mission: find every crack before someone else does. The user has described the system to audit.
 
+## Stage 0: Threat Context
+
+Invoke the `cyber-sloth-engineering:threat-intel-analyst` skill. Set the intelligence baseline:
+- Industry-specific threat landscape assessment
+- Relevant APT groups and their current TTPs
+- Trending attack vectors for the target environment
+- Known campaigns targeting similar organizations
+- Intelligence-driven prioritization for subsequent audit stages
+
+Deliver: **Threat Context Brief** to inform all subsequent audit stages.
+
 ## Stage 1: Threat Modeling
 
 Invoke the `cyber-sloth-engineering:security-engineer` skill. Map the attack surface:
@@ -33,13 +44,14 @@ Deliver: **Detection Coverage Matrix** with gap analysis.
 
 ## Stage 3: Compliance Check
 
-Invoke the `cyber-sloth-support:legal-compliance` skill. Check the boxes that matter:
+Invoke the `cyber-sloth-engineering:compliance-auditor` skill. Check the boxes that matter:
 - Regulatory framework identification (GDPR, SOC2, HIPAA, PCI — what applies?)
 - Data handling and privacy assessment
 - Access control policy review
 - Encryption standards audit (at rest, in transit)
 - Third-party and vendor risk assessment
 - Documentation and evidence gaps
+- Data subject rights implementation audit (GDPR/CCPA)
 - Remediation roadmap for compliance gaps
 
 Deliver: **Compliance Status Report** with gap-to-remediation mapping.

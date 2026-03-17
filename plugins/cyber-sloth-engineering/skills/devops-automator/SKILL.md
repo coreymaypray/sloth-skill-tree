@@ -1,6 +1,6 @@
 ---
 name: devops-automator
-description: "Expert DevOps engineer for Vercel and EAS-based deployment pipelines. Activate when asked to: set up CI/CD, configure GitHub Actions, automate deployments, set up EAS Build workflows, configure Vercel deployment, manage environment variables, set up preview deployments, automate testing pipelines, configure branch protection, set up release workflows, implement deployment automation, configure EAS Update channels, manage secrets, set up monitoring and alerting, configure Vercel Edge Config, implement rollback strategies, automate mobile app releases, configure EAS Submit automation, set up dependency update bots, implement infrastructure as code for Supabase, manage Supabase migrations in CI."
+description: "Expert DevOps engineer for Vercel and EAS-based deployment pipelines. Activate when asked to: set up CI/CD, configure GitHub Actions, automate deployments, set up EAS Build workflows, configure Vercel deployment, manage environment variables, set up preview deployments, automate testing pipelines, configure branch protection, set up release workflows, implement deployment automation, configure EAS Update channels, manage secrets, set up monitoring and alerting, configure Vercel Edge Config, implement rollback strategies, automate mobile app releases, configure EAS Submit automation, set up dependency update bots, implement infrastructure as code for Supabase, manage Supabase migrations in CI, Apple sign-in, APNs, Supabase project setup, webhook configuration, monitoring."
 ---
 
 # DevOps Automator
@@ -48,6 +48,82 @@ CI/CD platform is **GitHub Actions**. Web deployment is **Vercel** (with preview
 6. **Automate mobile builds** — EAS Build on main merge, EAS Submit on tagged releases
 7. **Add monitoring hooks** — notify Slack/Discord on deployment success or failure
 8. **Test the rollback path** — know how to revert before you need to
+
+### Infrastructure Stack
+
+| Service | Purpose |
+|---------|---------|
+| Supabase | Database, Auth, Storage, Edge Functions, Realtime |
+| Vercel | Web hosting, serverless functions, preview deploys |
+| Apple Developer | Sign in with Apple, APNs, App Store Connect |
+| Google Cloud | Firebase (push), Google Sign-In |
+| Stripe | Payments, subscriptions, Connect |
+| EAS | Expo build and submit pipeline |
+
+### Supabase Project Setup
+
+**Checklist:**
+1. Create project in correct organization
+2. Configure auth providers (Email, Apple, Google)
+3. Set up database schema + migrations
+4. Enable RLS on all tables
+5. Configure storage buckets with policies
+6. Set up Edge Functions
+7. Configure SMTP for transactional emails
+8. Set up database webhooks if needed
+9. Configure realtime subscriptions
+
+**Edge Function CLI Commands:**
+- Deploy: `supabase functions deploy [name]`
+- Secrets: `supabase secrets set KEY=value`
+- Test locally: `supabase functions serve`
+
+### Apple Platform Configuration
+
+**Sign in with Apple:**
+1. Register App ID with Sign in with Apple capability
+2. Create Services ID for web auth
+3. Create private key for token generation
+4. Configure return URLs in Apple Developer Console
+5. Add credentials to Supabase Auth settings
+
+**APNs (Push Notifications):**
+1. Create APNs key in Apple Developer Console
+2. Note Key ID and Team ID
+3. Configure in Expo push notification setup
+4. Test with Expo push tool
+
+**App Store Connect:**
+1. Create app record
+2. Configure app information (description, screenshots, etc.)
+3. Set up TestFlight for beta testing
+4. Configure in-app purchases if applicable
+5. Submit for review
+
+### Webhooks
+
+**Stripe Webhook Events:**
+- `checkout.session.completed` — Process successful payments
+- `customer.subscription.updated` — Handle plan changes
+- `invoice.payment_failed` — Handle failed payments
+
+**Supabase Database Webhooks:**
+- Trigger Edge Functions on database events
+- Use for: sending notifications, syncing external systems, audit logging
+
+### Monitoring
+
+**Key Metrics:**
+- API response times (Supabase dashboard)
+- Error rates (Vercel logs + Sentry)
+- Database connection count
+- Storage usage
+- Auth event logs
+
+**Alerting:**
+- Set up Supabase email alerts for database issues
+- Vercel deployment failure notifications
+- Stripe webhook failure alerts
 
 ## Rules
 - Production deployments only trigger from `main` branch — never manually push to Vercel production or EAS production channel

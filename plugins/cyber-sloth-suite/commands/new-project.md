@@ -17,21 +17,21 @@ Ask the user these questions (skip any they've already answered):
 6. Estimated user base? (helps with Supabase plan selection)
 
 ## Step 2: Architecture Plan
-Invoke `cyber-sloth-suite:cyber-sloth-app-dev` skill. Create:
+Invoke `cyber-sloth-engineering:backend-architect` skill. Create:
 - Tech stack confirmation
 - Navigation structure (Expo Router file tree)
 - Core screens list
 - Key components needed
 
 ## Step 3: Database Schema
-Invoke `cyber-sloth-suite:backend-database` skill. Design:
+Invoke `cyber-sloth-engineering:backend-architect` skill. Design:
 - Core tables with columns and types
 - RLS policy outline
 - Relationships and indexes
 - Supabase plan recommendation
 
 ## Step 4: Infrastructure Checklist
-Invoke `cyber-sloth-suite:backend-infrastructure` skill. Generate:
+Invoke `cyber-sloth-engineering:devops-automator` skill. Generate:
 - Supabase project setup checklist
 - Environment variable template
 - Third-party service configuration list
