@@ -1,7 +1,0 @@
-{
-  "name": "cyber-sloth-testing",
-  "version": "1.0.0",
-  "description": "Sloth Flow testing division — 8 specialized agents for QA, accessibility, API testing, performance, and test analysis. Part of the Cyber Sloth plugin family.",
-  "author": { "name": "Corey Maypray" },
-  "keywords": ["cyber-sloth", "testing", "qa", "accessibility", "performance", "api-testing"]
-}

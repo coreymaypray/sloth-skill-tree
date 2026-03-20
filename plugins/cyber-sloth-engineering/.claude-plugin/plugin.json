@@ -1,7 +1,0 @@
-{
-  "name": "cyber-sloth-engineering",
-  "version": "1.0.0",
-  "description": "Sloth Flow engineering division — 13 specialized agents for frontend, backend, mobile, AI, DevOps, security, and more. Part of the Cyber Sloth plugin family.",
-  "author": { "name": "Corey Maypray" },
-  "keywords": ["cyber-sloth", "engineering", "development", "security", "devops"]
-}
