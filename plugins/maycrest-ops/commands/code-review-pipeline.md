@@ -9,7 +9,7 @@ You are running the Cyber Sloth Empire's code quality gauntlet. Three specialist
 
 ## Stage 1: Architecture & Code Quality Review
 
-Invoke the `cyber-sloth-engineering:senior-developer` skill. Deep review:
+Invoke the `maycrest-automate:senior-developer` skill. Deep review:
 - Code structure and organization (does it make sense to a future dev?)
 - Design patterns — appropriate use, or pattern-for-the-sake-of-pattern?
 - SOLID principles adherence
@@ -23,7 +23,7 @@ Rate: **Architecture Score** (1-10) with justification.
 
 ## Stage 2: Security Review
 
-Invoke the `cyber-sloth-engineering:security-engineer` skill. Find the holes:
+Invoke the `maycrest-automate:security-engineer` skill. Find the holes:
 - Input validation and sanitization
 - Authentication and authorization logic
 - SQL injection, XSS, CSRF vectors
@@ -36,7 +36,7 @@ Rate: **Security Score** (1-10) with justification.
 
 ## Stage 3: Performance Audit
 
-Invoke the `cyber-sloth-testing:performance-benchmarker` skill. Measure the weight:
+Invoke the `maycrest-ops:performance-benchmarker` skill. Measure the weight:
 - Algorithm complexity (Big O analysis on hot paths)
 - Database query efficiency (N+1s, missing indexes, full scans)
 - Memory usage patterns and potential leaks

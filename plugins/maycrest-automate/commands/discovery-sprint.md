@@ -9,7 +9,7 @@ You are running the Cyber Sloth Empire's product discovery pipeline. Before a si
 
 ## Stage 1: Market Research
 
-Invoke the `cyber-sloth-product:trend-researcher` skill. Understand the landscape:
+Invoke the `maycrest-automate:trend-researcher` skill. Understand the landscape:
 - Market size and growth trajectory (is this a growing space?)
 - Competitive landscape mapping (who's already here, what do they miss?)
 - Emerging trends and technology shifts relevant to this space
@@ -21,7 +21,7 @@ Deliver: **Market Landscape Brief** with opportunity assessment and competitive 
 
 ## Stage 2: User Research
 
-Invoke the `cyber-sloth-design:ux-researcher` skill. Understand the humans:
+Invoke the `maycrest-create:ux-researcher` skill. Understand the humans:
 - Target user persona development (who are we building for, specifically?)
 - Problem validation (is this actually a problem people have?)
 - Current solution audit (how do people solve this today? what sucks about it?)
@@ -33,7 +33,7 @@ Deliver: **User Insight Report** with validated personas and problem statements.
 
 ## Stage 3: Technical Feasibility
 
-Invoke the `cyber-sloth-engineering:senior-developer` skill. Reality-check the build:
+Invoke the `maycrest-automate:senior-developer` skill. Reality-check the build:
 - Technical architecture assessment (can this be built with our stack?)
 - Build vs. buy analysis for key components
 - Third-party dependency risks (APIs, services we'd rely on)
@@ -46,7 +46,7 @@ Deliver: **Technical Feasibility Report** with effort estimates and risk flags.
 
 ## Stage 4: Prioritized Feature List
 
-Invoke the `cyber-sloth-product:sprint-prioritizer` skill. Decide what to build first:
+Invoke the `maycrest-automate:sprint-prioritizer` skill. Decide what to build first:
 - Feature list derived from research (market gaps + user needs + technical reality)
 - RICE scoring (Reach x Impact x Confidence / Effort)
 - MVP feature set (the minimum to test the core hypothesis)

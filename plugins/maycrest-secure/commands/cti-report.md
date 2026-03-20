@@ -9,7 +9,7 @@ You are running the Cyber Sloth Empire's threat intelligence pipeline. Two analy
 
 ## Stage 1: Threat Landscape Assessment
 
-Invoke the `cyber-sloth-engineering:threat-intel-analyst` skill. Map the threat landscape:
+Invoke the `maycrest-automate:threat-intel-analyst` skill. Map the threat landscape:
 - Industry-specific threat environment analysis
 - Relevant APT group profiling (motivation, capability, targeting history)
 - Trending TTPs observed in the wild
@@ -21,7 +21,7 @@ Deliver: **Threat Intelligence Report** with actor profiles and ATT&CK mapping.
 
 ## Stage 2: Detection Recommendations
 
-Invoke the `cyber-sloth-engineering:threat-detection-engineer` skill. Close the visibility gaps:
+Invoke the `maycrest-automate:threat-detection-engineer` skill. Close the visibility gaps:
 - Detection gap analysis against the identified TTPs
 - Sigma rule development for highest-priority techniques
 - Log source requirements for effective detection

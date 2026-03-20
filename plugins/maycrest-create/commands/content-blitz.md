@@ -9,7 +9,7 @@ You are running the Cyber Sloth Empire's content factory at full tilt. One topic
 
 ## Stage 1: Hook Generation
 
-Invoke the `cyber-sloth-marketing:hook-writing` skill. Generate attention-grabbers:
+Invoke the `maycrest-create:hook-writing` skill. Generate attention-grabbers:
 - 10 hooks across LinkedIn, X, and TikTok/Reels styles
 - Rank the top 3 by stopping power
 - Identify which hook works best for which platform
@@ -17,7 +17,7 @@ Invoke the `cyber-sloth-marketing:hook-writing` skill. Generate attention-grabbe
 
 ## Stage 2: Long-Form Article
 
-Invoke the `cyber-sloth-marketing:article-writer` skill. Write the anchor piece:
+Invoke the `maycrest-create:article-writer` skill. Write the anchor piece:
 - 800-1500 word article using the strongest hook as the opener
 - Structure for both readability and SEO
 - Include 2-3 quotable one-liners (these feed the short-form content)
@@ -26,7 +26,7 @@ Invoke the `cyber-sloth-marketing:article-writer` skill. Write the anchor piece:
 
 ## Stage 3: Short-Form Video Scripts
 
-Invoke the `cyber-sloth-marketing:tweet-to-short` skill. Create video content:
+Invoke the `maycrest-create:tweet-to-short` skill. Create video content:
 - 15-second TikTok/Reel script (the hot take version)
 - 30-second TikTok/Reel script (the story version)
 - 60-second YouTube Short script (the teach version)
@@ -34,7 +34,7 @@ Invoke the `cyber-sloth-marketing:tweet-to-short` skill. Create video content:
 
 ## Stage 4: Carousel Content
 
-Invoke the `cyber-sloth-marketing:carousel-engine` skill. Build swipeable content:
+Invoke the `maycrest-create:carousel-engine` skill. Build swipeable content:
 - LinkedIn carousel (8-12 slides, educational angle)
 - Instagram carousel (5-7 slides, visual-first storytelling)
 - Slide-by-slide copy and design direction for each

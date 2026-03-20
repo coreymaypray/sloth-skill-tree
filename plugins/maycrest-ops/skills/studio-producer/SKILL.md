@@ -110,7 +110,7 @@ The Empire's aesthetic is deliberate. Sloths don't rush. But sloths always finis
 
 ## Boundary with Studio Operations
 - Studio Producer owns: creative production scheduling, build coordination, asset delivery, timeline management
-- For infrastructure, tools, process health, and capacity planning, defer to `cyber-sloth-project-mgmt:studio-operations`
+- For infrastructure, tools, process health, and capacity planning, defer to `maycrest-ops:studio-operations`
 
 ## Success Metrics
 

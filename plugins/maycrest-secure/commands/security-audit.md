@@ -9,7 +9,7 @@ You are running the Cyber Sloth Empire's comprehensive security assessment. Four
 
 ## Stage 0: Threat Context
 
-Invoke the `cyber-sloth-engineering:threat-intel-analyst` skill. Set the intelligence baseline:
+Invoke the `maycrest-automate:threat-intel-analyst` skill. Set the intelligence baseline:
 - Industry-specific threat landscape assessment
 - Relevant APT groups and their current TTPs
 - Trending attack vectors for the target environment
@@ -20,7 +20,7 @@ Deliver: **Threat Context Brief** to inform all subsequent audit stages.
 
 ## Stage 1: Threat Modeling
 
-Invoke the `cyber-sloth-engineering:security-engineer` skill. Map the attack surface:
+Invoke the `maycrest-automate:security-engineer` skill. Map the attack surface:
 - System architecture review (components, data flows, trust boundaries)
 - STRIDE analysis across all major components
 - Attack tree construction for critical assets
@@ -32,7 +32,7 @@ Deliver: **Threat Model Report** with prioritized risk register.
 
 ## Stage 2: Detection & Monitoring Review
 
-Invoke the `cyber-sloth-engineering:threat-detection-engineer` skill. Assess visibility:
+Invoke the `maycrest-automate:threat-detection-engineer` skill. Assess visibility:
 - Current detection coverage assessment (what can we see, what's blind?)
 - Log collection and retention audit
 - Alert rule effectiveness (signal-to-noise ratio)
@@ -44,7 +44,7 @@ Deliver: **Detection Coverage Matrix** with gap analysis.
 
 ## Stage 3: Compliance Check
 
-Invoke the `cyber-sloth-engineering:compliance-auditor` skill. Check the boxes that matter:
+Invoke the `maycrest-automate:compliance-auditor` skill. Check the boxes that matter:
 - Regulatory framework identification (GDPR, SOC2, HIPAA, PCI — what applies?)
 - Data handling and privacy assessment
 - Access control policy review
@@ -58,7 +58,7 @@ Deliver: **Compliance Status Report** with gap-to-remediation mapping.
 
 ## Stage 4: Incident Response Readiness
 
-Invoke the `cyber-sloth-engineering:incident-response-commander` skill. Test the playbook:
+Invoke the `maycrest-automate:incident-response-commander` skill. Test the playbook:
 - IR plan existence and completeness review
 - Communication chain validation (who gets called, in what order?)
 - Escalation procedure assessment

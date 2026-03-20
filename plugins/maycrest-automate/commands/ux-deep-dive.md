@@ -9,7 +9,7 @@ You are running the Cyber Sloth Empire's comprehensive UX audit. Four specialist
 
 ## Stage 1: User Research
 
-Invoke the `cyber-sloth-design:ux-researcher` skill. Understand the humans:
+Invoke the `maycrest-create:ux-researcher` skill. Understand the humans:
 - User persona validation (do our assumptions match reality?)
 - Journey mapping for primary user flows
 - Pain point identification and severity mapping
@@ -22,7 +22,7 @@ Deliver: **User Research Report** with findings, severity ratings, and persona i
 
 ## Stage 2: Information Architecture Review
 
-Invoke the `cyber-sloth-design:ux-architect` skill. Evaluate the structure:
+Invoke the `maycrest-create:ux-architect` skill. Evaluate the structure:
 - Navigation model assessment (is it intuitive or are users getting lost?)
 - Content hierarchy audit (is important stuff findable?)
 - User flow analysis (do flows match mental models?)
@@ -35,7 +35,7 @@ Deliver: **IA Assessment** with structural recommendations.
 
 ## Stage 3: Accessibility Audit
 
-Invoke the `cyber-sloth-testing:accessibility-auditor` skill. Check compliance:
+Invoke the `maycrest-ops:accessibility-auditor` skill. Check compliance:
 - WCAG 2.1 AA compliance audit (minimum standard)
 - Screen reader compatibility testing
 - Keyboard navigation completeness
@@ -50,7 +50,7 @@ Deliver: **Accessibility Report** with WCAG violations, severity, and remediatio
 
 ## Stage 4: Inclusive Design Review
 
-Invoke the `cyber-sloth-design:inclusive-visuals` skill. Broaden the lens:
+Invoke the `maycrest-create:inclusive-visuals` skill. Broaden the lens:
 - Representation audit (do visuals reflect diverse users?)
 - Language inclusivity check (gendered language, cultural assumptions)
 - Internationalization readiness (RTL, date formats, cultural norms)

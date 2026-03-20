@@ -9,7 +9,7 @@ You are running the Cyber Sloth Empire's performance optimization pipeline. Thre
 
 ## Stage 1: Performance Benchmarking
 
-Invoke the `cyber-sloth-testing:performance-benchmarker` skill. Measure everything:
+Invoke the `maycrest-ops:performance-benchmarker` skill. Measure everything:
 - Response time profiling (P50, P95, P99 for key endpoints/screens)
 - Database query performance audit (slow queries, missing indexes, N+1 patterns)
 - Frontend performance metrics (LCP, FID, CLS, TTI, bundle size)
@@ -23,7 +23,7 @@ Deliver: **Performance Baseline Report** with current metrics and bottleneck ran
 
 ## Stage 2: Infrastructure Optimization
 
-Invoke the `cyber-sloth-engineering:devops-automator` skill. Fix the plumbing:
+Invoke the `maycrest-automate:devops-automator` skill. Fix the plumbing:
 - Caching strategy implementation (CDN, application cache, database cache)
 - Database optimization (query rewriting, index tuning, connection pooling)
 - Asset optimization (compression, lazy loading, code splitting)
@@ -36,7 +36,7 @@ For each optimization: expected improvement, implementation effort, and risk lev
 
 ## Stage 3: Monitoring Implementation
 
-Invoke the `cyber-sloth-support:infra-maintainer` skill. Build visibility:
+Invoke the `maycrest-ops:infra-maintainer` skill. Build visibility:
 - Performance monitoring dashboard design
 - Alert thresholds for key metrics (when should someone wake up?)
 - Automated performance regression detection

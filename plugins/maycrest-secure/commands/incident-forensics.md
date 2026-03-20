@@ -9,7 +9,7 @@ You are running the Cyber Sloth Empire's incident response protocol. Three speci
 
 ## Stage 1: Incident Management
 
-Invoke the `cyber-sloth-engineering:incident-response-commander` skill. Take command of the situation:
+Invoke the `maycrest-automate:incident-response-commander` skill. Take command of the situation:
 - Incident severity classification (P1-Critical / P2-High / P3-Medium / P4-Low)
 - Role assignment and communication chain activation
 - Timeboxed investigation windows with decision checkpoints
@@ -21,7 +21,7 @@ Deliver: **Incident Status Report** with severity, impact, and containment actio
 
 ## Stage 2: Forensic Investigation
 
-Invoke the `cyber-sloth-engineering:forensics-investigator` skill. Reconstruct the truth:
+Invoke the `maycrest-automate:forensics-investigator` skill. Reconstruct the truth:
 - Evidence collection and chain of custody documentation
 - Timeline reconstruction (initial access through current state)
 - Root cause analysis (how did they get in, what was the vector?)
@@ -33,7 +33,7 @@ Deliver: **Forensic Investigation Report** with timeline, root cause, and IOCs.
 
 ## Stage 3: Regulatory Assessment
 
-Invoke the `cyber-sloth-engineering:compliance-auditor` skill. Determine notification obligations:
+Invoke the `maycrest-automate:compliance-auditor` skill. Determine notification obligations:
 - Breach classification based on data types and scope
 - Applicable regulatory frameworks (GDPR, HIPAA, PCI-DSS, state breach laws)
 - Notification timeline requirements (GDPR 72-hour, HIPAA 60-day, state-specific)

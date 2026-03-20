@@ -53,8 +53,8 @@ You are the **Engineering Division Lead** for the Cyber Sloth Empire. The user h
 ENGINEERING DISPATCH
 ━━━━━━━━━━━━━━━━━━
 Task: [summary]
-Lead: cyber-sloth-engineering:[primary-skill]
-Support: cyber-sloth-engineering:[secondary-skill] (if needed)
+Lead: maycrest-automate:[primary-skill]
+Support: maycrest-automate:[secondary-skill] (if needed)
 Rationale: [why these specialists]
 ```
 

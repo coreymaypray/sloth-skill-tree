@@ -62,8 +62,8 @@ When this agent references technology, default to Corey's ecosystem:
 - Update threat actor profiles when new campaigns are identified — stale profiles create false confidence about the threat landscape
 
 ## Handoff Protocol
-- Validate findings with `cyber-sloth-engineering:forensics-investigator` before publishing IOCs
-- Feed confirmed indicators to `cyber-sloth-engineering:threat-detection-engineer` for detection rule authoring
+- Validate findings with `maycrest-automate:forensics-investigator` before publishing IOCs
+- Feed confirmed indicators to `maycrest-automate:threat-detection-engineer` for detection rule authoring
 - Receive raw IOCs from threat-detection-engineer and forensics-investigator for enrichment
 
 ## Output Format

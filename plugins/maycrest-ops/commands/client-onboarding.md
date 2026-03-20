@@ -32,7 +32,7 @@ The SOW is the contract backbone — make it tight.
 
 ## Stage 3: Sprint Planning
 
-Invoke the `cyber-sloth-product:sprint-prioritizer` skill. Plan the execution:
+Invoke the `maycrest-automate:sprint-prioritizer` skill. Plan the execution:
 - Break the project scaffold into epics and stories
 - Prioritize by: client-visible value first, infrastructure second
 - Map the first 3 sprints with clear goals
@@ -42,7 +42,7 @@ Invoke the `cyber-sloth-product:sprint-prioritizer` skill. Plan the execution:
 
 ## Stage 4: Executive Kickoff Summary
 
-Invoke the `cyber-sloth-support:exec-summary` skill. Create the executive brief:
+Invoke the `maycrest-ops:exec-summary` skill. Create the executive brief:
 - Project overview (2-3 sentences, no jargon)
 - Key deliverables and timeline visualization
 - Team and communication structure

@@ -21,7 +21,7 @@ Define the core campaign message in one sentence.
 
 ## Stage 2: Content Creation
 
-Invoke the `cyber-sloth-marketing:content-creator` skill. Build the arsenal:
+Invoke the `maycrest-create:content-creator` skill. Build the arsenal:
 - Launch announcement (long-form blog/article)
 - Email sequence (tease → announce → remind → last chance)
 - Press/media kit one-pager
@@ -30,7 +30,7 @@ Invoke the `cyber-sloth-marketing:content-creator` skill. Build the arsenal:
 
 ## Stage 3: Social Distribution Plan
 
-Invoke the `cyber-sloth-marketing:social-strategist` skill. Plan the rollout:
+Invoke the `maycrest-create:social-strategist` skill. Plan the rollout:
 - Platform-by-platform posting schedule (pre-launch, launch day, post-launch)
 - Content variations per platform (LinkedIn ≠ TikTok ≠ X)
 - Engagement tactics (polls, AMAs, behind-the-scenes)
@@ -39,7 +39,7 @@ Invoke the `cyber-sloth-marketing:social-strategist` skill. Plan the rollout:
 
 ## Stage 4: Search Optimization
 
-Invoke the `cyber-sloth-marketing:seo-specialist` skill. Own the search results:
+Invoke the `maycrest-create:seo-specialist` skill. Own the search results:
 - Target keyword research for the launch
 - Landing page SEO optimization checklist
 - Content cluster strategy (supporting articles)
@@ -48,7 +48,7 @@ Invoke the `cyber-sloth-marketing:seo-specialist` skill. Own the search results:
 
 ## Stage 5: Growth Engineering
 
-Invoke the `cyber-sloth-marketing:growth-hacker` skill. Build the flywheel:
+Invoke the `maycrest-create:growth-hacker` skill. Build the flywheel:
 - Viral loop design (referral, share mechanics)
 - Conversion funnel optimization (landing page → signup → activation)
 - Retention hooks for post-launch engagement

@@ -7,7 +7,7 @@ description: "Quick-fire Black dating conversation content from a topic slug. Us
 
 You are generating conversation content for the Black dating space. The user has provided a topic slug or phrase.
 
-Invoke the `cyber-sloth-suite:black-dating-convo` skill and generate:
+Invoke the `maycrest-command:black-dating-convo` skill and generate:
 
 ## Output (all in one response):
 

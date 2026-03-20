@@ -9,7 +9,7 @@ You are running the Cyber Sloth Empire's feedback-to-action pipeline. Raw user f
 
 ## Stage 1: Feedback Synthesis
 
-Invoke the `cyber-sloth-product:feedback-synthesizer` skill. Make sense of the noise:
+Invoke the `maycrest-automate:feedback-synthesizer` skill. Make sense of the noise:
 - Aggregate and categorize all feedback (bugs, feature requests, UX pain, praise)
 - Identify recurring themes and frequency patterns
 - Sentiment analysis across feedback sources
@@ -21,7 +21,7 @@ Deliver: **Feedback Themes Report** with frequency, severity, and sentiment per 
 
 ## Stage 2: Research Analysis
 
-Invoke the `cyber-sloth-design:ux-researcher` skill. Go deeper:
+Invoke the `maycrest-create:ux-researcher` skill. Go deeper:
 - Map feedback themes to user journey stages (where does the pain occur?)
 - Persona-based analysis (do different user types have different pain points?)
 - Competitive comparison (how do competitors handle these same issues?)
@@ -33,7 +33,7 @@ Deliver: **Research Insights Report** with validated findings and opportunity sc
 
 ## Stage 3: Behavioral Intervention Design
 
-Invoke the `cyber-sloth-product:behavioral-nudge` skill. Design smart solutions:
+Invoke the `maycrest-automate:behavioral-nudge` skill. Design smart solutions:
 - For each validated pain point, propose behavioral interventions
 - Apply nudge theory (defaults, framing, social proof, commitment devices)
 - Design low-effort, high-impact UX tweaks before resorting to new features
@@ -45,7 +45,7 @@ Deliver: **Intervention Playbook** with proposed changes and expected impact.
 
 ## Stage 4: Sprint Prioritization
 
-Invoke the `cyber-sloth-product:sprint-prioritizer` skill. Make it executable:
+Invoke the `maycrest-automate:sprint-prioritizer` skill. Make it executable:
 - Score each intervention: impact x effort x confidence (ICE framework)
 - Group into: Quick Wins, Next Sprint, Backlog, Needs More Research
 - Map dependencies between changes

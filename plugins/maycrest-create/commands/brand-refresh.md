@@ -9,7 +9,7 @@ You are running the Cyber Sloth Empire's brand evolution playbook. Not a rebrand
 
 ## Stage 1: Brand Audit
 
-Invoke the `cyber-sloth-design:brand-guardian` skill. Assess the current state:
+Invoke the `maycrest-create:brand-guardian` skill. Assess the current state:
 - Visual identity inventory (logo, colors, typography, imagery style)
 - Brand voice and tone analysis (how does it sound right now?)
 - Consistency audit across touchpoints (website, social, product, collateral)
@@ -20,7 +20,7 @@ Deliver a **Brand Health Score** (1-10) with specific findings for each dimensio
 
 ## Stage 2: Visual Evolution
 
-Invoke the `cyber-sloth-design:ui-designer` skill. Propose the visual refresh:
+Invoke the `maycrest-create:ui-designer` skill. Propose the visual refresh:
 - Color palette evolution (subtle shift or full rework, with rationale)
 - Typography updates (hierarchy, readability, personality)
 - Component/UI pattern modernization
@@ -32,7 +32,7 @@ Present 2-3 visual direction options ranging from conservative refresh to bold e
 
 ## Stage 3: Narrative Direction
 
-Invoke the `cyber-sloth-design:visual-storyteller` skill. Craft the brand story:
+Invoke the `maycrest-create:visual-storyteller` skill. Craft the brand story:
 - Updated brand narrative (who are we now, who are we becoming)
 - Voice and tone guidelines refresh
 - Key messaging framework (tagline, elevator pitch, value props)

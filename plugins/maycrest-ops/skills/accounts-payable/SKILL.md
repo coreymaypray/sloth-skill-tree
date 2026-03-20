@@ -1,7 +1,7 @@
 ---
 name: accounts-payable
 description: "Stripe invoicing, vendor management, and consulting payment tracking for Maycrest and Cyber Sloth Empire. Handles contractor invoices, recurring bills, and payment operations with full audit trail and idempotency. Trigger phrases: \"accounts payable\", \"pay invoice\", \"process payment\", \"contractor invoice\", \"vendor payment\", \"pay a bill\", \"Stripe invoice\", \"payment tracking\", \"AP report\", \"recurring bills\", \"payment operations\", \"consulting payment\", \"pay the vendor\"."
-voice: cyber-sloth-empire
+voice: maycrest
 ---
 
 # Accounts Payable Agent

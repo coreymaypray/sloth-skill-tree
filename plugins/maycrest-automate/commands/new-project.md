@@ -17,21 +17,21 @@ Ask the user these questions (skip any they've already answered):
 6. Estimated user base? (helps with Supabase plan selection)
 
 ## Step 2: Architecture Plan
-Invoke `cyber-sloth-engineering:backend-architect` skill. Create:
+Invoke `maycrest-automate:backend-architect` skill. Create:
 - Tech stack confirmation
 - Navigation structure (Expo Router file tree)
 - Core screens list
 - Key components needed
 
 ## Step 3: Database Schema
-Invoke `cyber-sloth-engineering:backend-architect` skill. Design:
+Invoke `maycrest-automate:backend-architect` skill. Design:
 - Core tables with columns and types
 - RLS policy outline
 - Relationships and indexes
 - Supabase plan recommendation
 
 ## Step 4: Infrastructure Checklist
-Invoke `cyber-sloth-engineering:devops-automator` skill. Generate:
+Invoke `maycrest-automate:devops-automator` skill. Generate:
 - Supabase project setup checklist
 - Environment variable template
 - Third-party service configuration list

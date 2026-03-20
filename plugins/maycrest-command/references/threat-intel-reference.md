@@ -1,7 +1,7 @@
 # Threat Intelligence Reference Library
 
 > Source: [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) (Apache 2.0)
-> Curated for `cyber-sloth-engineering:threat-intelligence-analyst`
+> Curated for `maycrest-automate:threat-intelligence-analyst`
 
 ---
 

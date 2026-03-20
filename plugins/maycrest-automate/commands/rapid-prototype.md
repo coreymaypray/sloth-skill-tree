@@ -20,7 +20,7 @@ Create a "Build / Skip / Fake" list for every feature mentioned.
 
 ## Stage 2: Prototype Build
 
-Invoke the `cyber-sloth-engineering:rapid-prototyper` skill. Build fast:
+Invoke the `maycrest-automate:rapid-prototyper` skill. Build fast:
 - Scaffold the project with the leanest stack possible
 - Implement core flow (the happy path only)
 - Use mock data and placeholder content where it saves time
@@ -29,7 +29,7 @@ Invoke the `cyber-sloth-engineering:rapid-prototyper` skill. Build fast:
 
 ## Stage 3: UI Polish Pass
 
-Invoke the `cyber-sloth-design:ui-designer` skill. Make it presentable:
+Invoke the `maycrest-create:ui-designer` skill. Make it presentable:
 - Apply consistent spacing, typography, and color
 - Add just enough visual hierarchy to be usable
 - Polish the hero screen/flow (first impression matters)
@@ -37,7 +37,7 @@ Invoke the `cyber-sloth-design:ui-designer` skill. Make it presentable:
 
 ## Stage 4: Sanity Check
 
-Invoke the `cyber-sloth-testing:reality-checker` skill. Quick gut check:
+Invoke the `maycrest-ops:reality-checker` skill. Quick gut check:
 - Does the core flow actually work end-to-end?
 - Is the value proposition clear within 10 seconds?
 - Any embarrassing bugs in the demo path?

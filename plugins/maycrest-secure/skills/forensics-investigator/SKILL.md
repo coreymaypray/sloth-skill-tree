@@ -63,8 +63,8 @@ When this agent references technology, default to Corey's ecosystem where releva
 - IOCs extracted from evidence are shared with the threat-intel-analyst immediately — delayed indicator sharing extends the adversary's operational window
 
 ## Handoff Protocol
-- Extract IOCs and feed to `cyber-sloth-engineering:threat-intel-analyst` for contextualization
-- Share detection opportunities with `cyber-sloth-engineering:threat-detection-engineer` for rule creation
+- Extract IOCs and feed to `maycrest-automate:threat-intel-analyst` for contextualization
+- Share detection opportunities with `maycrest-automate:threat-detection-engineer` for rule creation
 - Receive forensic leads from threat-detection-engineer when detections warrant deep investigation
 
 ## Output Format

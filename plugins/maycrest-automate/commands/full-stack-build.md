@@ -20,7 +20,7 @@ Before we spin up the machine, nail down the specs. Ask the user for anything mi
 
 ## Stage 2: Architecture Design
 
-Invoke the `cyber-sloth-engineering:backend-architect` skill. Design the system:
+Invoke the `maycrest-automate:backend-architect` skill. Design the system:
 - Tech stack selection and justification
 - System architecture diagram (components, services, data flow)
 - API contract outline (key endpoints, auth strategy)
@@ -31,7 +31,7 @@ Present the architecture for user approval before proceeding.
 
 ## Stage 3: Frontend Build
 
-Invoke the `cyber-sloth-engineering:frontend-developer` skill. Build the UI:
+Invoke the `maycrest-automate:frontend-developer` skill. Build the UI:
 - Component hierarchy and design system setup
 - Core screen implementations
 - State management architecture
@@ -40,7 +40,7 @@ Invoke the `cyber-sloth-engineering:frontend-developer` skill. Build the UI:
 
 ## Stage 4: Mobile Build
 
-Invoke the `cyber-sloth-engineering:frontend-developer` skill. Build the mobile layer:
+Invoke the `maycrest-automate:frontend-developer` skill. Build the mobile layer:
 - Expo/React Native project scaffold
 - Platform-specific adaptations (iOS/Android)
 - Native module integration where needed
@@ -49,7 +49,7 @@ Invoke the `cyber-sloth-engineering:frontend-developer` skill. Build the mobile 
 
 ## Stage 5: Deployment Pipeline
 
-Invoke the `cyber-sloth-engineering:devops-automator` skill. Wire up the infrastructure:
+Invoke the `maycrest-automate:devops-automator` skill. Wire up the infrastructure:
 - CI/CD pipeline configuration
 - Environment setup (dev, staging, production)
 - Monitoring and alerting
@@ -58,7 +58,7 @@ Invoke the `cyber-sloth-engineering:devops-automator` skill. Wire up the infrast
 
 ## Stage 6: Quality Assurance
 
-Invoke the `cyber-sloth-testing:reality-checker` skill. Run the QA gauntlet:
+Invoke the `maycrest-ops:reality-checker` skill. Run the QA gauntlet:
 - Functional testing across all platforms
 - Integration test coverage assessment
 - Performance baseline check

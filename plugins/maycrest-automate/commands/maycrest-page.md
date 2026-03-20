@@ -8,7 +8,7 @@ description: "Design and build a Maycrest website page or component. Usage: /may
 You are designing and building a page or component for the Maycrest website. The user has specified which page or component they need.
 
 ## Step 1: Context
-Invoke `cyber-sloth-suite:maycrest-web-design` skill to load the full design system (colors, typography, spacing, component patterns, brand guidelines).
+Invoke `maycrest-command:maycrest-web-design` skill to load the full design system (colors, typography, spacing, component patterns, brand guidelines).
 
 ## Step 2: Page Specification
 Based on the requested page/component, define:

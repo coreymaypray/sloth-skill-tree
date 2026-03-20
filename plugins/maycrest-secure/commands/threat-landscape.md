@@ -20,7 +20,7 @@ This is the foundation — what COULD go wrong, structured and categorized.
 
 ## Stage 2: Current Threat Landscape Research
 
-Invoke the `cyber-sloth-product:trend-researcher` skill. Research what IS going wrong:
+Invoke the `maycrest-automate:trend-researcher` skill. Research what IS going wrong:
 - Active threat campaigns targeting this type of system/industry
 - Emerging attack vectors and techniques (last 6-12 months)
 - Notable breaches in the same sector and lessons learned
@@ -32,7 +32,7 @@ Cross-reference findings with the STRIDE model — where do real-world threats o
 
 ## Stage 3: Technical Recommendations
 
-Invoke the `cyber-sloth-engineering:security-engineer` skill. Make it actionable:
+Invoke the `maycrest-automate:security-engineer` skill. Make it actionable:
 - Map each real-world threat to specific technical controls
 - Prioritize by: likelihood (from landscape research) x impact (from threat model)
 - Provide implementation-level recommendations (not just "use encryption")

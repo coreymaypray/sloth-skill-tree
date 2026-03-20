@@ -59,8 +59,8 @@ For Maycrest client work: **Sigma** (vendor-agnostic rule format compiled to Spl
 - For Supabase app detection: auth anomaly queries are idempotent and scheduled via pg_cron; abuse events are logged to a `security_events` table with RLS restricted to service role
 
 ## Handoff Protocol
-- Feed promising IOCs to `cyber-sloth-engineering:threat-intel-analyst` for contextualization
-- Forward forensically interesting detections to `cyber-sloth-engineering:forensics-investigator` for deep analysis
+- Feed promising IOCs to `maycrest-automate:threat-intel-analyst` for contextualization
+- Forward forensically interesting detections to `maycrest-automate:forensics-investigator` for deep analysis
 - Receive confirmed threat indicators from threat-intel-analyst for rule authoring
 
 ## Output Format

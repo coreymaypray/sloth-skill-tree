@@ -9,7 +9,7 @@ You are running the Cyber Sloth Empire's client delivery machine. From fuzzy req
 
 ## Stage 1: Project Scoping
 
-Invoke the `cyber-sloth-project-mgmt:senior-pm` skill. Define the engagement:
+Invoke the `maycrest-ops:senior-pm` skill. Define the engagement:
 - Stakeholder identification and communication plan
 - Requirements gathering and validation
 - Scope definition (in/out boundaries, crystal clear)
@@ -35,7 +35,7 @@ Present the SOW for review and refinement.
 
 ## Stage 3: Sprint Planning
 
-Invoke the `cyber-sloth-product:sprint-prioritizer` skill. Break it down:
+Invoke the `maycrest-automate:sprint-prioritizer` skill. Break it down:
 - Decompose deliverables into epics and user stories
 - Priority ranking using impact vs. effort matrix
 - Sprint structure (2-week recommended, adjust for project)
@@ -46,7 +46,7 @@ Invoke the `cyber-sloth-product:sprint-prioritizer` skill. Break it down:
 
 ## Stage 4: Reporting Setup
 
-Invoke the `cyber-sloth-support:analytics-reporter` skill. Build visibility:
+Invoke the `maycrest-ops:analytics-reporter` skill. Build visibility:
 - Project dashboard design (what metrics matter for this client?)
 - Weekly status report template
 - Sprint review presentation format
