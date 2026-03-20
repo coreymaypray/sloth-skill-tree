@@ -1,106 +1,50 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "cyber-sloth-empire",
-  "description": "Cyber Sloth Empire — 120+ portable Claude Code skills, commands, and plugins",
+  "name": "maycrest-group",
+  "description": "Maycrest Group — 5 pillars, 97 specialist skills for Create, Secure, Automate, Ops, and Command",
   "owner": {
     "name": "Corey Maypray",
     "email": "corey@maycrest.com"
   },
   "plugins": [
     {
-      "name": "cyber-sloth-suite",
-      "description": "Sloth Flow core orchestrator — voice personas, brand tokens, agent registry, and cross-division workflow commands",
-      "version": "2.0.0",
+      "name": "maycrest-command",
+      "description": "Maycrest Command — CEO dispatcher, Chief of Staff coordinator, agent registry, voice personas, brand tokens, and session hooks.",
+      "version": "3.0.0",
       "author": { "name": "Corey Maypray" },
-      "source": "./cyber-sloth-suite",
-      "category": "productivity"
-    },
-    {
-      "name": "cyber-sloth-engineering",
-      "description": "Engineering division — 13 agents for frontend, backend, mobile, AI, DevOps, security",
-      "version": "1.0.0",
-      "author": { "name": "Corey Maypray" },
-      "source": "./cyber-sloth-engineering",
+      "source": "./maycrest-command",
       "category": "development"
     },
     {
-      "name": "cyber-sloth-design",
-      "description": "Design division — UX/UI, brand, visual storytelling, inclusive design",
+      "name": "maycrest-create",
+      "description": "Maycrest Create — 33 specialists for design, marketing, paid media, content creation, brand, social strategy, and cultural intelligence.",
       "version": "1.0.0",
       "author": { "name": "Corey Maypray" },
-      "source": "./cyber-sloth-design",
+      "source": "./maycrest-create",
       "category": "productivity"
     },
     {
-      "name": "cyber-sloth-marketing",
-      "description": "Marketing division — SEO, social, TikTok, YouTube, Reddit, growth",
+      "name": "maycrest-automate",
+      "description": "Maycrest Automate — 33 specialists for full-stack engineering, AI, DevOps, spatial computing, gamedev, product, and specialized development.",
       "version": "1.0.0",
       "author": { "name": "Corey Maypray" },
-      "source": "./cyber-sloth-marketing",
-      "category": "productivity"
-    },
-    {
-      "name": "cyber-sloth-testing",
-      "description": "QA & testing division — API testing, accessibility, performance",
-      "version": "1.0.0",
-      "author": { "name": "Corey Maypray" },
-      "source": "./cyber-sloth-testing",
+      "source": "./maycrest-automate",
       "category": "development"
     },
     {
-      "name": "cyber-sloth-gamedev",
-      "description": "Game dev division — Unity, Unreal, Godot, narrative, audio, level design",
+      "name": "maycrest-secure",
+      "description": "Maycrest Secure — 9 specialists for security engineering, threat intelligence, incident response, forensics, offensive security, and compliance.",
       "version": "1.0.0",
       "author": { "name": "Corey Maypray" },
-      "source": "./cyber-sloth-gamedev",
+      "source": "./maycrest-secure",
       "category": "development"
     },
     {
-      "name": "cyber-sloth-spatial",
-      "description": "XR/VisionOS division — spatial computing, Metal, XR architecture",
+      "name": "maycrest-ops",
+      "description": "Maycrest Ops — 20 specialists for project management, QA/testing, support, finance, analytics, and studio operations.",
       "version": "1.0.0",
       "author": { "name": "Corey Maypray" },
-      "source": "./cyber-sloth-spatial",
-      "category": "development"
-    },
-    {
-      "name": "cyber-sloth-paid-media",
-      "description": "Paid media division — PPC, programmatic, paid social, tracking",
-      "version": "1.0.0",
-      "author": { "name": "Corey Maypray" },
-      "source": "./cyber-sloth-paid-media",
-      "category": "productivity"
-    },
-    {
-      "name": "cyber-sloth-product",
-      "description": "Product division — sprint prioritization, feedback, behavioral nudge",
-      "version": "1.0.0",
-      "author": { "name": "Corey Maypray" },
-      "source": "./cyber-sloth-product",
-      "category": "productivity"
-    },
-    {
-      "name": "cyber-sloth-project-mgmt",
-      "description": "Project management division — PM, Jira, studio ops, sprint planning",
-      "version": "1.0.0",
-      "author": { "name": "Corey Maypray" },
-      "source": "./cyber-sloth-project-mgmt",
-      "category": "productivity"
-    },
-    {
-      "name": "cyber-sloth-support",
-      "description": "Support & ops division — finance, legal, infrastructure, exec summaries",
-      "version": "1.0.0",
-      "author": { "name": "Corey Maypray" },
-      "source": "./cyber-sloth-support",
-      "category": "productivity"
-    },
-    {
-      "name": "cyber-sloth-specialized",
-      "description": "Specialized skills — compliance, analytics, developer advocacy, AI agents",
-      "version": "1.0.0",
-      "author": { "name": "Corey Maypray" },
-      "source": "./cyber-sloth-specialized",
+      "source": "./maycrest-ops",
       "category": "productivity"
     }
   ]
