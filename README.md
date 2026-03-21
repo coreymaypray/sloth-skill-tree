@@ -12,7 +12,7 @@ plugins/
 ├── maycrest-automate/   AI Solutions & Business Automation (37 specialists)
 ├── maycrest-secure/     Cybersecurity & Threat Intelligence (10 specialists)
 ├── maycrest-ops/        Operations, QA, PM & Business Support (22 specialists)
-└── maycrest-command/    CEO + Chief of Staff Orchestration (2 specialists)
+└── maycrest-command/    Sloth Command + Sloth Dispatch Orchestration (2 specialists)
 
 skills/
 ├── resume-career-coach/     Resume, cover letter, LinkedIn, interview prep
@@ -26,8 +26,8 @@ skills/
 
 | Need | Command |
 |------|---------|
-| Strategic multi-pillar work | `/ceo [describe your goal]` |
-| Quick single-skill routing | `/cos [describe your task]` |
+| Strategic multi-pillar work | `/sloth [describe your goal]` |
+| Quick single-skill routing | `/sloth-dispatch [describe your task]` |
 | Direct specialist access | `maycrest-[pillar]:[skill-name]` |
 
 ---
@@ -230,14 +230,14 @@ Operations — project management, QA/testing, finance, analytics, studio operat
 
 ## COMMAND (2 specialists)
 
-The Sloth Flow CEO and Chief of Staff. Strategic orchestration across all pillars.
+Sloth Command + Sloth Dispatch. Strategic orchestration across all pillars.
 
 | Skill | What It Does |
 |-------|-------------|
-| **sloth-command** | The CEO — analyzes any task, identifies best divisions and skills, builds phased execution plans |
-| **chief-of-staff** | The CoS — quick single-skill routing, lightweight task dispatch |
+| **sloth-command** | Sloth Command — analyzes any task, identifies best divisions and skills, builds phased execution plans |
+| **chief-of-staff** | Sloth Dispatch — quick single-skill routing, lightweight task dispatch |
 
-**Commands:** `/ceo`, `/cos`
+**Commands:** `/sloth`, `/sloth-dispatch`
 
 ---
 
