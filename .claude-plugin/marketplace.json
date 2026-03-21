@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "sloth-skill-tree",
-  "description": "Maycrest Group skills marketplace — 5 pillars, 97 specialist skills for Create, Secure, Automate, Ops, and Command",
+  "description": "Maycrest Group skills marketplace — 5 pillars, 108 specialist skills for Create, Secure, Automate, Ops, and Command",
   "owner": {
     "name": "Corey Maypray",
     "email": "corey@maycrest.com"
@@ -17,32 +17,32 @@
     },
     {
       "name": "maycrest-create",
-      "description": "Maycrest Create — 33 specialists for design, marketing, paid media, content creation, brand, social strategy, and cultural intelligence.",
-      "version": "1.0.0",
+      "description": "Maycrest Create — 34 specialists for design, marketing, paid media, content creation, brand, social strategy, AI video, and cultural intelligence.",
+      "version": "1.1.0",
       "author": { "name": "Corey Maypray" },
       "source": "./plugins/maycrest-create",
       "category": "productivity"
     },
     {
       "name": "maycrest-automate",
-      "description": "Maycrest Automate — 33 specialists for full-stack engineering, AI, DevOps, spatial computing, gamedev, product, and specialized development.",
-      "version": "1.0.0",
+      "description": "Maycrest Automate — 37 specialists for full-stack engineering, AI, DevOps, spatial computing, gamedev, product, and specialized development.",
+      "version": "1.1.0",
       "author": { "name": "Corey Maypray" },
       "source": "./plugins/maycrest-automate",
       "category": "development"
     },
     {
       "name": "maycrest-secure",
-      "description": "Maycrest Secure — 9 specialists for security engineering, threat intelligence, incident response, forensics, offensive security, and compliance.",
-      "version": "1.0.0",
+      "description": "Maycrest Secure — 10 specialists for security engineering, threat intelligence, incident response, forensics, offensive security, and compliance.",
+      "version": "1.1.0",
       "author": { "name": "Corey Maypray" },
       "source": "./plugins/maycrest-secure",
       "category": "development"
     },
     {
       "name": "maycrest-ops",
-      "description": "Maycrest Ops — 20 specialists for project management, QA/testing, support, finance, analytics, and studio operations.",
-      "version": "1.0.0",
+      "description": "Maycrest Ops — 22 specialists for project management, QA/testing, support, finance, analytics, and studio operations.",
+      "version": "1.1.0",
       "author": { "name": "Corey Maypray" },
       "source": "./plugins/maycrest-ops",
       "category": "productivity"
