@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "sloth-skill-tree",
-  "description": "Maycrest Group skills marketplace — 5 pillars, 108 specialist skills for Create, Secure, Automate, Ops, and Command",
+  "description": "Maycrest Group skills marketplace — 5 pillars, 105 specialist skills for Create, Secure, Automate, Ops, and Command",
   "owner": {
     "name": "Corey Maypray",
     "email": "corey@maycrest.com"

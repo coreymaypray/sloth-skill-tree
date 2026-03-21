@@ -20,7 +20,33 @@ skills/
 └── davinci-resolve-mcp/     DaVinci Resolve Studio automation via MCP
 ```
 
-**108 plugin specialists + 3 global skills** across 5 plugins.
+**105 plugin specialists + 3 global skills** across 5 plugins.
+
+## Current Versions
+
+| Plugin | Version | Skills | Commands | Focus |
+|--------|---------|--------|----------|-------|
+| **maycrest-command** | 3.1.0 | 2 | 3 | Sloth Command orchestrator + Sloth Dispatch fast router |
+| **maycrest-create** | 1.1.0 | 34 | 10 | Design, brand, marketing, content, paid media |
+| **maycrest-automate** | 1.1.0 | 37 | 14 | Engineering, AI, spatial, gamedev, product |
+| **maycrest-secure** | 1.1.0 | 10 | 6 | Security, threat intel, forensics, compliance |
+| **maycrest-ops** | 1.1.0 | 22 | 7 | PM, QA, finance, analytics, studio ops |
+
+## Changelog
+
+### v3.1.0 — 2026-03-21
+- Upgraded Sloth Command with agent-orchestrator patterns (task classification, parallel execution, CI/PR reactions, lineage context)
+- Added `/sloth-status` command for work-in-progress dashboard
+- Added `orchestration-patterns.md` reference
+- Upgraded Sloth Dispatch with reactive event routing (CI failures, PR reviews, merge conflicts)
+
+### v1.1.0 — 2026-03-21
+- Consolidated all skill sources into sloth-skill-tree (from cyber-sloth-empire + anthropic-skills)
+- Migrated 7 skills: backend-database, backend-infrastructure, app-dev, mobile-app-builder, legal-compliance, data-analytics, tool-evaluator
+- Added google-flow (Veo 3.1 AI video), chevelle-restoration, davinci-resolve-mcp as global skills
+- Full rebrand: "Cyber Sloth Empire" replaced with "Maycrest Group" across 87+ files
+- Renamed chief-of-staff to sloth-dispatch, killed CEO/CoS corporate titles
+- Renamed 7 GitHub repos to maycrest/sloth branding
 
 ## Quick Start
 
@@ -49,7 +75,7 @@ git clone https://github.com/coreymaypray/sloth-skill-tree.git
 ### Step 2: Register Marketplace
 
 ```bash
-claude plugin marketplace add /path/to/sloth-skill-tree/plugins
+claude plugin marketplace add /path/to/sloth-skill-tree
 ```
 
 ### Step 3: Install All Plugins

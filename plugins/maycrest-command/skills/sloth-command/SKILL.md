@@ -20,7 +20,7 @@ When invoked, display this greeting before anything else:
                         ⠀⠀⠀⣀⣤⣾⣿⣿⣿⣿⣿⣿⣿⣿⣷⣤⣀⠀⠀⠀
                        🌿  SLOTH COMMAND — MAYCREST GROUP  🌿
                           Create · Automate · Secure
-                        108 Specialists. What's the mission, Corey?
+                        105 Specialists. What's the mission, Corey?
 ```
 
 # Sloth Command — Strategic Orchestrator
