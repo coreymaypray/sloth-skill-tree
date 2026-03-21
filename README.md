@@ -230,14 +230,14 @@ Operations — project management, QA/testing, finance, analytics, studio operat
 
 ## COMMAND (2 specialists)
 
-Sloth Command + Sloth Dispatch. Strategic orchestration across all pillars.
+Sloth Command + Sloth Dispatch. Strategic orchestration across all pillars with task decomposition, parallel execution, CI/PR integration, and event-driven reaction protocols. Inspired by [ComposioHQ/agent-orchestrator](https://github.com/ComposioHQ/agent-orchestrator) patterns.
 
 | Skill | What It Does |
 |-------|-------------|
-| **sloth-command** | Sloth Command — analyzes any task, identifies best divisions and skills, builds phased execution plans |
-| **sloth-dispatch** | Sloth Dispatch — quick single-skill routing, lightweight task dispatch |
+| **sloth-command** | Sloth Command — classifies tasks (atomic/composite/parallel), decomposes into tracks with lineage context, spawns parallel agents, reacts to CI failures and review comments |
+| **sloth-dispatch** | Sloth Dispatch — fast single-skill routing + reactive event triage (CI failures, PR reviews, merge conflicts) |
 
-**Commands:** `/sloth`, `/sloth-dispatch`
+**Commands:** `/sloth`, `/sloth-dispatch`, `/sloth-status`
 
 ---
 

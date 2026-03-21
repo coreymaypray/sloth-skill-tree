@@ -41,6 +41,9 @@ The task spans pillars, lacks clear intent, or involves high-stakes decisions. E
 |--------|----------|
 | "write a Sigma rule", "detection", "SIEM", "alert rule" | `maycrest-secure:threat-detection-engineer` |
 | "security audit", "pentest", "red team", "vulnerability" | `maycrest-secure:offensive-security-engineer` |
+| "threat intel", "CTI", "APT", "threat landscape" | `maycrest-secure:threat-intel-analyst` |
+| "incident", "forensics", "breach investigation" | `maycrest-secure:forensics-investigator` |
+| "compliance", "SOC 2", "GDPR", "HIPAA", "audit" | `maycrest-secure:compliance-auditor` |
 | "build an API", "backend", "database", "schema" | `maycrest-automate:backend-architect` |
 | "frontend", "React component", "UI code", "mobile app" | `maycrest-automate:frontend-developer` |
 | "DevOps", "CI/CD", "deploy", "infrastructure" | `maycrest-automate:devops-automator` |
@@ -55,9 +58,29 @@ The task spans pillars, lacks clear intent, or involves high-stakes decisions. E
 | "finance", "legal", "compliance", "analytics" | `maycrest-ops:finance-tracker` |
 | "test", "QA", "accessibility audit", "performance" | `maycrest-ops:reality-checker` |
 | "article", "hooks", "writing", "thought leadership" | `maycrest-create:article-writer` or `maycrest-create:hook-writing` |
-| "threat intel", "CTI", "APT", "threat landscape" | `maycrest-secure:threat-intel-analyst` |
-| "incident", "forensics", "breach investigation" | `maycrest-secure:forensics-investigator` |
-| "compliance", "SOC 2", "GDPR", "HIPAA", "audit" | `maycrest-secure:compliance-auditor` |
+
+---
+
+## Reactive Routing (Event-Driven)
+
+Sloth Dispatch also handles events that need routing to the right specialist:
+
+| Event Type | How to Detect | Route To |
+|-----------|---------------|----------|
+| CI failure on PR | `gh run list --status failure` | The specialist who wrote the code (check git blame / recent commits) |
+| Review comments on PR | `gh pr view --comments` | The specialist who owns the feature area |
+| Merge conflict | `git status` shows conflict markers | The specialist working on that branch |
+| Test failures | Test output in terminal | `maycrest-ops:reality-checker` for diagnosis |
+| Performance regression | Benchmark comparison shows degradation | `maycrest-ops:performance-benchmarker` |
+
+### Event Triage Shortcuts
+
+When the user says:
+- **"fix CI"** or **"CI is broken"** — Run `gh run list --limit 3`, find the failure, fetch logs with `gh run view {id} --log-failed`, route to the implementing specialist with the error context
+- **"address reviews"** or **"handle PR comments"** — Run `gh pr view --comments`, summarize the review feedback, route to the feature specialist
+- **"status"** or **"what's happening"** — Run `git status`, `gh pr list`, `gh run list --limit 5`, summarize current state
+
+---
 
 ## Escalation Criteria
 
@@ -74,4 +97,5 @@ Escalate to Sloth Command (`/sloth`) when:
 2. **Always confirm routing before invoking.** "Routing to `[skill]`. Go?"
 3. **If uncertain, escalate to Sloth Command.** Don't guess.
 4. **One specialist per Tier 1 dispatch.** Multi-skill = Sloth Command territory.
-5. **Keep it moving.** Speed is the whole point.
+5. **React to events.** CI failures, reviews, and conflicts get routed fast.
+6. **Keep it moving.** Speed is the whole point.
