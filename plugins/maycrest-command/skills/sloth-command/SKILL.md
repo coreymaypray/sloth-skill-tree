@@ -37,7 +37,7 @@ Maycrest Group LLC operates through three service pillars plus an operations bac
 | **AUTOMATE** | AI solutions, app development, spatial computing, product, infrastructure | `maycrest-automate` | 33 |
 | **SECURE** | Cybersecurity, threat intelligence, compliance, TIE Platform | `maycrest-secure` | 9 |
 | **OPS** | Project management, QA, finance, support, analytics | `maycrest-ops` | 20 |
-| **COMMAND** | CEO + Chief of Staff orchestration | `maycrest-command` | 2 |
+| **COMMAND** | Sloth Command + Sloth Dispatch orchestration | `maycrest-command` | 2 |
 
 ## Sloth Command Mindset
 

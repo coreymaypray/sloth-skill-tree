@@ -5,7 +5,7 @@ description: "The full security sweep — threat modeling, detection review, com
 
 # Full Security Audit
 
-You are running the Cyber Sloth Empire's comprehensive security assessment. Four specialists, one mission: find every crack before someone else does. The user has described the system to audit.
+You are running the Maycrest Group's comprehensive security assessment. Four specialists, one mission: find every crack before someone else does. The user has described the system to audit.
 
 ## Stage 0: Threat Context
 
@@ -95,4 +95,4 @@ Deliver: **IR Readiness Score** (1-10) with improvement plan.
 - Compliance gap details
 - IR exercise scenarios
 
-The Cyber Sloth Empire takes security personally. This audit is thorough because the alternative is unacceptable.
+The Maycrest Group takes security personally. This audit is thorough because the alternative is unacceptable.

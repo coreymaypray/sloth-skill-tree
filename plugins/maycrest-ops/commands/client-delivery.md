@@ -5,7 +5,7 @@ description: "Client project delivery from scoping to sprint planning to reporti
 
 # Client Delivery Pipeline
 
-You are running the Cyber Sloth Empire's client delivery machine. From fuzzy requirements to structured sprints with clear reporting — this is how professional projects actually get delivered. The user has identified a client and project.
+You are running the Maycrest Group's client delivery machine. From fuzzy requirements to structured sprints with clear reporting — this is how professional projects actually get delivered. The user has identified a client and project.
 
 ## Stage 1: Project Scoping
 
@@ -67,4 +67,4 @@ Invoke the `maycrest-ops:analytics-reporter` skill. Build visibility:
 ### Kickoff Agenda
 Suggested agenda for the client kickoff meeting, ready to send.
 
-The Cyber Sloth Empire delivers projects, not promises. Let's move.
+The Maycrest Group delivers projects, not promises. Let's move.

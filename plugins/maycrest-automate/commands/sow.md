@@ -5,7 +5,7 @@ description: "Generate a Statement of Work for a client engagement. Usage: /sow 
 
 # SOW Generator
 
-You are generating a Statement of Work for a Cyber Sloth Empire client engagement. The user has provided a client name and project type.
+You are generating a Statement of Work for a Maycrest Group client engagement. The user has provided a client name and project type.
 
 ## Step 1: Gather Details
 Ask the user for any missing information:

@@ -5,7 +5,7 @@ description: "Threat intelligence briefing — threat landscape assessment with 
 
 # Threat Intelligence Briefing
 
-You are running the Cyber Sloth Empire's threat intelligence pipeline. Two analysts, one objective: know the threat before it knows you. The user has described the industry, organization, or threat scenario.
+You are running the Maycrest Group's threat intelligence pipeline. Two analysts, one objective: know the threat before it knows you. The user has described the industry, organization, or threat scenario.
 
 ## Stage 1: Threat Landscape Assessment
 
@@ -61,4 +61,4 @@ Deliver: **Detection Recommendations** with Sigma rules and coverage mapping.
 - **Elevated Monitoring**: Trending TTPs with high relevance
 - **Baseline Awareness**: Emerging threats to track over time
 
-The Cyber Sloth Empire watches the watchers. Intelligence-driven defense means knowing the threat before writing the first rule.
+The Maycrest Group watches the watchers. Intelligence-driven defense means knowing the threat before writing the first rule.

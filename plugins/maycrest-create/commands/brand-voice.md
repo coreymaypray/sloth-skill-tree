@@ -1,6 +1,6 @@
 ---
 name: brand-voice
-description: "Audit any draft for voice consistency across Nexus/Cyber Sloth/Personal. Usage: /brand-voice [paste draft]"
+description: "Audit any draft for voice consistency across Nexus/Maycrest/Personal. Usage: /brand-voice [paste draft]"
 ---
 
 # Brand Voice Audit
@@ -10,7 +10,7 @@ You are auditing a draft for voice consistency. The user has provided text to re
 ## Step 1: Detect Voice
 Identify which voice persona the draft is currently using (or attempting to use):
 - **Nexus** — Cybersecurity practitioner, first-person expert
-- **Cyber Sloth Empire** — Consulting brand, confident and slightly irreverent
+- **Maycrest Group** — Consulting brand, confident and slightly irreverent
 - **Personal** — Corey's authentic cultural/lifestyle voice
 
 If the voice is mixed or unclear, flag it.

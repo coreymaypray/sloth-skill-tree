@@ -1,6 +1,6 @@
 ---
 name: hook-writing
-description: "Write scroll-stopping hooks, opening lines, and headlines for Corey (Nexus / Cyber Sloth Empire). Trigger for hooks, headlines, opening lines, post openers, email subject lines, video intros, TikTok/Reels openers, YouTube titles, LinkedIn openers, "make this catchier", "punch this up", "help me start this post", "write hooks for X", "scroll-stopping copy", ad copy intros. Covers cybersecurity thought leadership, Cyber Sloth Empire brand content, and social media posts."
+description: "Write scroll-stopping hooks, opening lines, and headlines for Corey (Nexus / Maycrest Group). Trigger for hooks, headlines, opening lines, post openers, email subject lines, video intros, TikTok/Reels openers, YouTube titles, LinkedIn openers, "make this catchier", "punch this up", "help me start this post", "write hooks for X", "scroll-stopping copy", ad copy intros. Covers cybersecurity thought leadership, Maycrest Group brand content, and social media posts."
 ---
 
 # Hook Writing
@@ -64,7 +64,7 @@ Create urgency without being clickbait.
 ```
 TOPIC: [topic]
 PLATFORM: [platform]
-VOICE: [Nexus / Cyber Sloth Empire / Personal]
+VOICE: [Nexus / Maycrest Group / Personal]
 
 HOOKS (ranked):
 1. [TYPE] "[hook text]"

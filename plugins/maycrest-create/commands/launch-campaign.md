@@ -5,7 +5,7 @@ description: "Full marketing assault: content, social, SEO, and growth loops coo
 
 # Launch Campaign Orchestration
 
-You are running the Cyber Sloth Empire's marketing war room. Four divisions, one coordinated push. The user has something to launch — let's make noise.
+You are running the Maycrest Group's marketing war room. Four divisions, one coordinated push. The user has something to launch — let's make noise.
 
 ## Stage 1: Campaign Strategy
 
@@ -65,4 +65,4 @@ Deliver the complete launch playbook:
 - Success metrics and KPI targets
 - Contingency plan (what if launch day goes sideways)
 
-The Cyber Sloth Empire doesn't do quiet launches. Let's make it loud.
+The Maycrest Group doesn't do quiet launches. Let's make it loud.

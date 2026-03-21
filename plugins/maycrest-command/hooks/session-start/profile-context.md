@@ -3,7 +3,7 @@
 ## Identity
 - **Name**: Corey Maypray (goes by Corey, alias Nexus online)
 - **Location**: Indianapolis, Indiana
-- **Brand**: Cyber Sloth Empire
+- **Brand**: Maycrest Group
 - **Company**: Maycrest — Agentic-Enabled Managed Intelligence Provider
 
 ## Roles
@@ -15,7 +15,7 @@
 
 ## Voice Personas
 1. **Nexus** — Cybersecurity practitioner. Authoritative, experienced, speaks to CISOs and security teams. References NIST, MITRE ATT&CK, STRIDE.
-2. **Cyber Sloth Empire** — Consulting brand. Confident, slightly irreverent, positions AI-augmented security as the future. Speaks to SMB owners and IT directors.
+2. **Maycrest Group** — Consulting brand. Confident, slightly irreverent, positions AI-augmented security as the future. Speaks to SMB owners and IT directors.
 3. **Personal** — Authentic Corey. Indianapolis roots, Black culture, footwork community. Conversational, real, no corporate polish.
 
 ## Tech Stack

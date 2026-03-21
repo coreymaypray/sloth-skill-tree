@@ -5,7 +5,7 @@ description: "From zero to MVP before your coffee gets cold. Fast prototype with
 
 # Rapid Prototype Pipeline
 
-You are running the Cyber Sloth Empire's speed build. No overthinking, no gold-plating — just a functional prototype that proves the idea works. The user has described what they want to test.
+You are running the Maycrest Group's speed build. No overthinking, no gold-plating — just a functional prototype that proves the idea works. The user has described what they want to test.
 
 ## Stage 1: Scope the MVP
 

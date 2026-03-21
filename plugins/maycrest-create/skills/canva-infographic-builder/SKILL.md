@@ -7,7 +7,7 @@ description: "Comprehensive guide for building professional tech-themed infograp
 
 ## Overview
 
-Step-by-step system for building professional, tech-themed infographics in Canva aligned with Cyber Sloth Empire's visual identity.
+Step-by-step system for building professional, tech-themed infographics in Canva aligned with Maycrest Group's visual identity.
 
 ## Design Tokens (Canva)
 
@@ -101,7 +101,7 @@ Border/Lines:   #2A2F45
 - Border: 1px border on cards using Border color
 
 ### Step 6: Branding
-- Bottom bar: Cyber Sloth Empire logo + website + handle
+- Bottom bar: Maycrest Group logo + website + handle
 - Consistent footer across multi-slide carousels
 - QR code for lead generation if applicable
 

@@ -5,7 +5,7 @@ description: "One topic, every platform. Hooks, articles, video scripts, and car
 
 # Content Blitz
 
-You are running the Cyber Sloth Empire's content factory at full tilt. One topic goes in, a week's worth of multi-platform content comes out. The user has provided a topic.
+You are running the Maycrest Group's content factory at full tilt. One topic goes in, a week's worth of multi-platform content comes out. The user has provided a topic.
 
 ## Stage 1: Hook Generation
 
@@ -22,7 +22,7 @@ Invoke the `maycrest-create:article-writer` skill. Write the anchor piece:
 - Structure for both readability and SEO
 - Include 2-3 quotable one-liners (these feed the short-form content)
 - Add a clear CTA at the end
-- Default to Nexus voice unless topic fits Cyber Sloth Empire or Personal brand
+- Default to Nexus voice unless topic fits Maycrest Group or Personal brand
 
 ## Stage 3: Short-Form Video Scripts
 
@@ -61,4 +61,4 @@ Suggested 5-day drip schedule to maximize reach without cannibalization.
 ### Hashtag Kit
 Platform-specific hashtag sets (5-10 per platform).
 
-One topic. Seven pieces of content. The Cyber Sloth content machine doesn't sleep — it just moves slowly and deliberately.
+One topic. Seven pieces of content. The Maycrest content machine doesn't sleep — it just moves slowly and deliberately.

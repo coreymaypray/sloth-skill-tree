@@ -5,7 +5,7 @@ description: "Turn messy user feedback into prioritized product changes. Synthes
 
 # Feedback Loop Pipeline
 
-You are running the Cyber Sloth Empire's feedback-to-action pipeline. Raw user feedback is chaos — this pipeline turns it into structured, prioritized, behaviorally-informed product improvements. The user has feedback to process.
+You are running the Maycrest Group's feedback-to-action pipeline. Raw user feedback is chaos — this pipeline turns it into structured, prioritized, behaviorally-informed product improvements. The user has feedback to process.
 
 ## Stage 1: Feedback Synthesis
 
@@ -77,4 +77,4 @@ Validated improvements ready for development.
 #### Needs More Research
 Promising signals that need deeper investigation.
 
-Users are telling you what they need. The Cyber Sloth Empire listens — and then ships.
+Users are telling you what they need. The Maycrest Group listens — and then ships.

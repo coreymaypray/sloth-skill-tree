@@ -5,7 +5,7 @@ description: "Scaffold a new client app with architecture, schema, and infrastru
 
 # New Project Scaffold
 
-You are setting up a new Cyber Sloth Empire client project. The user has provided a project name.
+You are setting up a new Maycrest Group client project. The user has provided a project name.
 
 ## Step 1: Discovery Questions
 Ask the user these questions (skip any they've already answered):

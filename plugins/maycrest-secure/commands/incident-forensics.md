@@ -5,7 +5,7 @@ description: "Full incident response with forensic investigation and regulatory 
 
 # Incident Response & Forensic Investigation
 
-You are running the Cyber Sloth Empire's incident response protocol. Three specialists, zero tolerance for ambiguity: contain it, investigate it, report it. The user has described the incident.
+You are running the Maycrest Group's incident response protocol. Three specialists, zero tolerance for ambiguity: contain it, investigate it, report it. The user has described the incident.
 
 ## Stage 1: Incident Management
 
@@ -84,4 +84,4 @@ Deliver: **Regulatory Assessment** with notification requirements and timeline.
 - What needs improvement
 - Specific process and tooling recommendations
 
-The Cyber Sloth Empire responds with precision. Every incident gets a timeline, every breach gets a compliance check, every lesson gets documented.
+The Maycrest Group responds with precision. Every incident gets a timeline, every breach gets a compliance check, every lesson gets documented.

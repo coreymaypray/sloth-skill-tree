@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate ~/.claude/commands/ wrapper files for all Cyber Sloth skills and commands."""
+"""Generate ~/.claude/commands/ wrapper files for all Maycrest skills and commands."""
 
 import os
 import re
@@ -59,9 +59,9 @@ def resolve_name(base_name, plugin_name, division):
     """Resolve naming collisions by appending division suffix."""
     if base_name in used_names and used_names[base_name] != plugin_name:
         # Collision - use division-specific name
-        return f"cyber-sloth-{division}-{base_name}"
+        return f"maycrest-{division}-{base_name}"
     used_names[base_name] = plugin_name
-    return f"cyber-sloth-{base_name}"
+    return f"maycrest-{base_name}"
 
 
 # First pass: identify collisions
@@ -91,8 +91,8 @@ for plugin_dir in sorted(PLUGINS_DIR.iterdir()):
     if not plugin_dir.is_dir():
         continue
     plugin_name = plugin_dir.name
-    # Extract division name (e.g., "design" from "cyber-sloth-design")
-    division = plugin_name.replace("cyber-sloth-", "")
+    # Extract division name (e.g., "create" from "maycrest-create")
+    division = plugin_name.replace("maycrest-", "")
 
     version_dirs = [d for d in plugin_dir.iterdir() if d.is_dir()]
     if not version_dirs:
@@ -116,9 +116,9 @@ for plugin_dir in sorted(PLUGINS_DIR.iterdir()):
             skill_ref = f"{plugin_name}:{skill_name}"
 
             if skill_name in collision_names:
-                filename = f"cyber-sloth-{division}-{skill_name}.md"
+                filename = f"maycrest-{division}-{skill_name}.md"
             else:
-                filename = f"cyber-sloth-{skill_name}.md"
+                filename = f"maycrest-{skill_name}.md"
 
             make_wrapper(filename, skill_ref, desc)
             total += 1
@@ -141,11 +141,11 @@ for plugin_dir in sorted(PLUGINS_DIR.iterdir()):
                 "paid-media", "product", "project-mgmt", "spatial",
                 "specialized", "support", "testing"
             ]:
-                filename = f"cyber-sloth-{cmd_name}-dispatch.md"
-            elif cmd_name == "ceo":
-                filename = "cyber-sloth-ceo.md"
+                filename = f"maycrest-{cmd_name}-dispatch.md"
+            elif cmd_name == "sloth":
+                filename = "sloth-command.md"
             else:
-                filename = f"cyber-sloth-{cmd_name}.md"
+                filename = f"maycrest-{cmd_name}.md"
 
             make_wrapper(filename, skill_ref, desc)
             total += 1
@@ -153,8 +153,8 @@ for plugin_dir in sorted(PLUGINS_DIR.iterdir()):
 # Special: sloth-command gets its own top-level name too
 make_wrapper(
     "sloth-command.md",
-    "cyber-sloth-suite:sloth-command",
-    "The CEO of the Cyber Sloth Empire. Describe any task and the CEO dispatches to the right specialists."
+    "maycrest-command:sloth-command",
+    "Sloth Command — the Maycrest Group strategic orchestrator. Describe any task and Sloth Command dispatches to the right specialists."
 )
 total += 1
 

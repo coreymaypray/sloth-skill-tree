@@ -1,5 +1,5 @@
 ---
-name: chief-of-staff
+name: sloth-dispatch
 description: "Sloth Dispatch — Maycrest Group fast dispatcher that routes tasks to the right specialist without ceremony. Use when you have a task but don't need Sloth Command's full strategic assessment."
 ---
 

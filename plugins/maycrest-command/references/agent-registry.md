@@ -8,8 +8,8 @@ Master index of all agents across the Maycrest plugin family. Use this to route 
 
 | Entry Point | When to Use | Invocation |
 |-------------|-------------|------------|
-| **Chief of Staff** | Simple, single-skill tasks or pillar-level routing | `/cos [task]` |
-| **CEO** | Multi-pillar strategic work, ambiguous requests, high-stakes decisions | `/ceo [task]` |
+| **Sloth Dispatch** | Simple, single-skill tasks or pillar-level routing | `/sloth-dispatch [task]` |
+| **Sloth Command** | Multi-pillar strategic work, ambiguous requests, high-stakes decisions | `/sloth [task]` |
 | **Direct Specialist** | You know exactly which specialist you need | `maycrest-[pillar]:[skill]` |
 
 ---

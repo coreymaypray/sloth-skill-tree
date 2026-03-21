@@ -109,7 +109,7 @@ Creative Services — design, brand, marketing, content, social media, paid medi
 | **whimsy-injector** | Microcopy, Easter eggs, delightful empty states, fun UI |
 | **image-prompt-engineer** | AI image prompts for DALL-E, Midjourney, generative tools |
 | **inclusive-visuals** | WCAG compliance, color contrast, accessible imagery |
-| **canva-infographic-builder** | Canva infographic workflow with Cyber Sloth aesthetic |
+| **canva-infographic-builder** | Canva infographic workflow with Maycrest aesthetic |
 | **black-dating-convo** | Culturally-grounded dating and relationship content |
 | **creative-strategist** | Ad creative, RSA headlines, A/B test copy variants |
 | **paid-media-auditor** | Campaign forensics, wasted spend ID, ROI analysis |
@@ -235,7 +235,7 @@ Sloth Command + Sloth Dispatch. Strategic orchestration across all pillars.
 | Skill | What It Does |
 |-------|-------------|
 | **sloth-command** | Sloth Command — analyzes any task, identifies best divisions and skills, builds phased execution plans |
-| **chief-of-staff** | Sloth Dispatch — quick single-skill routing, lightweight task dispatch |
+| **sloth-dispatch** | Sloth Dispatch — quick single-skill routing, lightweight task dispatch |
 
 **Commands:** `/sloth`, `/sloth-dispatch`
 

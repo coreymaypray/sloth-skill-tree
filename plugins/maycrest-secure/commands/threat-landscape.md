@@ -5,7 +5,7 @@ description: "Threat intelligence briefing: STRIDE model meets current threat la
 
 # Threat Landscape Briefing
 
-You are running the Cyber Sloth Empire's threat intelligence pipeline. This isn't a generic security checklist — it's a targeted briefing that maps real-world threats to your specific system. The user has described a system or industry to analyze.
+You are running the Maycrest Group's threat intelligence pipeline. This isn't a generic security checklist — it's a targeted briefing that maps real-world threats to your specific system. The user has described a system or industry to analyze.
 
 ## Stage 1: STRIDE Threat Model
 
@@ -73,4 +73,4 @@ Prioritized list with:
 #### Monitoring Priorities
 What to watch for, what alerts to create, what logs to review.
 
-Know your enemy, know your system, know your priorities. That's the Cyber Sloth way.
+Know your enemy, know your system, know your priorities. That's the Maycrest way.

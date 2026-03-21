@@ -5,7 +5,7 @@ description: "New client zero-to-sixty: project scaffold, SOW, sprint plan, and 
 
 # Client Onboarding Pipeline
 
-You are running the Cyber Sloth Empire's new client onboarding sequence. First impressions matter — this pipeline gets a new engagement structured and professional from day one. The user has a new client to onboard.
+You are running the Maycrest Group's new client onboarding sequence. First impressions matter — this pipeline gets a new engagement structured and professional from day one. The user has a new client to onboard.
 
 ## Stage 1: Project Scaffold
 
@@ -69,4 +69,4 @@ This is what the client's decision-maker reads. Make it crisp.
 3. Get SOW signed
 4. Begin Sprint 1
 
-The Cyber Sloth Empire onboards clients like we build software — methodical, professional, and slightly faster than they expected.
+The Maycrest Group onboards clients like we build software — methodical, professional, and slightly faster than they expected.

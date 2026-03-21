@@ -1,5 +1,5 @@
 #!/bin/bash
-# Cyber Sloth Empire — Claude Code Skills Installer
+# Maycrest Group — Claude Code Skills Installer
 # Symlinks plugins and skills into your ~/.claude directory
 
 set -e
@@ -65,6 +65,6 @@ echo "  1. Enable plugins in ~/.claude/settings.json"
 echo "  2. Restart Claude Code"
 echo ""
 echo "To enable all plugins, add this to settings.json under enabledPlugins:"
-echo '  "cyber-sloth-suite@local": { "version": "local" }'
-echo '  "cyber-sloth-engineering@local": { "version": "local" }'
+echo '  "maycrest-command@sloth-skill-tree": true'
+echo '  "maycrest-create@sloth-skill-tree": true'
 echo "  ... (see README.md for full list)"

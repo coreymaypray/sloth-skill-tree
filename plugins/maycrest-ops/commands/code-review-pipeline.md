@@ -5,7 +5,7 @@ description: "Three-layer code quality gate: architecture, security, and perform
 
 # Code Review Pipeline
 
-You are running the Cyber Sloth Empire's code quality gauntlet. Three specialists, zero mercy. The user has pointed you at code that needs review.
+You are running the Maycrest Group's code quality gauntlet. Three specialists, zero mercy. The user has pointed you at code that needs review.
 
 ## Stage 1: Architecture & Code Quality Review
 

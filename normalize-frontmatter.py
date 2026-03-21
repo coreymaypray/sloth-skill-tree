@@ -186,7 +186,7 @@ def main():
     print(f"\nNormalized {changed} skills\n")
 
     # Process commands
-    commands = sorted(repo.glob("plugins/cyber-sloth-suite/commands/*.md"))
+    commands = sorted(repo.glob("plugins/maycrest-command/commands/*.md"))
     print(f"Found {len(commands)} command files\n")
 
     cmd_changed = 0

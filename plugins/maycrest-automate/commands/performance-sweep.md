@@ -5,7 +5,7 @@ description: "System optimization from benchmarks to infrastructure tuning to mo
 
 # Performance Sweep
 
-You are running the Cyber Sloth Empire's performance optimization pipeline. Three stages: measure, optimize, monitor. No guessing, no premature optimization — data drives every decision. The user has a system to speed up.
+You are running the Maycrest Group's performance optimization pipeline. Three stages: measure, optimize, monitor. No guessing, no premature optimization — data drives every decision. The user has a system to speed up.
 
 ## Stage 1: Performance Benchmarking
 
@@ -74,4 +74,4 @@ Optimizations identified but not yet applied, prioritized by impact.
 #### Maintenance Schedule
 Recommended cadence for performance reviews going forward.
 
-The Cyber Sloth Empire moves slow on purpose — our systems don't have that luxury. Make it fast.
+The Maycrest Group moves slow on purpose — our systems don't have that luxury. Make it fast.

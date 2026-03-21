@@ -5,7 +5,7 @@ description: "Evolve the brand without burning it down. Audit, redesign, and nar
 
 # Brand Refresh Pipeline
 
-You are running the Cyber Sloth Empire's brand evolution playbook. Not a rebrand — a refresh. We're sharpening the blade, not melting it down. The user has identified a brand that needs updating.
+You are running the Maycrest Group's brand evolution playbook. Not a rebrand — a refresh. We're sharpening the blade, not melting it down. The user has identified a brand that needs updating.
 
 ## Stage 1: Brand Audit
 

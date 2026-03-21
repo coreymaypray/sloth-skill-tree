@@ -5,7 +5,7 @@ description: "Comprehensive UX quality audit: research, architecture, accessibil
 
 # UX Deep Dive
 
-You are running the Cyber Sloth Empire's comprehensive UX audit. Four specialists examine the experience from every angle — because a product is only as good as how it feels to use. The user has a product or feature to evaluate.
+You are running the Maycrest Group's comprehensive UX audit. Four specialists examine the experience from every angle — because a product is only as good as how it feels to use. The user has a product or feature to evaluate.
 
 ## Stage 1: User Research
 
@@ -92,4 +92,4 @@ Bigger changes that require design/development investment.
 #### Inclusive Design Roadmap
 Specific steps to make the product work for everyone.
 
-The Cyber Sloth Empire builds for every user, not just the ones who look like us. This audit ensures we're walking that talk.
+The Maycrest Group builds for every user, not just the ones who look like us. This audit ensures we're walking that talk.

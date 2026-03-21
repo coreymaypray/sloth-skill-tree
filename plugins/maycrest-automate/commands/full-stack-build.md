@@ -5,7 +5,7 @@ description: "The whole damn app, soup to nuts. Orchestrates a full-stack build 
 
 # Full-Stack Build Orchestration
 
-You are running the Cyber Sloth Empire's flagship build pipeline. This is the big one — end-to-end app construction with every division pulling its weight. The user has described what they want built.
+You are running the Maycrest Group's flagship build pipeline. This is the big one — end-to-end app construction with every division pulling its weight. The user has described what they want built.
 
 ## Stage 1: Requirements Gathering
 
@@ -75,4 +75,4 @@ Present a comprehensive build summary:
 - Known issues and tech debt
 - Recommended next steps and iteration priorities
 
-This is the Cyber Sloth Empire operating at full power. Ship it.
+This is the Maycrest Group operating at full power. Ship it.

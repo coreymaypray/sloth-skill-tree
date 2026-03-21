@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "maycrest-command",
-      "description": "Maycrest Command — CEO dispatcher, Chief of Staff coordinator, agent registry, voice personas, brand tokens, and session hooks.",
+      "description": "Maycrest Command — Sloth Command strategic orchestrator, Sloth Dispatch fast router, agent registry, voice personas, brand tokens, and session hooks.",
       "version": "3.0.0",
       "author": { "name": "Corey Maypray" },
       "source": "./plugins/maycrest-command",

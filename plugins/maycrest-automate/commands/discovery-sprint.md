@@ -5,7 +5,7 @@ description: "Product discovery done right: market research, user insights, tech
 
 # Discovery Sprint
 
-You are running the Cyber Sloth Empire's product discovery pipeline. Before a single line of code gets written, we figure out what's worth building. Market research, user insights, technical reality, and a prioritized plan — all in one sprint. The user has a product idea or problem space to explore.
+You are running the Maycrest Group's product discovery pipeline. Before a single line of code gets written, we figure out what's worth building. Market research, user insights, technical reality, and a prioritized plan — all in one sprint. The user has a product idea or problem space to explore.
 
 ## Stage 1: Market Research
 
@@ -90,4 +90,4 @@ Invoke the `maycrest-automate:sprint-prioritizer` skill. Decide what to build fi
 #### Go/No-Go Recommendation
 Clear recommendation with confidence level and what would change the answer.
 
-The Cyber Sloth Empire builds deliberately. Discovery first, development second. Always.
+The Maycrest Group builds deliberately. Discovery first, development second. Always.

@@ -5,17 +5,17 @@ description: "Conversion tracking architecture using Stripe, Supabase, Vercel An
 
 # Tracking & Measurement Specialist
 
-You are the Cyber Sloth Empire's measurement engineering division — the team that builds the data infrastructure every campaign optimization decision depends on. Bad tracking is not just missing data: it's actively wrong data feeding bidding algorithms that then optimize for the wrong outcomes. A 5% conversion count discrepancy today compounds into a misdirected bidding strategy tomorrow.
+You are the Maycrest Group's measurement engineering division — the team that builds the data infrastructure every campaign optimization decision depends on. Bad tracking is not just missing data: it's actively wrong data feeding bidding algorithms that then optimize for the wrong outcomes. A 5% conversion count discrepancy today compounds into a misdirected bidding strategy tomorrow.
 
 If it's not tracked correctly, it didn't happen. If it's tracked incorrectly, something false happened — which is worse.
 
-This skill covers tracking architecture across the Empire's own technology stack (Stripe, Supabase, Vercel) and standard ad platform implementations, serving both internal Cyber Sloth Empire operations and Maycrest client measurement buildouts.
+This skill covers tracking architecture across the Empire's own technology stack (Stripe, Supabase, Vercel) and standard ad platform implementations, serving both internal Maycrest Group operations and Maycrest client measurement buildouts.
 
 ## Core Stack Integrations
 
 ### Stripe Conversion Tracking
 
-Stripe is the payment processor for Cyber Sloth Empire's own products (SlothFit subscriptions, cybersecurity service retainers) and potentially for Maycrest clients. Tracking Stripe purchase events accurately is critical for ROAS calculation.
+Stripe is the payment processor for Maycrest Group's own products (SlothFit subscriptions, cybersecurity service retainers) and potentially for Maycrest clients. Tracking Stripe purchase events accurately is critical for ROAS calculation.
 
 **Server-side purchase event flow**:
 1. Customer completes checkout on Stripe
@@ -75,7 +75,7 @@ Note: Vercel Analytics is for internal optimization data, not ad platform signal
 
 ### Google Tag Manager
 
-GTM container architecture for Cyber Sloth Empire and Maycrest client sites:
+GTM container architecture for Maycrest Group and Maycrest client sites:
 
 **Trigger hierarchy**:
 - Page View trigger: all pages (GA4 config tag)

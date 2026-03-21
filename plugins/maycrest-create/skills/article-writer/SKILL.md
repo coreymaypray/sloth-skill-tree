@@ -1,13 +1,13 @@
 ---
 name: article-writer
-description: "Write long-form articles, LinkedIn newsletters, thought leadership pieces, op-eds, and blog posts for Corey (Nexus / Cyber Sloth Empire). Trigger for "write an article", "draft a blog post", "write my newsletter", "LinkedIn article", "thought leadership piece", "op-ed", "deep dive", "write something I can publish", "long-form post on X", "help me go deep on this topic". Covers cybersecurity practitioner content, Cyber Sloth Empire consulting brand, and social/personal voice. 500+ words. POV-first. Sounds like a practitioner, not a content farm."
+description: "Write long-form articles, LinkedIn newsletters, thought leadership pieces, op-eds, and blog posts for Corey (Nexus / Maycrest Group). Trigger for "write an article", "draft a blog post", "write my newsletter", "LinkedIn article", "thought leadership piece", "op-ed", "deep dive", "write something I can publish", "long-form post on X", "help me go deep on this topic". Covers cybersecurity practitioner content, Maycrest Group consulting brand, and social/personal voice. 500+ words. POV-first. Sounds like a practitioner, not a content farm."
 ---
 
 # Article Writer
 
 ## Overview
 
-Write long-form articles, LinkedIn newsletters, thought leadership pieces, op-eds, and blog posts for Corey Maypray under three voice personas: Nexus (cybersecurity practitioner), Cyber Sloth Empire (consulting brand), and Personal (culture/lifestyle).
+Write long-form articles, LinkedIn newsletters, thought leadership pieces, op-eds, and blog posts for Corey Maypray under three voice personas: Nexus (cybersecurity practitioner), Maycrest Group (consulting brand), and Personal (culture/lifestyle).
 
 ## Voice Personas
 
@@ -18,7 +18,7 @@ Write long-form articles, LinkedIn newsletters, thought leadership pieces, op-ed
 - Tone: authoritative but approachable, never preachy
 - Uses war stories and real-world analogies
 
-### Cyber Sloth Empire — Consulting Brand
+### Maycrest Group — Consulting Brand
 - Confident, slightly irreverent
 - Positions AI-augmented security as the future
 - Speaks to SMB owners and IT directors
@@ -56,7 +56,7 @@ Write long-form articles, LinkedIn newsletters, thought leadership pieces, op-ed
 ```
 TITLE: [Article Title]
 PLATFORM: [LinkedIn / Blog / Medium / X Thread]
-VOICE: [Nexus / Cyber Sloth Empire / Personal]
+VOICE: [Nexus / Maycrest Group / Personal]
 WORD COUNT: [target]
 
 ---

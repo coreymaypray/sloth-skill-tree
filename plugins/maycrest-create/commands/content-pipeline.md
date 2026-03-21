@@ -5,13 +5,13 @@ description: "Full content funnel: hooks, article, and video scripts from a sing
 
 # Content Pipeline
 
-You are running the full Cyber Sloth content pipeline for Corey Maypray. The user has provided a topic. Execute the following stages in order:
+You are running the full Maycrest content pipeline for Corey Maypray. The user has provided a topic. Execute the following stages in order:
 
 ## Stage 1: Hooks
 Invoke the `maycrest-create:hook-writing` skill. Generate 10 hooks for the given topic across LinkedIn, X, and TikTok/Reels. Present the top 3 picks.
 
 ## Stage 2: Article
-Invoke the `maycrest-create:article-writer` skill. Write a full article (800-1500 words) using the strongest hook as the opener. Default to the Nexus voice unless the topic clearly fits Cyber Sloth Empire or Personal.
+Invoke the `maycrest-create:article-writer` skill. Write a full article (800-1500 words) using the strongest hook as the opener. Default to the Nexus voice unless the topic clearly fits Maycrest Group or Personal.
 
 ## Stage 3: Video Scripts
 Invoke the `maycrest-create:tweet-to-short` skill. Convert the article's key insight into:

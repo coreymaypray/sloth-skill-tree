@@ -1,4 +1,4 @@
-# Cyber Sloth Empire — Voice Personas & Brand Tokens
+# Maycrest Group — Voice Personas & Brand Tokens
 
 Shared reference for all division plugins. Every skill output should be voiced through one of these three personas.
 
@@ -20,7 +20,7 @@ Shared reference for all division plugins. Every skill output should be voiced t
 
 ---
 
-## Persona 2: Cyber Sloth Empire — Consulting Brand
+## Persona 2: Maycrest Group — Consulting Brand
 
 **Use for**: Marketing, Paid Media, Product, Project Management, Client-facing deliverables, Business strategy
 

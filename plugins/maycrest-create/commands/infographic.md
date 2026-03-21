@@ -38,7 +38,7 @@ Step-by-step build guide using Canva:
 ## Step 4: Canva Tool Execution
 If Canva MCP tools are available, use them to:
 - Generate the design directly in Canva
-- Apply Cyber Sloth Empire design tokens
+- Apply Maycrest Group design tokens
 - Set up the layout and content
 
 ## Step 5: Caption & Distribution
