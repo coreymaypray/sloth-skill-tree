@@ -8,10 +8,10 @@ Organized under the three Maycrest pillars: **Create · Automate · Secure**.
 
 ```
 plugins/
-├── maycrest-create/     Creative Services & Content Production (34 specialists)
-├── maycrest-automate/   AI Solutions & Business Automation (37 specialists)
+├── maycrest-create/     Creative Services & Content Production (36 specialists)
+├── maycrest-automate/   AI Solutions & Business Automation (39 specialists)
 ├── maycrest-secure/     Cybersecurity & Threat Intelligence (10 specialists)
-├── maycrest-ops/        Operations, QA, PM & Business Support (22 specialists)
+├── maycrest-ops/        Operations, QA, PM & Business Support (26 specialists)
 └── maycrest-command/    Sloth Command + Sloth Dispatch Orchestration (2 specialists)
 
 skills/
@@ -20,17 +20,17 @@ skills/
 └── davinci-resolve-mcp/     DaVinci Resolve Studio automation via MCP
 ```
 
-**105 plugin specialists + 3 global skills** across 5 plugins.
+**113 plugin specialists + 3 global skills** across 5 plugins.
 
 ## Current Versions
 
 | Plugin | Version | Skills | Commands | Focus |
 |--------|---------|--------|----------|-------|
 | **maycrest-command** | 3.1.0 | 2 | 3 | Sloth Command orchestrator + Sloth Dispatch fast router |
-| **maycrest-create** | 1.1.0 | 34 | 10 | Design, brand, marketing, content, paid media |
-| **maycrest-automate** | 1.1.0 | 37 | 14 | Engineering, AI, spatial, gamedev, product |
+| **maycrest-create** | 1.2.0 | 36 | 10 | Design, brand, marketing, content, paid media, theming, visual art |
+| **maycrest-automate** | 1.2.0 | 39 | 14 | Engineering, AI, spatial, gamedev, product, research, web artifacts |
 | **maycrest-secure** | 1.1.0 | 10 | 6 | Security, threat intel, forensics, compliance |
-| **maycrest-ops** | 1.1.0 | 22 | 7 | PM, QA, finance, analytics, studio ops |
+| **maycrest-ops** | 1.2.0 | 26 | 7 | PM, QA, finance, analytics, studio ops, document tooling |
 
 ## Changelog
 
@@ -39,6 +39,14 @@ skills/
 - Added `/sloth-status` command for work-in-progress dashboard
 - Added `orchestration-patterns.md` reference
 - Upgraded Sloth Dispatch with reactive event routing (CI failures, PR reviews, merge conflicts)
+
+### v1.2.0 — 2026-03-28
+- Skill audit & deduplication: removed 3 duplicate user skills from ~/.claude/skills/
+- Migrated 8 unique skills from legacy anthropic-skills into plugin system:
+  - maycrest-ops: docx, xlsx, pptx, pdf (document tooling)
+  - maycrest-create: theme-factory, canvas-design
+  - maycrest-automate: web-artifacts-builder, deep-research
+- Updated skill counts: Create 34→36, Automate 37→39, Ops 22→26 (total 105→113)
 
 ### v1.1.0 — 2026-03-21
 - Consolidated all skill sources into sloth-skill-tree (from cyber-sloth-empire + anthropic-skills)
