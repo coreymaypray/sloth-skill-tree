@@ -106,6 +106,18 @@ Tech products with personality. Intentionally slow (deliberate, not lazy). Sloth
 - Avoid generic fitness app clichés ("transform your body", "unlock your potential")
 - Preferred: "show up", "do the work", "steady pace", "intentional"
 
+## DESIGN.md Validation
+
+Projects may include a `DESIGN.md` file (Google Stitch 9-section standard) that codifies the design system for AI agent consumption. When auditing a project that has a DESIGN.md:
+
+1. **Token accuracy**: Verify DESIGN.md color values, typography, and spacing match the brand tokens above
+2. **Brand alignment**: Ensure Section 1 (Visual Theme) accurately represents brand positioning
+3. **Voice consistency**: Check that Section 7 (Do's and Don'ts) aligns with brand voice guidelines
+4. **No unauthorized evolution**: DESIGN.md documents the brand — it doesn't change it. Flag any values that diverge from approved tokens.
+5. **Completeness**: All 9 sections should be present (Visual Theme, Colors, Typography, Components, Layout, Depth, Do's/Don'ts, Responsive, Agent Guide)
+
+The Maycrest Digital website's DESIGN.md lives at `website/DESIGN.md`. The `maycrest-create:design-system-architect` skill owns DESIGN.md creation and maintenance — coordinate with them on any token changes.
+
 ## Brand Audit Checklist
 
 Use this when reviewing any design, copy, or product decision:
@@ -130,6 +142,13 @@ POSITIONING
 [ ] Feels like Maycrest — not generic tech, not generic fitness
 [ ] Intentional design rationale exists for every element
 [ ] Earned delight — whimsy serves function, not vice versa
+
+DESIGN.MD (if present)
+[ ] DESIGN.md values match brand tokens exactly
+[ ] Section 1 reflects approved brand positioning
+[ ] Section 7 Do's/Don'ts align with brand voice
+[ ] No unauthorized color, font, or spacing values
+[ ] All 9 sections present and substantive
 ```
 
 ## Rules

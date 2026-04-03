@@ -127,6 +127,25 @@ Maycrest should feel like:
 - A design-forward consultancy (IDEO, Pentagram)
 - A modern intelligence platform (Palantir, CrowdStrike)
 
+## DESIGN.md — Authoritative Design System Reference
+
+The Maycrest Digital website has a comprehensive `DESIGN.md` file at the repo root (`website/DESIGN.md`) that codifies the entire design system in the Google Stitch 9-section format. This file is the **single source of truth** for AI coding agents when generating UI.
+
+**When building or modifying Maycrest web pages:**
+1. Reference `DESIGN.md` for exact token values (colors, typography, spacing, shadows, motion)
+2. Use the card hierarchy documented there: `.observation-window` → `.glass-card` → `.intel-card` → `.story-card` → `.cta-card`
+3. Follow the Agent Prompt Guide (Section 9) for component generation patterns
+4. The design tokens in this skill file are strategic — DESIGN.md has the precise implementation values
+
+**Key DESIGN.md specifics not in this skill:**
+- Fluid typography scale using `clamp()` (not fixed px values)
+- Glass morphism blur hierarchy (24px → 16px → 12px)
+- Accent glow shadow system per service arm
+- Section spacing classes (`.section-hero`, `.section-feature`, `.section-proof`, `.section-cta`)
+- Framer Motion patterns with exact easing curves
+
+The `maycrest-create:design-system-architect` skill owns DESIGN.md creation and auditing.
+
 ## Rules
 
 - Dark mode is the primary experience
@@ -136,3 +155,4 @@ Maycrest should feel like:
 - Performance budget: < 3s LCP, < 100ms FID
 - Accessibility: WCAG AA minimum
 - All animations respect prefers-reduced-motion
+- Always reference `DESIGN.md` for exact implementation values when building components
