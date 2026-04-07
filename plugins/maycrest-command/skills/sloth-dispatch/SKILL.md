@@ -58,6 +58,35 @@ The task spans pillars, lacks clear intent, or involves high-stakes decisions. E
 | "finance", "legal", "compliance", "analytics" | `maycrest-ops:finance-tracker` |
 | "test", "QA", "accessibility audit", "performance" | `maycrest-ops:reality-checker` |
 | "article", "hooks", "writing", "thought leadership" | `maycrest-create:article-writer` or `maycrest-create:hook-writing` |
+| "generate a video", "AI video", "video clip", "hype reel", "b-roll", "text-to-video", "image-to-video", "Veo", "Runway", "Kling", "FLUX", "Luma" | **SlothFlow pipeline** — see Video Routing below |
+
+---
+
+## Video Routing — SlothFlow Pipeline
+
+Video generation tasks route through the **SlothFlow AI video production pipeline** at `C:/Users/Owner/Downloads/Projects/slothflow/`, not directly to a single specialist. SlothFlow is the Maycrest platform for multi-tool AI video production (Veo 3.1, Runway Gen-4.5, Kling 3.0 via WaveSpeed, FLUX.1, Luma Dream Machine) with per-tool prompt optimization baked in at `src/preproduction/prompt-optimizers.js`.
+
+**Triage**:
+1. **Single short clip, no cutting, no audio** → direct dispatch:
+   - Author a manifest (hand-write or invoke `maycrest-create:image-prompt-engineer` for the shot prompt)
+   - `node src/index.js preview <manifest>` to verify cost + optimized prompts
+   - `node src/index.js dispatch <manifest>` to generate
+2. **Multi-shot video with editing, grading, music sync, reframing** → escalate to Sloth Command. This is Tier 3 composite work that needs the `sloth-command` orchestrator to sequence pre-production → dispatch → DaVinci Resolve assembly via the `davinci-resolve` skill.
+
+**Prompt authoring chain** (when writing manifests without Anthropic API mode):
+```
+maycrest-create:hook-writing          (if hype reel / social — 0-3s hook first)
+maycrest-create:creative-strategist   (narrative arc, pacing beats)
+maycrest-create:visual-storyteller    (shot composition, color direction)
+maycrest-create:image-prompt-engineer (per-tool optimized prompts — see its Video Tools section)
+maycrest-create:content-creator       (on-screen text, minimal copy)
+maycrest-create:brand-guardian        (only if client/brand-attached)
+```
+
+**Cost control (mandatory)**:
+Always run `node src/index.js preview <manifest>` before `dispatch`. Preview shows per-shot cost, optimized prompts, and flags anything over $10 or $25 ceilings. SlothFlow's dispatcher auto-applies per-tool prompt optimizers so adapters receive tool-tuned prompts without the author having to handcraft variants.
+
+**Setup check**: If SlothFlow isn't cloned on the current machine, escalate to Sloth Command for environment activation (it's a multi-phase setup — API keys, FFmpeg, DaVinci Resolve wiring).
 
 ---
 
