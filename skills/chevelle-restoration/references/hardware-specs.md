@@ -21,9 +21,14 @@ Complete screw-by-screw reference for every interior component. Organized by ins
 
 No fasteners — adhesive application only.
 - **Material**: Dynamat Xtreme or equivalent butyl-based mat
-- **Coverage**: Floor pan, firewall, transmission tunnel, door skins, trunk floor
-- **Application**: Clean surface with denatured alcohol, apply with roller. 50-75% coverage is sufficient.
-- **Tip**: Do NOT cover drain holes in floor pan or doors
+- **Coverage priority** (do these in order if you're rationing mat):
+  1. **Floor pan** — primary rust prevention against road moisture trapped under carpet
+  2. **Firewall** — heat barrier from exhaust manifolds and trans tunnel
+  3. **Transmission tunnel** — drivetrain heat and noise
+  4. **Door skins** — road noise (lowest priority unless cabin noise is the main complaint)
+  5. **Trunk floor** — exhaust noise resonance
+- **Application**: Clean surface with denatured alcohol, apply with roller. 50-75% coverage of each panel is the floor — full coverage on floor pan is preferred.
+- **Tip**: Do NOT cover drain holes in floor pan or doors. Cover the structure between them.
 
 ---
 
@@ -32,9 +37,11 @@ No fasteners — adhesive application only.
 ### Upper Dash Support Bar (spans full width)
 | Fastener | Size | Qty | Notes |
 |----------|------|-----|-------|
-| Hex bolt | 5/16"-18 x 3/4" Grade 5 | 6 | Firewall mounting |
+| Hex bolt | 5/16"-18 x 3/4" Grade 5 (Grade 8 recommended for 396/454) | 6 | Firewall mounting |
 | Lock washer | 5/16" | 6 | Under bolt head |
 | Flat washer | 5/16" | 6 | Against firewall |
+
+**Big-block vibration note:** Grade 5 is the factory minimum, but 396/454 vibration loosens Grade 5 fasteners faster than Grade 8. Use Grade 8 if you have them on hand — same dimensions, longer life.
 
 ### Lower Dash Support Brackets (L-brackets, left & right)
 | Fastener | Size | Qty | Notes |
@@ -212,7 +219,7 @@ No fasteners — adhesive application only.
 | Flat washer | 5/16" | 4 per seat | Under bolt head |
 | Lock washer | 5/16" | 4 per seat | — |
 | Nut | 5/16"-18 | 4 per seat | Underside of floor |
-| **Torque**: 25-35 ft-lbs | | | |
+| **Torque**: 30 ft-lbs (5/16"-18, all 4 bolts equally) | | | Use a torque wrench — do not eyeball |
 
 ### Seat Belt Anchors
 | Fastener | Size | Qty | Notes |
@@ -220,6 +227,13 @@ No fasteners — adhesive application only.
 | Anchor bolt | 7/16"-20 x 1-1/4" Grade 8 | Per belt | Factory bolt holes |
 | Flat washer (large) | 7/16" | Per bolt | Spreads load |
 | **Torque**: 30 ft-lbs | | | Grade 8 ONLY |
+
+**Visual verification before installation (safety-critical):**
+- **Grade 8** = 6 radial lines on the bolt head — use these.
+- **Grade 5** = 3 radial lines on the bolt head — will stretch under crash loads and fail.
+- **Grade 2** = no markings — never acceptable for seat belt anchors.
+
+If you can't see the markings clearly (paint or oil), wipe the bolt head clean before installing. Mismatched Grade 5 hardware looks visually similar to Grade 8 but is unsafe for occupant restraint.
 
 ### Seat Back Latch
 | Fastener | Size | Qty | Notes |

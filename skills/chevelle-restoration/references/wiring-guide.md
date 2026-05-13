@@ -32,6 +32,14 @@ The Hi-Tech Classics SS dash harness includes its own **integrated fuse box**. T
 - Bulkhead connector pin assignments vary by year AND factory options
 - Always match connectors to YOUR year. Do not use a 70/71 diagram for a 72.
 
+### Sourcing the 1972-Specific Factory Wiring Diagram
+You need an authoritative 1972 diagram in hand before tracing anything. Options:
+- **ChevelleStuff.net** — free downloadable 1972 wiring schematics
+- **Team Chevelle forum** (chevelles.com) — search "1972 wiring diagram" in technical sub-forums; multiple members share scanned factory diagrams
+- **SS396.com** — reproduction wiring manuals for sale
+- **Haynes manual #24066** — covers 1970-72 Chevelle, includes wiring diagrams
+- **OPGI / YEARONE** — sell reprinted GM factory service manuals (the gold standard)
+
 ---
 
 ## Bulkhead Connector
@@ -68,7 +76,7 @@ The Hi-Tech SS dash harness connects to the following, roughly from left to righ
 5. **Wiper switch**: 2-3 wire connector at column or dash
 
 ### Center
-6. **Fuse box** (integrated in Hi-Tech harness): Mounts to driver's side kick panel area or under-dash bracket
+6. **Fuse box** (integrated in Hi-Tech harness): The Hi-Tech integrated fuse box **replaces the factory unit entirely**. Remove the original factory fuse box (usually mounted under the dash on the driver's side, near the kick panel) before installing the Hi-Tech harness. Route the new harness through the same general path or per Hi-Tech installation instructions. Do not leave the factory fuse box in place "as a backup" — it creates parallel circuits that can backfeed.
 7. **Heater/AC controls**: 2-4 wire connector for blower switch
 8. **Radio power**: Single power feed + speaker wires
 9. **Instrument voltage regulator**: If applicable (some Hi-Tech kits have internal regulation)
@@ -100,6 +108,15 @@ Each gauge in the Hi-Tech kit connects to the harness via individual or grouped 
 ### Sender Compatibility Warning
 The Hi-Tech gauges may require specific ohm-range senders. GM used 0-90 ohm senders for fuel (empty-full). If the gauge reads backwards, the sender range is inverted. Verify before installation.
 
+### Fuel Gauge Reads Backwards — Recovery
+If the gauge swings to F when the tank is empty and E when full:
+1. Disconnect the sender wire at the tank
+2. Measure resistance at the sender terminals with a multimeter:
+   - With float at empty position: should read near 0Ω for a GM 0-90 ohm sender (or near 90Ω for the inverted 90-0 range)
+   - With float at full position: should read near 90Ω (or 0Ω if inverted)
+3. If the sender range is inverted: either swap the sender for the correct range, OR enable **Fuel Sender Invert** in the Dakota Digital HDX menu (Settings → Calibration → Fuel → Invert)
+4. The HDX system can also calibrate to any nonstandard range — drive to empty, set empty point; fill up, set full point
+
 ### Tachometer Connection
 - Connect the tach signal wire to the **negative (-) terminal** of the ignition coil
 - Do NOT connect to the positive terminal
@@ -123,6 +140,11 @@ The Hi-Tech gauges may require specific ohm-range senders. GM used 0-90 ohm send
 | Oil pressure | Red | Oil pressure sender |
 | Gen/Alt | Red | Alternator |
 | Brake | Red | Brake fluid switch / parking brake |
+
+### Indicator Light Troubleshooting
+- **Stuck ON (won't turn off)**: The triggering switch/sender is grounded. Disconnect the signal wire at the source — if the light goes out, the switch is bad. If it stays on, the wire is grounded somewhere in the harness.
+- **Won't illuminate**: Pull the bulb and inspect the filament. If filament is intact, check 12V at the bulb socket with a multimeter (key ON, condition triggered). If 12V is present but no light, ground at the socket housing is poor — clean the dash mounting point to bare metal.
+- **Dim or flickering**: Almost always a ground problem. Re-clean the dash ground bolt to bare metal and use a star washer.
 
 ### Courtesy / Dome Lights
 - Door jamb switches ground the circuit when door opens

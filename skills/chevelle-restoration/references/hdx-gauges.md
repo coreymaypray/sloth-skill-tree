@@ -11,7 +11,7 @@ The HDX-70C-CVL is a hybrid analog/digital gauge system designed as a direct fit
 - HDX Control Box (brain unit, mounts behind dash)
 - Oil pressure sender (SEN-01-5, 3-wire, 1/8" NPT)
 - Water temperature sender (1/8" NPT with bushing adapters)
-- Speed sensor/signal generator
+- Speed sensor/signal generator (type depends on transmission — see Speed Sensor section below for cable-drive vs electronic identification)
 - Wiring harness with labeled connectors
 - Installation manual (#650572B)
 
@@ -38,6 +38,14 @@ The HDX-70C-CVL is a hybrid analog/digital gauge system designed as a direct fit
 - Ground to a dedicated bolt on the firewall or dash frame — NOT to a shared ground with other accessories
 - Use a star washer and sand to bare metal at ground point
 
+### CRITICAL: Dedicated Signal Ground for HDX Control Box
+This is the #1 missed step in HDX installs and the most common cause of gauge jitter, noise, and erratic readings:
+
+- Run a **separate 18 AWG ground wire** directly from the HDX Control Box ground terminal to a dedicated bolt on the dash frame or firewall — short run, no splices
+- **Do NOT share this ground** with engine block grounds, starter motor grounds, or high-current accessories (audio amplifiers, electric fans, etc.). Shared grounds inject voltage noise into the analog sender signals and cause the gauges to jump.
+- At the ground point: sand to bare metal across an area larger than the washer footprint, use a **star washer** between the ring terminal and the metal, torque the bolt firmly, then apply dielectric grease to the exterior of the connection
+- If you already wired the system and the gauges jitter, jump a temporary 18 AWG wire from Control Box ground directly to the battery negative post — if the jitter stops, your permanent ground is the problem
+
 ## Sensor Installation
 
 ### Oil Pressure Sender (SEN-01-5)
@@ -48,7 +56,7 @@ The HDX-70C-CVL is a hybrid analog/digital gauge system designed as a direct fit
   - White wire = Signal (to Control Box)
   - Red wire = 5V DC power (from Control Box)
   - Black wire = Ground (to engine block or chassis)
-- **Install notes**: Apply Teflon tape to threads. Do NOT over-tighten (hand-tight + 1/4 turn). Route wires away from exhaust manifold.
+- **Install notes**: Apply Teflon tape to threads. Do NOT over-tighten (hand-tight + 1/4 turn). Route wires **at least 3-4 inches away from exhaust manifold**. If clearance is tighter than that, wrap the affected harness section in **DEI Titanium Wrap** (or equivalent heat-reflective sleeve) — radiant heat from the manifold will dry-crack the wire insulation in a single season otherwise, especially on big-block 396/454.
 
 ### Water Temperature Sender
 - **Type**: 2-wire (signal + ground through block)
@@ -93,10 +101,12 @@ The HDX-70C-CVL is a hybrid analog/digital gauge system designed as a direct fit
 2. Enter rear axle ratio (e.g., 3.73:1)
 3. Enter pulses per mile from speed sensor spec
 
-**Option B — GPS Calibration**:
+**Option B — GPS Calibration** (recommended if you don't have the speed sensor spec sheet):
 1. Enter GPS calibration mode in HDX menu
 2. Drive at a steady speed on a straight road
 3. System reads GPS speed vs. sensor pulses and auto-calibrates
+
+**Which to use:** If you have the original Dakota Digital paperwork with pulses-per-mile spec, Option A is faster. If you don't (the kit is old, paperwork lost, or you're not sure which sensor you have), use Option B — GPS calibration is more accurate anyway and doesn't require any documentation.
 
 ### Fuel Gauge Calibration
 1. Drive/drain tank until fuel light comes on or tank is near empty
@@ -146,6 +156,8 @@ The two TFT screens can show various readings. Configurable options include:
 2. Check sender is tight in block and Teflon-sealed
 3. Swap sender with known-good unit to rule out bad sender
 4. Check for pinched or cut wires in engine bay routing
+
+**Field test if no spare sender available:** Pull the SEN-01-5 out of the block. With it on the workbench, connect a multimeter across the signal/ground pins and verify resistance changes when you warm the sender in a cup of warm (not boiling) water vs. ambient air. If resistance varies, the sender is functional and the problem is upstream (wiring, Control Box, or 5V power feed). If resistance stays flat, replace the sender.
 
 ### Speedometer Not Working
 1. Verify speed sensor cable adapter is properly seated in trans tailshaft

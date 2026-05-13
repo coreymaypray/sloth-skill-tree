@@ -15,7 +15,7 @@ This skill contains accumulated knowledge for Corey's 1972 Chevelle SS 396/454 i
 - **Gauge System**: Dakota Digital HDX-70C-CVL (6 analog sweeps + 2 TFT message center displays)
 - **Kit Contents**: Black SS dash face, HDX gauge cluster, HDX Control Box, senders/sensors, backing plate, 10 bulbs with sockets, SS dash harness with integrated fuse box, SS dash pad
 - **Console**: Included with the Hi-Tech kit
-- **Official Manual**: Dakota Digital Manual #650572B (HDX-70C-CVL.pdf at dakotadigital.com)
+- **Official Manual**: Dakota Digital Manual #650572B (HDX-70C-CVL.pdf at dakotadigital.com). For current firmware/manual versions, call tech support at (605) 332-6513.
 
 ## Dakota Digital HDX-70C-CVL System
 
@@ -101,6 +101,9 @@ Before mounting anything, inspect the dash support for:
 - Missing or broken weld tabs
 - Cracked steering column bracket area
 
+### Critical: Ground Return Through Dash Structure
+**Wire brush all firewall bolt holes to bare metal before bolting the dash support in place.** Paint, powder coat, or seam sealer at the contact face prevents good ground return through the dash structure — which is the path the gauges, lights, and radio use back to chassis ground. Hidden ground problems here are extremely hard to diagnose later because everything physically connects but voltage drops under load.
+
 ## Reference Files
 
 For detailed screw-by-screw hardware specs for every interior component, read:
@@ -142,6 +145,8 @@ For the full checklist of fluid, brake, fuel, battery, and safety items for a ca
 
 ### SS Dash Harness vs. Sweep Harness
 The SS round-gauge dash harness is NOT interchangeable with the sweep-style gauge harness. The Hi-Tech kit includes the correct SS harness. Do not mix harnesses.
+
+**Why this matters:** Mixing harnesses will short fuses and disable gauges — the connector positions look similar but feed different circuits. Verify your Hi-Tech kit part number against the SS variant before opening the harness bag. Once the harness is uncoiled and routed, it's hard to return.
 
 ### Year Differences (70 vs 71 vs 72)
 While 1970-1972 Chevelles share the same A-body platform:

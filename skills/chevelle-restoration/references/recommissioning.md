@@ -19,12 +19,14 @@ Complete checklist for safely bringing a classic car back to life after extended
 - [ ] After refilling, do NOT start the engine yet — continue checklist
 
 ### 3. Coolant System
-- [ ] Drain old coolant from radiator petcock AND block drain plugs
+- [ ] Drain old coolant from radiator petcock AND both block drain plugs (driver side lower and passenger side lower on a small/big block Chevy — may be brass plugs or 1/2" hex)
 - [ ] Inspect radiator hoses (squeeze test — should be firm, not spongy or cracked)
 - [ ] Inspect heater hoses
 - [ ] Check thermostat housing for corrosion
 - [ ] Inspect water pump weep hole for mineral deposits (indicates prior leak)
-- [ ] Flush with garden hose until water runs clear
+- [ ] Flush radiator: run garden hose through the top inlet until water exits the bottom clear
+- [ ] **Flush heater core separately if water runs brown or sludgy**: disconnect both heater hoses at the engine, run garden hose through one hose until clear water exits the other. Reverse direction and repeat. This catches sludge trapped in the heater core that a radiator-only flush misses.
+- [ ] Re-tighten block drain plugs with Teflon tape or thread sealant
 - [ ] Refill with 50/50 coolant mix (green conventional for iron block)
 - [ ] Leave radiator cap off for first start (check for flow when thermostat opens)
 
@@ -48,7 +50,8 @@ Complete checklist for safely bringing a classic car back to life after extended
 - [ ] Check wheel cylinders for leaks (pull back dust boots, look for fluid)
 - [ ] Check brake drums/rotors for deep scoring or heat spots
 - [ ] Bleed brakes at all four wheels (start farthest from master cylinder: RR, LR, RF, LF)
-- [ ] Pump brake pedal — should be firm, not spongy. If spongy, bleed again or check for leaks.
+- [ ] **Firm pedal test** (safety-critical): After bleeding, pump the brake pedal 20-30 times with the engine off. The pedal should feel firm with no more than ~1 inch of travel before hitting hard resistance. If it's still spongy or sinks slowly under steady pressure, you have either trapped air (bleed again, all four corners) or a leak (inspect every line, fitting, and wheel cylinder/caliper). **Do not road-test the car until the pedal is firm.**
+- [ ] Visually re-inspect every fitting and wheel cylinder/caliper for new fluid weeping after the bleed
 - [ ] Test parking brake cable for free movement
 
 ### 6. Transmission Fluid
@@ -76,7 +79,7 @@ Complete checklist for safely bringing a classic car back to life after extended
 ## First Start Procedure
 
 ### Pre-Start Checks
-- [ ] Oil is fresh and at proper level
+- [ ] Oil is fresh and at proper level (check on a **level surface, engine cold, not running for at least 30 minutes** — hot reading on a tilted floor lies)
 - [ ] Coolant is filled, radiator cap OFF
 - [ ] Battery is charged and connected
 - [ ] Fuel system has fresh fuel and new filter
@@ -88,7 +91,7 @@ Complete checklist for safely bringing a classic car back to life after extended
 3. Turn key to ON (not START) — listen for fuel pump (if electric) or verify no warning lights stuck
 4. Crank engine — it may take 10-30 seconds of cranking with fresh fuel to fire
 5. If it doesn't fire in 30 seconds: STOP. Check for spark at plugs, verify fuel delivery at carb
-6. Once running: **immediately check oil pressure** — if no oil pressure, SHUT OFF immediately
+6. Once running: **immediately check oil pressure**. Target at idle (after warm-up) is **20-40 PSI** on a stock 396/454 with fresh oil. If the gauge reads zero during cranking or at idle, **shut off immediately** — running the engine without oil pressure destroys bearings within seconds.
 7. Let idle for 2-3 minutes, watch temperature gauge
 8. Verify coolant flow when thermostat opens (visible flow in radiator with cap off)
 9. Install radiator cap once thermostat has opened and air is purged
@@ -106,7 +109,7 @@ Complete checklist for safely bringing a classic car back to life after extended
 
 ## Tires
 
-- [ ] Check tire age — tires over 6 years old should be replaced regardless of tread depth (check DOT date code on sidewall: last 4 digits = week/year of manufacture)
+- [ ] Check tire age — tires over 6 years old should be replaced regardless of tread depth. The DOT date code is on the **outer sidewall near the bottom edge (bead area)**, format **WWYY** (e.g., `1523` = week 15 of 2023). It's typically the last 4 digits of a longer DOT serial.
 - [ ] After 3 years sitting, tires may have flat spots — may feel vibration initially
 - [ ] Set tire pressures to spec (typically 28-32 PSI for vintage 14" or 15" tires)
 - [ ] Inspect sidewalls for dry rot cracks
@@ -124,10 +127,10 @@ Complete checklist for safely bringing a classic car back to life after extended
 
 ## Ignition System
 
-- [ ] Replace spark plugs (AC Delco R44T or equivalent, gapped to .035")
+- [ ] Replace spark plugs (AC Delco R44T or equivalent, gapped to .035"). **Stay with the R44T heat range (14mm) for stock or mildly built 396/454.** Hotter plugs (R45T, R46T) cause pre-ignition and detonation on a big-block running pump gas; use them only if the engine is heavily modified (high compression, aluminum heads, specific cam) AND you know what you're doing.
 - [ ] Replace or inspect distributor cap and rotor
 - [ ] Check plug wires for cracking or arcing
-- [ ] Set timing with timing light once engine is running (varies by engine — typically 8-12° BTDC initial)
+- [ ] Set initial timing with a timing light once engine is running. **Start conservative**: 6-8° BTDC for a stock 396/454 (factory big-block spec). Increase only if you have 93+ octane in the tank and the engine doesn't ping under load. **Never exceed 12° BTDC without knowing your exact cam profile and static compression ratio** — too much advance on a big-block makes it ping audibly under load and can destroy pistons over time. If you don't know the cam, leave it at 8° and verify under acceleration.
 - [ ] If points ignition: Replace points and condenser, set dwell (28-32°)
 - [ ] If HEI: Inspect pickup coil and module
 
