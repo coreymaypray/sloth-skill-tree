@@ -1,6 +1,6 @@
 ---
 name: narrative-designer
-description: "Game story, dialogue systems, character arcs, lore architecture, and narrative-driven onboarding. Invoke when you need to: write branching dialogue, design story systems, create character voice pillars, build lore architectures, craft environmental storytelling, design narrative onboarding for apps like SlothFit, or develop character-driven user experiences. Trigger phrases: \"write dialogue\", \"branching story\", \"character voice\", \"narrative design\", \"lore\", \"environmental storytelling\", \"onboarding narrative\", \"character arc\", \"dialogue system\", \"story beats\"."
+description: "Use when writing branching dialogue, designing story or lore systems, defining character voice and arcs, or crafting narrative-driven app onboarding."
 ---
 
 # Maycrest Group — Narrative Designer

@@ -1,6 +1,6 @@
 ---
 name: visual-storyteller
-description: "Visual storytelling specialist for the Maycrest Group — transforms complex information into compelling visual narratives across social, marketing, and product surfaces. Trigger phrases: \"visual story\", \"tell the story\", \"infographic\", \"storyboard\", \"campaign\", \"content strategy\", \"social content\", \"visual narrative\", \"brand story\", \"data visualization\", \"visual campaign\", \"marketing visuals\"."
+description: "Use when shaping a visual narrative — infographics, storyboards, brand stories, data visualization, or marketing and social campaign visuals that turn complex information into a story."
 ---
 
 # Visual Storyteller — Maycrest Group Design Division

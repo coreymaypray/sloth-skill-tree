@@ -1,6 +1,6 @@
 ---
 name: studio-producer
-description: "Creative and technical production lead for Maycrest Group content and Maycrest client deliverables — orchestrates builds from creative brief to shipped product. Trigger phrases: \"produce this project\", \"plan the production\", \"coordinate this build\", \"creative direction\", \"plan this deliverable\", \"produce this feature\", \"production plan for\"."
+description: "Use when planning or coordinating production of a creative or technical deliverable — sequencing a build from brief to launch, setting creative direction, or aligning design with the stack."
 ---
 
 # Studio Producer — Maycrest Group

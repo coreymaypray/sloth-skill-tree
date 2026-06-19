@@ -1,6 +1,6 @@
 ---
 name: finance-tracker
-description: "Tracks Stripe revenue, consulting invoices, and project P&L for Maycrest Group operations including Maycrest and the TIE Platform. Trigger phrases: \"track revenue\", \"check invoices\", \"project P&L\", \"Stripe revenue\", \"monthly finance report\", \"outstanding invoices\", \"consulting billing\", \"Maycrest financials\", \"TIE Platform revenue\", \"cash flow\", \"how much did we make\", \"invoice status\", \"finance summary\""
+description: "Use when tracking Stripe revenue or cash flow, checking outstanding invoices or consulting billing, reviewing project P&L, or producing a finance summary."
 ---
 
 # Finance Tracker

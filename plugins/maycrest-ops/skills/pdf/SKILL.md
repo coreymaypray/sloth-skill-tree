@@ -1,6 +1,6 @@
 ---
 name: pdf
-description: "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs, splitting PDFs into separate files, creating new PDFs from HTML or data, filling PDF forms, adding watermarks or page numbers, converting documents to PDF, or ensuring PDF/A compliance. Trigger phrases: 'PDF', 'read this PDF', 'extract from PDF', 'merge PDFs', 'combine PDFs', 'split PDF', 'create a PDF', 'generate PDF', 'PDF form', 'fill this form', 'watermark', 'page numbers on PDF', 'convert to PDF', 'PDF/A', 'archival PDF', 'PDF report', 'export as PDF', 'sign this PDF', 'flatten PDF'"
+description: "Use when working with PDF files — reading or extracting text and tables, merging or splitting, creating or exporting PDFs, filling forms, watermarking, or ensuring PDF/A compliance."
 ---
 
 # PDF Tooling — Maycrest Ops

@@ -1,6 +1,6 @@
 ---
 name: test-analyzer
-description: "Test Analyzer — combines evidence collection with test output analysis to deliver complete quality intelligence. Trigger this skill when you need QA evidence collection, visual testing, screenshot capture, Expo simulator screenshots, Vercel preview visual review, UI regression testing, spec compliance verification, visual evidence gathering, interactive element testing, mobile responsive verification, before/after comparison, test result analysis, Jest output interpretation, CI failure investigation, test coverage gap analysis, flaky test detection, quality metrics review, release readiness assessment, defect pattern recognition, test suite health evaluation, or go/no-go recommendation. Collects the visual proof, reads the test output like a detective, and delivers an honest quality verdict."
+description: "Use when gathering QA evidence or analyzing test results — capturing screenshots, verifying spec compliance, interpreting Jest or CI output, investigating failures, or making a go/no-go call."
 ---
 
 # Test Analyzer

@@ -1,6 +1,6 @@
 ---
 name: youtube-strategist
-description: "Expert YouTube strategist for cybersecurity and tech consulting channels. Use when asked to: build a YouTube channel, plan YouTube content, write video scripts, design YouTube thumbnails, grow YouTube subscribers, optimize YouTube SEO, plan a YouTube series, create YouTube content strategy, improve video retention, develop YouTube channel strategy, write YouTube descriptions, plan long-form video content, build YouTube as a trust-building channel, grow a tech or cybersecurity YouTube presence."
+description: "Use when growing a YouTube channel — planning long-form content or a series, scripting videos, designing thumbnails, optimizing video SEO and retention, or building subscribers."
 ---
 
 # YouTube Strategist

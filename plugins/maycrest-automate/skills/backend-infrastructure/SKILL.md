@@ -1,7 +1,6 @@
 ---
 name: backend-infrastructure
-description: Full backend infrastructure setup, configuration, and deployment for Corey's projects (Maycrest Group, TIE Platform, client apps). Covers Supabase project setup, Vercel deployment pipeline, Apple platform configurations (Sign in with Apple, APNs, App Store Connect), serverless Edge Functions, secrets management, environment configs, webhooks, monitoring, and multi-environment workflows. Trigger for "set up backend", "configure Vercel", "Apple sign-in setup", "deploy to production", "set up environment variables", "configure webhooks", "Edge Function setup", "APNs configuration", "App Store Connect setup", "backend architecture", "production deployment", "staging environment", "CI/CD pipeline", "monitoring setup", "secrets management", "configure Supabase project", "SMTP setup", "storage buckets", "backend for [project]".
-version: 1.0.0
+description: "Use when setting up or deploying backend infrastructure — configuring a Supabase project or Vercel pipeline, wiring Apple sign-in and APNs, managing secrets and environments, or standing up CI/CD."
 ---
 
 # Backend Infrastructure

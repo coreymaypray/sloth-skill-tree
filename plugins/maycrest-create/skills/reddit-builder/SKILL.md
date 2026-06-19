@@ -1,6 +1,6 @@
 ---
 name: reddit-builder
-description: "Expert Reddit community strategist for cybersecurity and IT consulting brand building. Use when asked to: build Reddit presence, engage on Reddit, plan Reddit content strategy, identify subreddits for cybersecurity, write Reddit posts, plan an AMA, build community on Reddit, research Reddit for audience insights, respond to Reddit threads, build authority on Reddit, find leads through Reddit, monitor brand mentions on Reddit."
+description: "Use when building Reddit presence — identifying subreddits, writing posts or replies, planning an AMA, mining audience insights, or growing authority and leads in cybersecurity and IT communities."
 ---
 
 # Reddit Community Builder

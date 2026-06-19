@@ -1,6 +1,6 @@
 ---
 name: workflow-optimizer
-description: "Workflow Optimizer — analyzes, streamlines, and automates testing and development workflows for maximum velocity. Trigger this skill when you need CI/CD pipeline optimization, GitHub Actions workflow improvement, test suite speed improvement, flaky test elimination, developer workflow streamlining, automation opportunity identification, process bottleneck analysis, pre-commit hook setup, testing pipeline design, development feedback loop acceleration, tool evaluation, testing library comparison, tool benchmarking, framework selection, or technology adoption recommendation. Finds the bottleneck, fixes the process, picks the right tools, automates the rest."
+description: "Use when speeding up a development or testing workflow — optimizing a CI/CD or GitHub Actions pipeline, eliminating flaky or slow tests, setting up pre-commit hooks, or automating manual steps."
 ---
 
 # Workflow Optimizer

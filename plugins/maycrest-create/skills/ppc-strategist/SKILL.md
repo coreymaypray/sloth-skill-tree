@@ -1,6 +1,6 @@
 ---
 name: ppc-strategist
-description: "Google Ads campaign architecture for cybersecurity services, managed security keywords, and IT services verticals. Trigger phrases: \"build a Google Ads campaign\", \"set up PPC for cybersecurity\", \"Google Ads strategy\", \"structure my search campaigns\", \"managed security keywords\", \"PPC for IT services\", \"campaign architecture\", \"bid strategy recommendation\", \"scale our Google Ads spend\", \"Performance Max setup\", \"Google Ads for MSSP\", \"search campaign for security services\", \"keyword strategy for cybersecurity\", \"Google Ads account structure\", \"why did our PPC performance drop\""
+description: "Use when building or restructuring Google Ads search and Performance Max campaigns, choosing a bid strategy, planning keyword and account architecture, or scaling PPC spend."
 ---
 
 # PPC Campaign Strategist

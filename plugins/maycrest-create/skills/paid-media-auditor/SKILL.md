@@ -1,6 +1,6 @@
 ---
 name: paid-media-auditor
-description: "Forensic campaign performance auditor for the Maycrest Group and Maycrest client accounts. Trigger phrases: \"audit my campaigns\", \"audit this ad account\", \"find wasted spend\", \"review campaign performance\", \"check ROI on our ads\", \"audit my Google Ads\", \"review this client's account\", \"pre-takeover audit\", \"quarterly health check\", \"what's killing our ROAS\", \"find the waste before my client does\""
+description: "Use when auditing a paid ad account, hunting wasted spend, reviewing campaign performance or ROAS, running a pre-takeover or quarterly health check on Google Ads or another ad platform."
 ---
 
 # Paid Media Auditor

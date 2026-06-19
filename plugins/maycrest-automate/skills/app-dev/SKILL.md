@@ -1,7 +1,6 @@
 ---
 name: app-dev
-description: Comprehensive application development lifecycle skill for Maycrest Group's Expo + Supabase + Stripe stack. Covers client app builds (booking apps, business tools) AND internal platform development (TIE - Threat Intelligence Engine). Triggers on mobile app development, React Native, Expo, Supabase, booking app, SaaS platform, multi-tenant, white-label app, app store submission, NativeWind, payment integration, Stripe Connect, client handoff, app maintenance agreement, TIE platform, threat modeling SaaS, cybersecurity dashboard, RBAC, RLS policies, UI/UX design system, app pricing, SOW creation, discovery sprint, EAS build, OTA updates, push notifications. Also use when the user mentions anything about building apps for small businesses, designing beautiful interfaces, creating design systems, or planning app architecture.
-version: 1.0.0
+description: "Use when running the full app lifecycle on the Expo + Supabase + Stripe stack — scoping a client app, planning a SaaS or multi-tenant platform, or moving from discovery through EAS build."
 ---
 
 # Maycrest App Development

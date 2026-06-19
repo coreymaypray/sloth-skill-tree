@@ -1,6 +1,6 @@
 ---
 name: article-writer
-description: "Write long-form articles, LinkedIn newsletters, thought leadership pieces, op-eds, and blog posts for Corey (Nexus / Maycrest Group). Trigger for "write an article", "draft a blog post", "write my newsletter", "LinkedIn article", "thought leadership piece", "op-ed", "deep dive", "write something I can publish", "long-form post on X", "help me go deep on this topic". Covers cybersecurity practitioner content, Maycrest Group consulting brand, and social/personal voice. 500+ words. POV-first. Sounds like a practitioner, not a content farm."
+description: "Use when writing long-form publishable content — articles, blog posts, LinkedIn newsletters, thought-leadership pieces, op-eds, or deep dives in Corey's practitioner voice."
 ---
 
 # Article Writer

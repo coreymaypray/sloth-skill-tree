@@ -1,6 +1,6 @@
 ---
 name: theme-factory
-description: "Toolkit for styling artifacts with consistent themes. Trigger when user wants themed documents, styled reports, branded HTML, visual consistency across outputs, CSS variables, or Tailwind config generation."
+description: "Use when applying a consistent theme to artifacts — branded HTML, styled reports or documents, dark/light mode, CSS variables, design tokens, or Tailwind config for visual consistency across outputs."
 ---
 
 # Theme Factory -- Maycrest Create

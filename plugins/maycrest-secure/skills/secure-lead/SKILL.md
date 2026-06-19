@@ -1,6 +1,6 @@
 ---
-name: division-lead
-description: "Engineering Division dispatcher — describe your technical task and the division lead identifies and deploys the best engineering specialists. Covers backend, frontend, mobile, DevOps, security, AI, data, threat detection, offensive security, threat intelligence, forensics, cloud security, compliance."
+name: secure-lead
+description: "Use when a security or engineering task needs routing to the right specialist — backend, frontend, DevOps, AI, threat detection, offensive security, forensics, or compliance."
 ---
 
 ## Greeting

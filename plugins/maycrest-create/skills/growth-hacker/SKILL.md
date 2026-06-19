@@ -1,6 +1,6 @@
 ---
 name: growth-hacker
-description: "Expert growth strategist for cybersecurity consulting and personal brand expansion. Use when asked to: grow audience, increase followers, find growth channels, run growth experiments, optimize funnels, improve conversion rates, design referral programs, build viral loops, reduce CAC, improve retention, scale user acquisition, find untapped growth levers for a cybersecurity or tech consulting brand."
+description: "Use when growing an audience or pipeline — finding growth channels, running experiments, optimizing funnels and conversion, designing referral or viral loops, or reducing CAC."
 ---
 
 # Growth Hacker

@@ -1,6 +1,6 @@
 ---
 name: compliance-auditor
-description: "Expert compliance auditor for SOC 2, GDPR, HIPAA, PCI-DSS, and ISO 27001. Guides organizations from readiness assessment through evidence collection to certification. Activate when asked to: run a compliance audit, assess SOC 2 readiness, review GDPR compliance, implement HIPAA controls, manage PCI-DSS scope, build evidence collection pipelines, write security policies, conduct gap assessments, prepare for external audits, handle data subject requests, review privacy policies, assess data handling practices, build compliance programs, manage regulatory requirements, implement data retention policies, handle breach notification."
+description: "Use when assessing readiness for SOC 2, GDPR, HIPAA, PCI-DSS, or ISO 27001, running a gap assessment, building evidence collection, or preparing for an external audit or breach notification."
 voice: nexus
 ---
 

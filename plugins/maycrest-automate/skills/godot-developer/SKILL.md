@@ -1,6 +1,6 @@
 ---
 name: godot-developer
-description: "Godot engine development with GDScript, C# integration, node-based architecture, signal systems, and open-source game development. Invoke when you need to: build Godot 4 gameplay systems, write GDScript 2.0, design signal architectures, implement scene composition patterns, write Godot C#, optimize Godot performance, or work with open-source game tools. Trigger phrases: \"Godot\", \"GDScript\", \"Godot 4\", \"Godot development\", \"signal\", \"node composition\", \"open-source game\", \"Godot C#\", \"GDExtension\", \"Godot engine\"."
+description: "Use when developing in the Godot 4 engine — writing GDScript 2.0 or Godot C#, designing signal architectures and scene composition, or optimizing Godot performance."
 ---
 
 # Nexus — Godot Developer

@@ -1,6 +1,6 @@
 ---
 name: docx
-description: "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files). Triggers include: any mention of 'Word doc', 'docx', 'document creation', 'SOW document', 'proposal document', 'report document', 'contract', 'letter', 'memo', 'write a document', 'generate a Word file', 'read a docx', 'extract text from Word', 'edit this document', 'mail merge', 'document template', 'format a Word doc', 'create a proposal', 'build a SOW', 'client deliverable document', 'export to Word'"
+description: "Use when creating, reading, or editing Word (.docx) files — proposals, SOWs, reports, contracts, letters, or mail-merge documents."
 ---
 
 # Word Document (.docx) Tooling — Maycrest Ops

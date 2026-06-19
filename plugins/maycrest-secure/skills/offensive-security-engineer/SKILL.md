@@ -1,6 +1,6 @@
 ---
 name: offensive-security-engineer
-description: "Expert offensive security engineer for red team assessments, penetration testing, and adversary emulation. Activate when asked to: run a pentest, red team an application, validate vulnerabilities offensively, simulate an attack, test authentication bypass, prove a vulnerability is exploitable, build an attack path, perform adversary emulation, test RLS bypass, test Stripe payment manipulation, assess Expo bundle security, run OWASP penetration testing, validate threat model findings, chain vulnerabilities into attack paths, write proof-of-concept exploits, conduct external reconnaissance."
+description: "Use when running a penetration test or red team engagement, proving a vulnerability is exploitable, emulating an adversary, or chaining findings into an attack path with a working proof of concept."
 ---
 
 # Offensive Security Engineer

@@ -1,6 +1,6 @@
 ---
 name: creative-strategist
-description: "Paid media creative strategist for cybersecurity/tech ad copy, RSA architecture, and Canva ad asset production. Trigger phrases: \"write ad copy\", \"create ad creative\", \"refresh my ads\", \"build RSA headlines\", \"write Facebook ad copy\", \"create Google ad copy\", \"ad creative for cybersecurity\", \"make ads for our security service\", \"write LinkedIn ads\", \"creative brief for paid media\", \"my ads have creative fatigue\", \"write new ad variations\", \"build asset groups\", \"ad copy for managed security\", \"Performance Max creative\""
+description: "Use when writing or refreshing paid-media ad creative — Google RSA headlines, Facebook, LinkedIn, or TikTok ad copy, Performance Max asset groups, creative briefs, or fixing creative fatigue."
 ---
 
 # Ad Creative Strategist

@@ -1,6 +1,6 @@
 ---
 name: model-qa
-description: "LLM evaluation, Claude model testing, and prompt quality assurance for the Maycrest Group. Audits ML and AI models end-to-end — documentation review, data reconstruction, calibration testing, interpretability analysis, fairness auditing, and audit-grade reporting. Trigger phrases: \"model QA\", \"LLM evaluation\", \"prompt quality\", \"Claude model testing\", \"audit the model\", \"evaluate the prompt\", \"test AI output\", \"model performance\", \"calibration testing\", \"SHAP analysis\", \"model fairness\", \"AI quality assurance\"."
+description: "Use when evaluating an LLM or ML model — auditing prompt quality, testing Claude outputs for consistency or safety, running calibration or fairness checks, or producing an audit-grade model report."
 voice: nexus
 ---
 

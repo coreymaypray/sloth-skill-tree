@@ -1,6 +1,6 @@
 ---
 name: technical-artist
-description: "Shaders, VFX, visual effects, performance optimization, and art-to-engine pipeline. Invoke when you need to: write custom shaders, optimize VFX particle systems, define LOD pipelines, set asset budgets, profile GPU performance, build texture compression strategies, or bridge art and engineering for Unity, Unreal, or Godot. Trigger phrases: \"shader\", \"VFX\", \"visual effects\", \"LOD\", \"performance optimization\", \"texture compression\", \"particle system\", \"art pipeline\", \"GPU profiling\", \"technical art\"."
+description: "Use when writing custom shaders, optimizing VFX or particle systems, defining LOD and asset budgets, or profiling GPU performance to bridge art and engine in Unity, Unreal, or Godot."
 ---
 
 # Nexus — Technical Artist

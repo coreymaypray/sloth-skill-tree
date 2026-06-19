@@ -1,6 +1,6 @@
 ---
 name: tweet-to-short
-description: "Convert tweets, LinkedIn posts, or short-form text into TikTok, Reels, or YouTube Shorts scripts for Corey (Nexus / Maycrest Group). Trigger for "turn this tweet into a Reel", "make a TikTok script", "convert this to video", "script this for Shorts", "how do I say this on camera", "repurpose this post", "make a video from this", "write a voiceover for this". Covers cybersecurity thought leadership content, Maycrest Group brand videos, footwork/culture posts, and social media content workflow. Outputs camera-ready scripts with timing, delivery cues, and captions."
+description: "Use when turning a tweet, LinkedIn post, or short-form text into a camera-ready TikTok, Reels, or YouTube Shorts script with timing, delivery cues, and captions."
 ---
 
 # Tweet-to-Short Converter

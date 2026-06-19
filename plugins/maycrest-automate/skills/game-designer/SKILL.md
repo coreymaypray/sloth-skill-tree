@@ -1,6 +1,6 @@
 ---
 name: game-designer
-description: "Game mechanics, systems design, balance, and gamification architecture. Invoke when you need to: design gameplay loops, balance economies, write GDDs, prototype mechanics on paper, design player progressions, or apply gamification to apps like SlothFit fitness challenges and TIE Platform threat simulations. Trigger phrases: \"design a mechanic\", \"balance this system\", \"write a GDD\", \"gameplay loop\", \"gamification\", \"progression design\", \"onboarding flow\", \"player motivation\", \"economy balance\", \"systems design\"."
+description: "Use when designing game systems — gameplay loops, mechanics, economy balance, player progression, or GDDs — or applying gamification to apps like SlothFit challenges and TIE threat simulations."
 ---
 
 # Maycrest Group — Game Designer

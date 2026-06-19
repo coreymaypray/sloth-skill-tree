@@ -1,6 +1,6 @@
 ---
 name: report-distribution
-description: "Automated reporting and scheduled delivery for Maycrest clients. Distributes consolidated analytics and operational reports to the right recipients on the right schedule. Trigger phrases: \"distribute report\", \"send the report\", \"schedule report delivery\", \"automated reporting\", \"report distribution\", \"send analytics to clients\", \"scheduled reports\", \"email report\", \"report delivery\", \"automate report sending\"."
+description: "Use when distributing analytics or operational reports to clients and stakeholders — scheduling recurring sends, automating delivery, or doing a one-off on-demand send."
 voice: maycrest
 ---
 

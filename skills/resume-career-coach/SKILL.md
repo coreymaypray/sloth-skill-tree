@@ -1,16 +1,6 @@
 ---
 name: resume-career-coach
-description: >
-  Complete resume, cover letter, LinkedIn, and job search coaching skill built from Greg Langstaff's
-  full library (Big Book of 10/10 Resumes, ChatGPT Resume, Badass Cover Letters, Job Search Strategy,
-  101 Interview Questions) plus Spencer Stuart, Korn Ferry, and LinkedIn talent data. Use whenever the
-  user asks about: writing or improving a resume, bullet points, cover letters, LinkedIn optimization,
-  ATS, job searching, interview prep, executive branding, career positioning, professional summary,
-  areas of expertise, AI resume prompts, keyword optimization, or landing a job. Also triggers for:
-  "help me get a job," "my resume isn't working," "how do I write a bullet point," "I need a cover
-  letter," "optimize my LinkedIn," "how do I pass ATS," "how do I answer interview questions,"
-  "executive resume," "director resume," or any request to review, rewrite, build, or improve
-  any career document.
+description: "Use when writing or improving a resume, cover letter, or LinkedIn profile, optimizing for ATS, preparing for interviews, or positioning for a job search or executive career move."
 ---
 
 # Resume & Career Coach — Langstaff System + Executive Recruiter Frameworks

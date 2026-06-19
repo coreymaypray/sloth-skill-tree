@@ -1,6 +1,6 @@
 ---
 name: search-query-analyst
-description: "Keyword and search query analysis for cybersecurity/IT services verticals — mining intent, cutting waste, finding opportunity. Trigger phrases: \"analyze my search terms\", \"review search query report\", \"find wasted keywords\", \"negative keyword list\", \"keyword analysis for cybersecurity\", \"search term report review\", \"why am I getting irrelevant traffic\", \"build negative keyword list for IT services\", \"keyword intent mapping\", \"search term analysis for managed security\", \"find new keyword opportunities\", \"clean up my keyword targeting\", \"broad match is out of control\", \"Performance Max search categories\", \"what queries is my campaign matching\""
+description: "Use when analyzing a search-term report, building a negative keyword list, mapping query intent, or diagnosing irrelevant traffic and broad-match waste in a paid search account."
 ---
 
 # Search Query Analyst

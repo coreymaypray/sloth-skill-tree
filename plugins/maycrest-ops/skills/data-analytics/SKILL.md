@@ -1,13 +1,6 @@
 ---
-name: Data Analytics Reporter
-description: >
-  Supabase data analysis, Stripe revenue reporting, and custom dashboards for Maycrest and
-  Maycrest Group clients. Transforms raw data into actionable business insights, KPI tracking,
-  and strategic decision support.
-  Trigger phrases: "data analytics", "analytics report", "analyze the data", "revenue report",
-  "Stripe analytics", "Supabase analytics", "build a dashboard", "KPI tracking", "business insights",
-  "data visualization", "performance metrics", "trend analysis", "revenue breakdown".
-version: 1.0.0
+name: data-analytics
+description: "Use when analyzing Supabase data or Stripe revenue, building a dashboard, tracking KPIs, or turning raw data into business insights and trend analysis."
 voice: maycrest
 ---
 

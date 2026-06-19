@@ -1,7 +1,6 @@
 ---
 name: google-flow
-description: >
-  Comprehensive knowledge base for Google Flow (labs.google/fx/tools/flow), Google's AI filmmaking platform powered by Veo 3.1. Use this skill whenever the user asks about Google Flow, Veo 3/3.1, AI video generation with Google tools, or needs help creating cinematic video content, building a multi-platform AI video pipeline, prompting for video generation, or integrating Flow with Gemini image gen, Midjourney, Kling AI, CapCut, Pika Labs, or Runway. Trigger for questions like "how do I use Google Flow", "Veo 3 prompts", "AI video pipeline", "Flow vs Kling", "ingredients to video", "Flow audio generation", "how to get consistent characters in Flow", "how do I use Midjourney images in Flow", or any mention of AI video creation for dance, fashion, hip-hop, or urban content. Also use when designing any professional AI content creation workflow that includes video generation tools.
+description: "Use when working with Google Flow or Veo 3.1 for AI video — writing video prompts, getting consistent characters, building a video pipeline, or integrating Flow with Midjourney, Kling, or CapCut."
 ---
 
 # Google Flow: Complete Skill Guide for Advanced AI Creators

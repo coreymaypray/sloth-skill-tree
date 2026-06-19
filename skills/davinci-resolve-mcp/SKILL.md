@@ -1,15 +1,6 @@
 ---
 name: davinci-resolve-mcp
-description: >
-  Full AI-assisted automation of DaVinci Resolve Studio 20 via a local MCP server (samuelgursky/davinci-resolve-mcp).
-  Use this skill for ANY request involving DaVinci Resolve — project management, timeline editing, color grading,
-  Fusion compositing, Fairlight audio, rendering, gallery management, and media pool operations.
-  Triggers on: "open the color page", "create a new timeline", "add a serial node", "export to H.265",
-  "grab a still", "render the queue", "set opacity", "add a marker", "apply a LUT", "create a Fusion comp",
-  "normalize audio", "multicam edit", "set render preset", "list projects", or ANY mention of Resolve,
-  DaVinci, grading, color nodes, Fusion, Fairlight, or video post-production automation. Always use this
-  skill when the user has DaVinci Resolve MCP connected — never guess at tool names or parameters without
-  consulting the tool inventory here first.
+description: "Use when automating DaVinci Resolve Studio 20 through its local MCP server — timeline editing, color grading, Fusion compositing, Fairlight audio, rendering, or media pool operations."
 compatibility:
   requires:
     - DaVinci Resolve Studio 20.x (free version does NOT support external scripting)

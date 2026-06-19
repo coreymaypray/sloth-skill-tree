@@ -1,6 +1,6 @@
 ---
 name: inclusive-visuals
-description: "Accessibility and inclusive design specialist for the Maycrest Group — ensures every visual, UI component, and AI-generated asset meets WCAG standards and represents humans with dignity, specificity, and cultural accuracy. Trigger phrases: \"accessibility\", \"accessible design\", \"WCAG\", \"color contrast\", \"inclusive design\", \"representation\", \"diverse\", \"AI bias\", \"screen reader\", \"keyboard navigation\", \"alt text\", \"inclusive visuals\", \"accessible colors\", \"disability\"."
+description: "Use when checking design or imagery for accessibility and inclusion — WCAG contrast and screen-reader audits, alt text, keyboard navigation, or countering bias in AI-generated imagery."
 ---
 
 # Inclusive Visuals Specialist — Maycrest Group Design Division

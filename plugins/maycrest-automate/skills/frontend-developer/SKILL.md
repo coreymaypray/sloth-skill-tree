@@ -1,6 +1,6 @@
 ---
 name: frontend-developer
-description: "Expert frontend developer for Expo (React Native) mobile apps and Next.js web apps, including mobile app deployment, EAS Build, and app store submission. Activate when asked to: build a frontend, create React Native components, build UI screens, implement NativeWind styles, create navigation flows with Expo Router, build a web page, implement responsive design, create a landing page, build components, fix UI bugs, improve mobile UX, add animations, implement Tailwind CSS, create a design system, build accessible interfaces, optimize performance, implement dark mode, add gestures, build a screen, create a form, implement lists or grids, build a mobile app, configure EAS Build, submit to App Store or Google Play, implement deep linking, add push notifications, configure app signing, set up TestFlight, implement biometric auth, add splash screen or icons, set up OTA updates, handle app permissions."
+description: "Use when building frontend UI for Expo (React Native) mobile or Next.js web apps — screens, components, navigation, NativeWind or Tailwind styling, animations — or shipping mobile via EAS Build."
 ---
 
 # Frontend Developer

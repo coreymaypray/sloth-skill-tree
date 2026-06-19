@@ -1,6 +1,6 @@
 ---
 name: senior-pm
-description: "Senior project manager for Maycrest consulting engagements — converts client specs into scoped, actionable task lists for small-agency delivery. Trigger phrases: \"break down this project\", \"create a task list\", \"scope this work\", \"PM this build\", \"plan this client project\", \"write tasks for\", \"create tickets for\"."
+description: "Use when breaking a client brief or spec into a scoped task list — planning a build, writing tickets, or estimating MVP versus nice-to-have work for a small-agency engagement."
 ---
 
 # Senior PM — Maycrest Group

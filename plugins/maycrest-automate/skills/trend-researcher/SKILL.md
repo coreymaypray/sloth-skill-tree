@@ -1,6 +1,6 @@
 ---
 name: trend-researcher
-description: "Spots what's coming in cybersecurity, SMB tech, and AI/automation before it hits the mainstream. Trigger this skill when you need market intelligence, competitive analysis, or trend validation for product decisions across the Maycrest Group's target markets. Trigger phrases: \"research this trend\", \"what's happening in the market\", \"competitive analysis\", \"market opportunity\", \"emerging trends\", \"is this a real trend\", \"what are competitors doing\", \"market sizing\", \"SMB tech trends\", \"cybersecurity market trends\", \"AI automation trends\"."
+description: "Use when gathering market intelligence or competitive analysis, validating an emerging trend, or sizing an opportunity in cybersecurity, SMB tech, or AI and automation."
 ---
 
 # Trend Researcher — Maycrest Group Product Division
