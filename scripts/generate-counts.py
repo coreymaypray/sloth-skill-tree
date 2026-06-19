@@ -81,7 +81,13 @@ def root_counts_md(plugins, globals_) -> str:
     plugin_skills = sum(len(p["skills"]) for p in plugins)
     total_skills = plugin_skills + len(globals_)
     total_commands = sum(len(p["commands"]) for p in plugins)
+    sq = "?style=flat-square"
     lines = [
+        f"![Plugins](https://img.shields.io/badge/plugins-{len(plugins)}-00E5CC{sq}) "
+        f"![Skills](https://img.shields.io/badge/skills-{total_skills}-A855F7{sq}) "
+        f"![Commands](https://img.shields.io/badge/commands-{total_commands}-22C55E{sq}) "
+        f"![License](https://img.shields.io/badge/license-Proprietary-FF4D6A{sq})",
+        "",
         f"**{len(plugins)} plugins · {total_skills} skills "
         f"({plugin_skills} specialist + {len(globals_)} global) · {total_commands} commands**",
         "",
@@ -89,7 +95,7 @@ def root_counts_md(plugins, globals_) -> str:
         "|--------|--------:|-------:|---------:|",
     ]
     for p in plugins:
-        lines.append(f"| `{p['name']}` | {p['version']} | {len(p['skills'])} | {len(p['commands'])} |")
+        lines.append(f"| [`{p['name']}`](plugins/{p['name']}/README.md) | {p['version']} | {len(p['skills'])} | {len(p['commands'])} |")
     lines.append(f"| _global skills_ | — | {len(globals_)} | — |")
     return "\n".join(lines)
 

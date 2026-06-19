@@ -1,303 +1,134 @@
-# Maycrest Group — Sloth Skill Tree
+# Maycrest Group — Sloth Skill Tree 🦥
 
-The official plugin library for **Maycrest Group LLC** — powered by **Sloth Flow**.
+The official Claude Code plugin library for **Maycrest Group LLC** — powered by **Sloth Flow**.
 
-Organized under the three Maycrest pillars: **Create · Automate · Secure**.
+<!-- AUTOGEN:counts:start -->
+![Plugins](https://img.shields.io/badge/plugins-6-00E5CC?style=flat-square) ![Skills](https://img.shields.io/badge/skills-127-A855F7?style=flat-square) ![Commands](https://img.shields.io/badge/commands-43-22C55E?style=flat-square) ![License](https://img.shields.io/badge/license-Proprietary-FF4D6A?style=flat-square)
 
-## Structure
+**6 plugins · 127 skills (124 specialist + 3 global) · 43 commands**
 
+| Plugin | Version | Skills | Commands |
+|--------|--------:|-------:|---------:|
+| [`maycrest-command`](plugins/maycrest-command/README.md) | 3.1.0 | 2 | 4 |
+| [`maycrest-create`](plugins/maycrest-create/README.md) | 1.2.0 | 37 | 10 |
+| [`maycrest-automate`](plugins/maycrest-automate/README.md) | 1.2.0 | 39 | 14 |
+| [`maycrest-secure`](plugins/maycrest-secure/README.md) | 1.1.0 | 10 | 6 |
+| [`maycrest-ops`](plugins/maycrest-ops/README.md) | 1.2.0 | 26 | 7 |
+| [`maycrest-method`](plugins/maycrest-method/README.md) | 1.0.0 | 10 | 2 |
+| _global skills_ | — | 3 | — |
+<!-- AUTOGEN:counts:end -->
+
+Organized under the Maycrest pillars — **Create · Automate · Secure**, with **Ops**,
+**Command** (orchestration), and **Method** (the Sloth Flow discipline engine).
+
+## Start here
+
+| I want to… | Run |
+|------------|-----|
+| Decompose a big, multi-pillar goal | `/sloth [describe your goal]` |
+| Route one task to the right specialist | `/sloth-dispatch [describe your task]` |
+| Run a full client build with discipline gates | `/deliver [client] [deliverable]` |
+| Apply one discipline (TDD, debug, review…) | `/discipline [what you need]` |
+| Hit a specialist directly | `maycrest-[pillar]:[skill]` |
+
+## The plugins
+
+Each plugin installs and reads standalone — click through for its full skill catalog.
+
+| Plugin | What's inside |
+|--------|---------------|
+| [maycrest-command](plugins/maycrest-command/README.md) | Sloth Command orchestrator + Sloth Dispatch fast router |
+| [maycrest-create](plugins/maycrest-create/README.md) | Design, brand, marketing, content, paid media, AI video |
+| [maycrest-automate](plugins/maycrest-automate/README.md) | Engineering, AI, DevOps, spatial, gamedev, product |
+| [maycrest-secure](plugins/maycrest-secure/README.md) | Security engineering, threat intel, IR, forensics, compliance |
+| [maycrest-ops](plugins/maycrest-ops/README.md) | PM, QA, support, finance, analytics, document tooling |
+| [maycrest-method](plugins/maycrest-method/README.md) | Sloth Flow discipline engine + `/deliver` pipeline |
+
+Plus 3 global skills (`resume-career-coach`, `chevelle-restoration`, `davinci-resolve-mcp`).
+
+<details>
+<summary><b>Example invocations by pillar</b></summary>
+
+```text
+# Create
+maycrest-create:seo-specialist     → "Audit organic search for maycrestdigital.com"
+/launch-campaign                   → plan a multi-channel launch
+
+# Automate
+maycrest-automate:backend-architect → "Design the Supabase schema for a booking app"
+/full-stack-build                   → scope and build an Expo + Supabase MVP
+
+# Secure
+maycrest-secure:threat-model        → "Threat model the client portal login flow"
+/security-audit                     → run a posture assessment
+
+# Ops
+maycrest-ops:exec-summary           → "Board-ready summary of the Q2 engagement"
+maycrest-ops:reality-checker        → certify a build production-ready
+
+# Method (discipline engine)
+/deliver "AOS Sober Living" "bed-availability booking flow"
+/discipline "debug this failing RLS test"
 ```
-plugins/
-├── maycrest-create/     Creative Services & Content Production (36 specialists)
-├── maycrest-automate/   AI Solutions & Business Automation (39 specialists)
-├── maycrest-secure/     Cybersecurity & Threat Intelligence (10 specialists)
-├── maycrest-ops/        Operations, QA, PM & Business Support (26 specialists)
-└── maycrest-command/    Sloth Command + Sloth Dispatch Orchestration (2 specialists)
-
-skills/
-├── resume-career-coach/     Resume, cover letter, LinkedIn, interview prep
-├── chevelle-restoration/    1972 Chevelle SS restoration knowledge base
-└── davinci-resolve-mcp/     DaVinci Resolve Studio automation via MCP
-```
-
-**113 plugin specialists + 3 global skills** across 5 plugins.
-
-## Current Versions
-
-| Plugin | Version | Skills | Commands | Focus |
-|--------|---------|--------|----------|-------|
-| **maycrest-command** | 3.1.0 | 2 | 3 | Sloth Command orchestrator + Sloth Dispatch fast router |
-| **maycrest-create** | 1.2.0 | 36 | 10 | Design, brand, marketing, content, paid media, theming, visual art |
-| **maycrest-automate** | 1.2.0 | 39 | 14 | Engineering, AI, spatial, gamedev, product, research, web artifacts |
-| **maycrest-secure** | 1.1.0 | 10 | 6 | Security, threat intel, forensics, compliance |
-| **maycrest-ops** | 1.2.0 | 26 | 7 | PM, QA, finance, analytics, studio ops, document tooling |
-
-## Changelog
-
-### v3.1.0 — 2026-03-21
-- Upgraded Sloth Command with agent-orchestrator patterns (task classification, parallel execution, CI/PR reactions, lineage context)
-- Added `/sloth-status` command for work-in-progress dashboard
-- Added `orchestration-patterns.md` reference
-- Upgraded Sloth Dispatch with reactive event routing (CI failures, PR reviews, merge conflicts)
-
-### v1.2.0 — 2026-03-28
-- Skill audit & deduplication: removed 3 duplicate user skills from ~/.claude/skills/
-- Migrated 8 unique skills from legacy anthropic-skills into plugin system:
-  - maycrest-ops: docx, xlsx, pptx, pdf (document tooling)
-  - maycrest-create: theme-factory, canvas-design
-  - maycrest-automate: web-artifacts-builder, deep-research
-- Updated skill counts: Create 34→36, Automate 37→39, Ops 22→26 (total 105→113)
-
-### v1.1.0 — 2026-03-21
-- Consolidated all skill sources into sloth-skill-tree (from cyber-sloth-empire + anthropic-skills)
-- Migrated 7 skills: backend-database, backend-infrastructure, app-dev, mobile-app-builder, legal-compliance, data-analytics, tool-evaluator
-- Added google-flow (Veo 3.1 AI video), chevelle-restoration, davinci-resolve-mcp as global skills
-- Full rebrand: "Cyber Sloth Empire" replaced with "Maycrest Group" across 87+ files
-- Renamed chief-of-staff to sloth-dispatch, killed CEO/CoS corporate titles
-- Renamed 7 GitHub repos to maycrest/sloth branding
-
-## Quick Start
-
-| Need | Command |
-|------|---------|
-| Strategic multi-pillar work | `/sloth [describe your goal]` |
-| Quick single-skill routing | `/sloth-dispatch [describe your task]` |
-| Direct specialist access | `maycrest-[pillar]:[skill-name]` |
-
----
+</details>
 
 ## Installation
 
-### Prerequisites
-
-- [Claude Code CLI](https://docs.anthropic.com/en/docs/claude-code) (`npm install -g @anthropic-ai/claude-code`)
-- Node.js 18+
-- Git
-
-### Step 1: Clone
+**Prerequisites:** [Claude Code CLI](https://docs.anthropic.com/en/docs/claude-code), Node.js 18+, Git.
 
 ```bash
+# 1. Clone
 git clone https://github.com/coreymaypray/sloth-skill-tree.git
-```
 
-### Step 2: Register Marketplace
-
-```bash
+# 2. Register the marketplace
 claude plugin marketplace add /path/to/sloth-skill-tree
-```
 
-### Step 3: Install All Plugins
-
-```bash
-for p in maycrest-command maycrest-create maycrest-automate maycrest-secure maycrest-ops; do
+# 3. Install all plugins
+for p in maycrest-command maycrest-create maycrest-automate maycrest-secure maycrest-ops maycrest-method; do
   claude plugin install "$p@sloth-skill-tree" --scope user
 done
+
+# 4. Install global skills
+mkdir -p ~/.claude/skills && cp -R skills/* ~/.claude/skills/
+
+# 5. Restart Claude Code; type / to see commands, /plugins to verify.
 ```
 
-### Step 4: Install Global Skills
+**Update:** `cd sloth-skill-tree && git pull origin main`, then restart. No reinstall needed.
 
-```bash
-mkdir -p ~/.claude/skills
-cp -R skills/* ~/.claude/skills/
+## Repository layout
+
+```
+.claude-plugin/marketplace.json   Marketplace manifest (source of truth for plugins)
+plugins/<plugin>/
+  .claude-plugin/plugin.json       Per-plugin manifest
+  README.md                        Per-plugin catalog (skills table auto-generated)
+  skills/<name>/SKILL.md           Skills
+  commands/<name>.md               Commands
+skills/<name>/SKILL.md             Global (pillar-less) skills
+scripts/                           validate.sh, generate-counts.py, check-structure.py
+normalize-frontmatter.py           Description linter (--fix for mechanical normalization)
 ```
 
-### Step 5: Restart Claude Code
+## Contributing & validation
 
-Type `/` to see all commands. Run `/plugins` to verify.
+Run `./scripts/validate.sh` before pushing — it lints descriptions, checks structure,
+and verifies counts are current. See [CONTRIBUTING.md](CONTRIBUTING.md) for the SKILL.md
+template and the description rule.
 
-### Updating
+## Tech stack
 
-```bash
-cd sloth-skill-tree && git pull origin main
-```
+Optimized for Expo (React Native) · Supabase · Stripe · Vercel · Claude (Anthropic SDK),
+though most skills are framework-agnostic.
 
-Restart Claude Code. No reinstall needed — the marketplace points to the repo.
+## License
 
----
+Proprietary — © 2026 Maycrest Group LLC. See [LICENSE](LICENSE). The `maycrest-method`
+plugin contains content adapted from the MIT-licensed
+[obra/superpowers](https://github.com/obra/superpowers); see [NOTICE](plugins/maycrest-method/NOTICE).
 
-## Pillar: CREATE (34 specialists)
-
-Creative Services — design, brand, marketing, content, social media, paid media, cultural content.
-
-| Skill | What It Does |
-|-------|-------------|
-| **article-writer** | Long-form articles, LinkedIn newsletters, thought leadership |
-| **hook-writing** | Scroll-stopping hooks, headlines, email subjects, video intros |
-| **tweet-to-short** | Convert social posts into TikTok/Reels/Shorts scripts |
-| **content-creator** | Editorial calendars, content pillars, cross-platform planning |
-| **social-strategist** | Cross-platform social playbooks and campaign coordination |
-| **seo-specialist** | Keyword research, technical SEO audits, ranking strategy |
-| **growth-hacker** | Funnel optimization, conversion experiments, channel ID |
-| **instagram-curator** | Feed aesthetics, caption writing, Reels strategy, hashtags |
-| **tiktok-strategist** | Trend identification, video scripting, short-form growth |
-| **twitter-engager** | Tweet writing, threads, hot takes, cybersecurity commentary |
-| **youtube-strategist** | Content planning, scripting, thumbnails, SEO, growth |
-| **reddit-builder** | Subreddit identification, engagement, authentic presence |
-| **carousel-engine** | LinkedIn/Instagram carousel content — slides, copy, CTAs |
-| **app-store-optimizer** | App Store keyword research, listing copy, screenshot strategy |
-| **ui-designer** | Design systems, component libraries, dark mode, Figma-to-code |
-| **ux-architect** | Information architecture, navigation, user flows, layouts |
-| **ux-researcher** | Usability testing, interviews, personas, journey mapping |
-| **brand-guardian** | Brand consistency audits, identity enforcement |
-| **visual-storyteller** | Infographics, storyboards, campaign visuals, data viz |
-| **whimsy-injector** | Microcopy, Easter eggs, delightful empty states, fun UI |
-| **image-prompt-engineer** | AI image prompts for DALL-E, Midjourney, generative tools |
-| **inclusive-visuals** | WCAG compliance, color contrast, accessible imagery |
-| **canva-infographic-builder** | Canva infographic workflow with Maycrest aesthetic |
-| **black-dating-convo** | Culturally-grounded dating and relationship content |
-| **creative-strategist** | Ad creative, RSA headlines, A/B test copy variants |
-| **paid-media-auditor** | Campaign forensics, wasted spend ID, ROI analysis |
-| **paid-social** | Facebook, LinkedIn, TikTok ad setup and optimization |
-| **ppc-strategist** | Google Ads architecture, keyword strategy, bid management |
-| **programmatic-buyer** | Display/programmatic advertising, retargeting, audiences |
-| **search-query-analyst** | Search term analysis, negative keywords, query reports |
-| **tracking-specialist** | GTM, GA4, Stripe event tracking, pixel debugging |
-| **cultural-intelligence** | Cross-cultural adaptation, localization, inclusive design |
-| **create-lead** | Division dispatcher — routes to the right creative specialist |
-| **google-flow** | Veo 3.1 AI video production, Scene Builder, dialogue/SFX |
-
-**Commands:** `/brand-refresh`, `/brand-voice`, `/content-blitz`, `/content-pipeline`, `/dating-topic`, `/infographic`, `/launch-campaign`, `/marketing`, `/paid-media`, `/repurpose`
+See [CHANGELOG.md](CHANGELOG.md) for version history.
 
 ---
 
-## Pillar: AUTOMATE (37 specialists)
-
-AI Solutions — full-stack engineering, mobile, AI, spatial, gamedev, product, workflow automation.
-
-| Skill | What It Does |
-|-------|-------------|
-| **backend-architect** | Supabase schemas, Edge Functions, RLS, API design, multi-tenant |
-| **backend-database** | PostgreSQL/Supabase schema design, migrations, RLS policies, query optimization |
-| **backend-infrastructure** | Vercel, Apple sign-in, webhooks, Edge Functions, secrets, deployment pipelines |
-| **app-dev** | Full Expo + Supabase + Stripe app lifecycle — client apps and TIE Platform |
-| **mobile-app-builder** | Expo specialist — push notifications, EAS Build, deep linking, app store submission |
-| **senior-developer** | Full-stack code quality, reviews, refactoring, architecture |
-| **frontend-developer** | React Native (Expo) and Next.js — components, NativeWind, navigation |
-| **rapid-prototyper** | Zero to MVP fast — proof of concepts and validation prototypes |
-| **ai-engineer** | Claude API, RAG systems, chatbots, prompt engineering, LLM cost optimization |
-| **data-engineer** | Analytics pipelines, aggregation queries, reporting backends |
-| **devops-automator** | CI/CD, GitHub Actions, EAS Build, Vercel config, environment management |
-| **optimization-architect** | AI cost governance, circuit breakers, LLM routing, token budgets |
-| **technical-writer** | READMEs, API docs, tutorials, runbooks, schema documentation |
-| **maycrest-web-design** | Maycrest brand web design — UI/UX patterns, landing pages, component specs |
-| **visionos-engineer** | Apple Vision Pro — RealityKit, volumetric content, Liquid Glass, spatial widgets |
-| **spatial-metal** | Metal GPU rendering, spatial graphics pipelines, Vision Pro renderers |
-| **xr-architect** | Spatial UX — 3D interface layouts, HUD design, depth placement |
-| **xr-developer** | WebXR — A-Frame, Three.js XR, Babylon.js, hand tracking |
-| **xr-cockpit** | Cockpit/control panel interfaces, spatial HUDs, simulator dashboards |
-| **terminal-integration** | Terminal emulation in spatial/native apps — SwiftTerm, ANSI, SSH |
-| **unity-developer** | Unity C#, ScriptableObjects, MonoBehaviour, performance optimization |
-| **unreal-developer** | UE5 Blueprints, C++, GAS, Nanite, Lumen |
-| **godot-developer** | Godot 4 GDScript, C#, signal-based architecture |
-| **game-designer** | Game mechanics, GDD writing, gameplay loops, balance, progression |
-| **game-audio** | FMOD, Wwise, adaptive music, spatial audio, SFX |
-| **level-designer** | Spatial storytelling, encounter design, pacing, blockout |
-| **narrative-designer** | Branching dialogue, lore, environmental storytelling |
-| **technical-artist** | Shaders, VFX, LOD systems, texture compression, particles |
-| **behavioral-nudge** | Gamification, engagement loops, push strategy, churn reduction |
-| **feedback-synthesizer** | User feedback analysis, review synthesis, signal prioritization |
-| **sprint-prioritizer** | ICE/RICE scoring, backlog management, scope cutting |
-| **trend-researcher** | Competitive analysis, emerging trends, market intelligence |
-| **agents-orchestrator** | Multi-agent pipeline conductor, parallel workflows |
-| **data-consolidation** | ETL, data pipeline construction, cross-system consolidation |
-| **developer-advocate** | DevRel, DX audits, tutorial writing, onboarding optimization |
-| **model-qa** | LLM quality assurance, prompt evaluation, response benchmarking |
-| **automate-lead** | Division dispatcher — routes to the right engineering specialist |
-
-**Commands:** `/design`, `/discovery-sprint`, `/engineering`, `/full-stack-build`, `/gamedev`, `/maycrest-page`, `/new-project`, `/performance-sweep`, `/product`, `/rapid-prototype`, `/sow`, `/spatial`, `/specialized`, `/ux-deep-dive`
-
----
-
-## Pillar: SECURE (10 specialists)
-
-Cybersecurity — security engineering, threat intelligence, incident response, compliance, offensive security.
-
-| Skill | What It Does |
-|-------|-------------|
-| **security-engineer** | Application security, vulnerability audits, RLS review, OWASP checks |
-| **threat-detection-engineer** | SIEM rules, Sigma rules, ATT&CK mapping, alert tuning, threat hunting |
-| **threat-intel-analyst** | Threat intelligence collection, indicator analysis, TTP tracking |
-| **incident-response-commander** | Incident management, on-call rotations, post-mortems, SLO/SLI |
-| **cloud-security-architect** | Cloud security posture, IAM, network segmentation, multi-cloud |
-| **forensics-investigator** | Digital forensics, evidence collection, chain of custody, analysis |
-| **offensive-security-engineer** | Penetration testing methodology, exploit development, red team ops |
-| **compliance-auditor** | SOC 2, GDPR, HIPAA, PCI-DSS, ISO 27001 gap analysis, remediation |
-| **legal-compliance** | GDPR reviews, privacy policies, data handling audits, user data rights |
-| **secure-lead** | Division dispatcher — routes to the right security specialist |
-
-**Commands:** `/cti-report`, `/incident-forensics`, `/pentest`, `/security-audit`, `/threat-landscape`, `/threat-model`
-
----
-
-## OPS (22 specialists)
-
-Operations — project management, QA/testing, finance, analytics, studio operations.
-
-| Skill | What It Does |
-|-------|-------------|
-| **senior-pm** | Project breakdown, task creation, scope, timeline, client coordination |
-| **project-shepherd** | Client communication, risk management, status reports, stakeholder updates |
-| **jira-steward** | Agile traceability, Jira tickets, branch naming, PR templates |
-| **experiment-tracker** | A/B test management, hypothesis design, feature flags, results analysis |
-| **studio-operations** | Solo/small-agency ops — capacity planning, tool audits, bandwidth |
-| **studio-producer** | Creative/technical production, build coordination, deliverable planning |
-| **api-tester** | API validation, Edge Function verification, auth flow testing |
-| **test-analyzer** | Test output analysis, Jest interpretation, CI failure investigation |
-| **accessibility-auditor** | WCAG 2.2 compliance, screen reader testing, keyboard navigation |
-| **performance-benchmarker** | App startup time, render perf, query benchmarks, bundle size |
-| **reality-checker** | Deployment readiness certification, release gates, production cert |
-| **workflow-optimizer** | CI/CD optimization, pipeline speed, flaky test elimination |
-| **tool-evaluator** | Testing framework comparison, library assessment, CI/CD tool recommendations |
-| **accounts-payable** | Stripe invoicing, vendor management, contractor payments |
-| **finance-tracker** | Stripe revenue monitoring, invoice management, project P&L |
-| **analytics-reporter** | Business intelligence, revenue metrics, deployment stats, KPIs |
-| **data-analytics** | Supabase data analysis, Stripe reporting, custom dashboards, trend analysis |
-| **exec-summary** | Board reports, leadership briefs, client summaries, QBRs |
-| **infra-maintainer** | Supabase monitoring, Vercel status, EAS troubleshooting, infra audits |
-| **support-responder** | Client/end-user support, ticket resolution, troubleshooting |
-| **sloth-commit** | Commits and pushes Claude Code memory to GitHub |
-| **report-distribution** | Automated report delivery, scheduled reporting, client distribution |
-
-**Commands:** `/client-delivery`, `/client-onboarding`, `/code-review-pipeline`, `/feedback-loop`, `/project-mgmt`, `/support`, `/testing`
-
----
-
-## COMMAND (2 specialists)
-
-Sloth Command + Sloth Dispatch. Strategic orchestration across all pillars with task decomposition, parallel execution, CI/PR integration, and event-driven reaction protocols. Inspired by [ComposioHQ/agent-orchestrator](https://github.com/ComposioHQ/agent-orchestrator) patterns.
-
-| Skill | What It Does |
-|-------|-------------|
-| **sloth-command** | Sloth Command — classifies tasks (atomic/composite/parallel), decomposes into tracks with lineage context, spawns parallel agents, reacts to CI failures and review comments |
-| **sloth-dispatch** | Sloth Dispatch — fast single-skill routing + reactive event triage (CI failures, PR reviews, merge conflicts) |
-
-**Commands:** `/sloth`, `/sloth-dispatch`, `/sloth-status`
-
----
-
-## Global Skills (3)
-
-Standalone skills not tied to any pillar.
-
-| Skill | What It Does |
-|-------|-------------|
-| **resume-career-coach** | Resume, cover letter, LinkedIn, interview prep (8 reference docs) |
-| **chevelle-restoration** | 1972 Chevelle SS restoration knowledge base |
-| **davinci-resolve-mcp** | DaVinci Resolve Studio automation via MCP server |
-
----
-
-## Tech Stack
-
-These skills are optimized for:
-- **Mobile**: Expo (React Native) + NativeWind + Expo Router
-- **Backend**: Supabase (Postgres, Auth, Edge Functions, Realtime, Storage)
-- **Payments**: Stripe / Stripe Connect
-- **Hosting**: Vercel
-- **AI**: Claude Code, Anthropic SDK
-
-But most skills are framework-agnostic and work across any stack.
-
----
-
-**Maycrest Group LLC** · Indianapolis, IN · Create · Automate · Secure
+**Maycrest Group LLC** · Indianapolis, IN · Create · Automate · Secure 🦥

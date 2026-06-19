@@ -1,4 +1,23 @@
+# OS / editor
 .DS_Store
 *.swp
 *.swo
 *~
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Local / secrets
+.env
+.env.*
+*.log
+
+# Note: counts.json is generated but COMMITTED (badge/CI source of truth) — do not ignore.
