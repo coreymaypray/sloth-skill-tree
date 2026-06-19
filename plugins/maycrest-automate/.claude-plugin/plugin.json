@@ -1,0 +1,10 @@
+{
+  "name": "maycrest-automate",
+  "version": "1.2.0",
+  "description": "Maycrest Automate — specialists for full-stack engineering, AI, DevOps, spatial computing, gamedev, product, research, and web artifacts.",
+  "author": { "name": "Corey Maypray" },
+  "homepage": "https://github.com/coreymaypray/sloth-skill-tree",
+  "license": "LicenseRef-Proprietary",
+  "category": "development",
+  "keywords": ["engineering", "ai", "devops", "mobile", "xr", "gamedev", "supabase", "expo"]
+}
