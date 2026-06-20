@@ -1,0 +1,10 @@
+{
+  "name": "maycrest-create",
+  "version": "1.2.0",
+  "description": "Maycrest Create — specialists for design, marketing, paid media, content creation, brand, social strategy, AI video, theming, and visual art.",
+  "author": { "name": "Corey Maypray" },
+  "homepage": "https://github.com/coreymaypray/sloth-skill-tree",
+  "license": "LicenseRef-Proprietary",
+  "category": "productivity",
+  "keywords": ["design", "marketing", "content", "brand", "social", "paid-media", "seo"]
+}

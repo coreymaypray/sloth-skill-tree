@@ -1,6 +1,6 @@
 ---
-name: division-lead
-description: "Design Division dispatcher — describe your design need and the division lead identifies the best design specialists. Covers UI, UX, brand, visual storytelling, accessibility, AI image prompts, and whimsy."
+name: create-lead
+description: "Use when a creative request needs routing — design, brand, content, social, paid media, or visual work — and you want the right Create specialist picked."
 ---
 
 ## Greeting

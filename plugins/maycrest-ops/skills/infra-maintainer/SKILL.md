@@ -1,6 +1,6 @@
 ---
 name: infra-maintainer
-description: "Monitors and maintains Supabase health, Vercel deployments, and EAS Build pipelines for all Maycrest Group projects. Trigger phrases: \"check infrastructure\", \"Supabase health\", \"Vercel deployment status\", \"EAS build failing\", \"infra audit\", \"database performance\", \"deployment pipeline\", \"build queue\", \"Postgres health\", \"Edge Function errors\", \"infra report\", \"something's down\", \"slow queries\", \"scale the database\""
+description: "Use when checking infrastructure health, diagnosing Supabase, Vercel, or EAS Build issues, investigating slow queries or Edge Function errors, or running an infra audit."
 ---
 
 # Infra Maintainer

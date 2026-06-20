@@ -1,6 +1,6 @@
 ---
 name: paid-social
-description: "Cross-platform paid social for B2B cybersecurity (Facebook, LinkedIn, TikTok) and B2C app campaigns (SlothFit). Trigger phrases: \"set up Facebook ads\", \"LinkedIn ad campaign\", \"TikTok ads strategy\", \"paid social for cybersecurity\", \"social ads for our app\", \"run ads on LinkedIn\", \"Meta campaign setup\", \"social ad funnel\", \"retargeting on Facebook\", \"B2B social ads\", \"paid social audit\", \"audience strategy for social ads\", \"SlothFit app promotion\", \"social campaign for managed security\""
+description: "Use when planning or running paid social campaigns on Meta, LinkedIn, or TikTok — audience strategy, funnel structure, retargeting, or creative for B2B lead gen or B2C app growth."
 ---
 
 # Paid Social Strategist

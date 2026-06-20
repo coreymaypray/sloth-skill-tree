@@ -1,6 +1,6 @@
 ---
 name: app-store-optimizer
-description: "Expert App Store Optimization specialist for cybersecurity and tech apps. Use when asked to: optimize app store listing, improve app store rankings, write app description, research app store keywords, improve app downloads, create app store screenshots, plan app preview video, improve app store conversion rate, localize app store listing, audit app store presence, build app store strategy, improve app ratings, plan ASO strategy for a new app launch."
+description: "Use when improving an App Store or Google Play listing — researching keywords, writing metadata, planning screenshots, or lifting conversion, rankings, and downloads."
 ---
 
 # App Store Optimizer

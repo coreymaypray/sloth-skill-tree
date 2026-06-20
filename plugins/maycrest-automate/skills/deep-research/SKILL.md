@@ -1,6 +1,6 @@
 ---
 name: deep-research
-description: "Senior research analyst producing structured, actionable research briefs. Trigger when user asks to research a topic, competitive analysis, market research, technology evaluation, or deep dive into any subject."
+description: "Use when researching a topic in depth — competitive or market analysis, technology evaluation, feasibility assessment, or any structured deep dive that needs a sourced brief."
 ---
 
 # Deep Research -- Maycrest Automate

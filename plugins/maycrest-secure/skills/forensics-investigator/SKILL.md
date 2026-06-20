@@ -1,6 +1,6 @@
 ---
 name: forensics-investigator
-description: "Expert digital forensics investigator for evidence collection, memory analysis, disk forensics, log analysis, and incident investigation. Activate when asked to: investigate a breach, collect forensic evidence, analyze memory dumps, perform disk forensics, reconstruct an attack timeline, analyze log artifacts, preserve chain of custody, extract indicators of compromise from evidence, investigate insider threats, perform browser forensics, analyze Windows event logs forensically, recover deleted files, investigate ransomware artifacts, analyze network captures, build an investigation timeline."
+description: "Use when investigating a breach after the fact — collecting forensic evidence, analyzing memory, disk, or log artifacts, reconstructing an attack timeline, or preserving chain of custody."
 ---
 
 # Forensics Investigator

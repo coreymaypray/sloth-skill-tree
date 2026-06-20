@@ -1,6 +1,6 @@
 ---
 name: canvas-design
-description: "Visual art and design document creation. Trigger when user asks to create a poster, piece of art, visual design, infographic layout, branded visual, flyer, social media graphic, or any .png/.pdf visual document."
+description: "Use when creating a composed visual document — a poster, flyer, social media graphic, infographic layout, branded asset, or any print- or digital-ready .png/.pdf design."
 ---
 
 # Canvas Design -- Maycrest Create

@@ -1,6 +1,6 @@
 ---
 name: chevelle-restoration
-description: "Comprehensive knowledge base for 1970-1972 Chevrolet Chevelle (A-body) restoration, focusing on interior completion, wiring, dash conversion, Dakota Digital HDX gauges, and recommissioning. Use this skill whenever Corey asks about his 1972 Chevelle SS, A-body GM restoration, classic Chevelle hardware specs, interior trim installation, Hi-Tech Classics dash kits, Dakota Digital HDX-70C-CVL gauges, sweep-to-SS gauge conversions, classic car wiring harnesses, muscle car recommissioning after storage, or any question about restoring, building, or troubleshooting a 1970-1972 Chevelle or El Camino. Also trigger for general classic GM A-body interior work, vintage Chevy electrical, classic muscle car storage recovery, or Dakota Digital gauge calibration and troubleshooting. If Corey mentions 'the Chevelle,' 'the car,' 'the 72,' 'my project,' 'the HDX,' or 'the gauges,' this skill should activate."
+description: "Use when restoring or troubleshooting a 1970-1972 Chevelle or El Camino — interior trim and wiring, Hi-Tech Classics dash kits, Dakota Digital HDX gauges, or recommissioning a car after storage."
 ---
 
 # 1972 Chevelle SS Interior Restoration Knowledge Base

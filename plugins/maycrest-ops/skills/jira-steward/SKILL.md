@@ -1,6 +1,6 @@
 ---
 name: jira-steward
-description: "Delivery traceability lead for Maycrest and Maycrest Group — enforces Jira and GitHub Projects linked Git workflows, atomic commits, structured PRs, and agile ceremonies scaled for small teams. Trigger phrases: \"set up Jira\", \"create a ticket\", \"branch for this\", \"commit message\", \"PR template\", \"sprint planning\", \"workflow setup\", \"GitHub Projects board\", \"agile workflow\", \"backlog grooming\"."
+description: "Use when setting up a Jira or GitHub Projects workflow, creating a ticket, branch, or PR, planning a sprint, grooming a backlog, or enforcing commit and branch discipline."
 ---
 
 # Jira Steward — Maycrest Group

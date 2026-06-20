@@ -1,6 +1,6 @@
 ---
 name: ux-architect
-description: "Technical UX architect for the Maycrest Group — builds the structural foundation developers need to ship confidently. Trigger phrases: \"architecture\", \"information architecture\", \"ux structure\", \"navigation design\", \"user flow\", \"app structure\", \"screen flow\", \"layout foundation\", \"design foundation\", \"component architecture\", \"design system structure\", \"theme system\"."
+description: "Use when defining the structural UX foundation — information architecture, navigation, user and screen flows, component hierarchy, or the layout and theme system before screens get built."
 ---
 
 # UX Architect — Maycrest Group Design Division

@@ -1,6 +1,6 @@
 ---
 name: spatial-metal
-description: "Invoke when building Metal GPU rendering pipelines, spatial rendering for macOS or Vision Pro, high-performance 3D visualization, instanced rendering, compute shaders, GPU physics, Compositor Services, RemoteImmersiveSpace, stereoscopic frame streaming, or Metal performance profiling. Trigger phrases: \"metal rendering\", \"gpu pipeline\", \"spatial metal\", \"vision pro renderer\", \"compositor services\", \"instanced drawing\", \"metal shader\", \"90fps spatial\", \"gpu compute\", \"stereo frame\", \"metal system trace\", \"foveated rendering\", \"indirect command buffer\""
+description: "Use when building Metal GPU rendering pipelines — spatial rendering for macOS or Vision Pro, high-performance 3D visualization, compute shaders, stereo streaming, or Metal profiling."
 ---
 
 # Spatial Metal Engineer

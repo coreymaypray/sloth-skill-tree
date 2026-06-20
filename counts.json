@@ -1,0 +1,47 @@
+{
+  "totals": {
+    "plugins": 6,
+    "specialist_skills": 124,
+    "global_skills": 3,
+    "total_skills": 127,
+    "total_commands": 43
+  },
+  "plugins": [
+    {
+      "name": "maycrest-command",
+      "version": "3.1.0",
+      "skills": 2,
+      "commands": 4
+    },
+    {
+      "name": "maycrest-create",
+      "version": "1.2.0",
+      "skills": 37,
+      "commands": 10
+    },
+    {
+      "name": "maycrest-automate",
+      "version": "1.2.0",
+      "skills": 39,
+      "commands": 14
+    },
+    {
+      "name": "maycrest-secure",
+      "version": "1.1.0",
+      "skills": 10,
+      "commands": 6
+    },
+    {
+      "name": "maycrest-ops",
+      "version": "1.2.0",
+      "skills": 26,
+      "commands": 7
+    },
+    {
+      "name": "maycrest-method",
+      "version": "1.0.0",
+      "skills": 10,
+      "commands": 2
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 ---
 name: analytics-reporter
-description: "Generates business intelligence reports, custom dashboards, KPI design, and data analytics from Supabase analytics, Stripe revenue data, and Vercel deployment metrics across Maycrest Group projects. Includes A/B testing analysis, customer segmentation, cohort analysis, predictive modeling, and automated reporting pipelines. Trigger phrases: \"run analytics report\", \"show me the numbers\", \"revenue report\", \"deployment metrics\", \"user growth report\", \"monthly KPI report\", \"Stripe MRR\", \"Supabase usage stats\", \"Vercel performance report\", \"analytics dashboard\", \"build a report for Maycrest\", \"data analytics\", \"analyze the data\", \"KPI tracking\", \"business insights\", \"data visualization\", \"performance metrics\", \"trend analysis\", \"revenue breakdown\", \"build a dashboard\", \"customer segmentation\", \"cohort analysis\""
+description: "Use when generating a business intelligence report or KPI dashboard, analyzing revenue or growth from Stripe, Supabase, or Vercel data, or running cohort and segmentation analysis."
 ---
 
 # Analytics Reporter

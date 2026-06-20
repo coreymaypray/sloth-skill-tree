@@ -1,6 +1,6 @@
 ---
 name: ux-researcher
-description: "User experience researcher for the Maycrest Group — validates design decisions with real user data, not assumptions. Trigger phrases: \"user research\", \"usability test\", \"user interview\", \"persona\", \"user journey\", \"pain points\", \"test this design\", \"validate this\", \"user feedback\", \"survey\", \"behavioral data\", \"user insight\"."
+description: "Use when validating design decisions with user evidence — usability tests, user interviews, surveys, personas, journey mapping, or synthesizing behavioral data into insights."
 ---
 
 # UX Researcher — Maycrest Group Design Division

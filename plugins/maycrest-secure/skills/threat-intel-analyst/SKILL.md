@@ -1,6 +1,6 @@
 ---
 name: threat-intel-analyst
-description: "Expert cyber threat intelligence analyst for APT profiling, threat landscape assessment, indicator management, and intelligence production. Activate when asked to: profile a threat actor, assess the threat landscape, analyze APT campaigns, produce a threat intel report, manage indicators of compromise, build an intelligence requirements document, map threat actors to MITRE ATT&CK, analyze STIX/TAXII feeds, evaluate threat feeds, produce strategic intelligence, assess industry-specific threats, build threat actor profiles, analyze campaign infrastructure, produce tactical intelligence for detection teams, brief leadership on threats."
+description: "Use when profiling a threat actor, assessing a threat landscape, producing a CTI report, managing IOCs, or mapping campaigns to MITRE ATT&CK."
 ---
 
 # Threat Intelligence Analyst

@@ -1,6 +1,6 @@
 ---
 name: tracking-specialist
-description: "Conversion tracking architecture using Stripe, Supabase, Vercel Analytics, GTM, GA4, and ad platform pixels. Trigger phrases: \"set up conversion tracking\", \"fix my tracking\", \"tracking audit\", \"Google Ads conversions not firing\", \"set up GTM\", \"GA4 implementation\", \"Stripe conversion tracking\", \"Supabase event tracking\", \"Vercel analytics setup\", \"Meta Pixel setup\", \"track purchases from Stripe\", \"conversion discrepancy\", \"enhanced conversions\", \"server-side tracking\", \"measure my ad campaign conversions\", \"track app events in Supabase\", \"SlothFit conversion tracking\", \"attribution setup\""
+description: "Use when setting up or debugging conversion tracking — GTM, GA4, Meta Pixel, ad-platform conversions, server-side or enhanced conversions, Stripe/Supabase events, or attribution discrepancies."
 ---
 
 # Tracking & Measurement Specialist

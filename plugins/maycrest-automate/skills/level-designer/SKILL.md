@@ -1,6 +1,6 @@
 ---
 name: level-designer
-description: "Level and map design, spatial storytelling, progression pacing, and flow architecture. Invoke when you need to: design level layouts, plan encounter sequences, control pacing arcs, author blockout specs, design onboarding flows as spatial experiences, or structure user journey progressions in apps. Trigger phrases: \"design a level\", \"level layout\", \"map design\", \"encounter design\", \"pacing\", \"spatial flow\", \"blockout\", \"progression pacing\", \"user journey structure\", \"environmental storytelling\"."
+description: "Use when designing game levels and maps — layouts, encounter sequences, pacing arcs, blockout specs, and environmental storytelling — or structuring app onboarding as spatial experiences."
 ---
 
 # Maycrest Group — Level Designer

@@ -1,0 +1,22 @@
+Copyright (c) 2026 Maycrest Group LLC. All rights reserved.
+
+This software and associated documentation files (the "Sloth Skill Tree") are the
+proprietary and confidential property of Maycrest Group LLC (Indianapolis, Indiana).
+
+No part of this repository may be copied, modified, distributed, sublicensed, sold, or
+used to create derivative works, in whole or in part, by any party other than Maycrest
+Group LLC, without the prior written permission of Maycrest Group LLC.
+
+EXCEPTION — MIT-licensed components: the `plugins/maycrest-method/` directory contains
+content adapted from the obra/superpowers project, which is distributed under the MIT
+License (Copyright (c) 2025 Jesse Vincent). The MIT License governs the portions of that
+directory derived from obra/superpowers and is reproduced in full in
+`plugins/maycrest-method/NOTICE`. Maycrest-specific content within that directory —
+branding, voice, examples, and the delivery pipeline — remains proprietary to Maycrest
+Group LLC.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE
+FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

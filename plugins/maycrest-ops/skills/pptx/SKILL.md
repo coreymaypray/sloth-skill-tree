@@ -1,6 +1,6 @@
 ---
 name: pptx
-description: "Use this skill any time a .pptx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations from scratch; editing existing .pptx files; building client presentations; generating sales decks or capability overviews; adding charts, tables, or images to slides; creating speaker notes. Trigger phrases: 'PowerPoint', 'pptx', 'slide deck', 'presentation', 'pitch deck', 'slides', 'create a deck', 'build a presentation', 'client presentation', 'sales deck', 'capability deck', 'keynote slides', 'add slides', 'speaker notes', 'slide template'"
+description: "Use when creating, reading, or editing PowerPoint (.pptx) files — pitch decks, client presentations, sales or capability decks, slides with charts and tables, or speaker notes."
 ---
 
 # Presentation (.pptx) Tooling — Maycrest Ops

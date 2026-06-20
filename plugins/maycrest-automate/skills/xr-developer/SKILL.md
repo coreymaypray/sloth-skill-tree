@@ -1,6 +1,6 @@
 ---
 name: xr-developer
-description: "Invoke when building WebXR applications, immersive VR/AR/XR browser experiences, A-Frame scenes, Three.js or Babylon.js XR integrations, WebXR Device API, hand tracking in browsers, cross-platform headset compatibility, hit testing, raycasting, spatial audio in XR, or immersive experience performance optimization. Trigger phrases: \"webxr\", \"a-frame\", \"three.js xr\", \"babylon.js xr\", \"immersive vr\", \"immersive ar\", \"hand tracking webxr\", \"hit test\", \"xr session\", \"meta quest\", \"cross-platform xr\", \"webxr device api\", \"spatial browser\", \"xr performance\", \"vr training\", \"ar visualization\", \"immersive web\""
+description: "Use when building browser-based WebXR experiences — immersive VR or AR with the WebXR Device API, Three.js, Babylon.js, or A-Frame, including hand tracking and cross-headset compatibility."
 ---
 
 # XR Developer

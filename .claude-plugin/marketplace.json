@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "sloth-skill-tree",
-  "description": "Maycrest Group skills marketplace — 5 pillars, 113 specialist skills for Create, Secure, Automate, Ops, and Command",
+  "description": "Maycrest Group skills marketplace — six plugins spanning Create, Secure, Automate, Ops, Command, and Method (the Sloth Flow discipline engine).",
   "owner": {
     "name": "Corey Maypray",
     "email": "corey@maycrest.com"
@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "maycrest-command",
-      "description": "Maycrest Command — Sloth Command strategic orchestrator with task decomposition, parallel execution, CI/PR integration, and reaction protocols. Sloth Dispatch fast router with event-driven triage. Plus agent registry, voice personas, brand tokens, and session hooks.",
+      "description": "Maycrest Command — Sloth Command strategic orchestrator with task decomposition, parallel execution, and CI/PR integration, plus Sloth Dispatch fast router, agent registry, voice personas, brand tokens, and session hooks.",
       "version": "3.1.0",
       "author": { "name": "Corey Maypray" },
       "source": "./plugins/maycrest-command",
@@ -17,7 +17,7 @@
     },
     {
       "name": "maycrest-create",
-      "description": "Maycrest Create — 36 specialists for design, marketing, paid media, content creation, brand, social strategy, AI video, cultural intelligence, theming, and visual art.",
+      "description": "Maycrest Create — specialists for design, marketing, paid media, content creation, brand, social strategy, AI video, cultural intelligence, theming, and visual art.",
       "version": "1.2.0",
       "author": { "name": "Corey Maypray" },
       "source": "./plugins/maycrest-create",
@@ -25,7 +25,7 @@
     },
     {
       "name": "maycrest-automate",
-      "description": "Maycrest Automate — 39 specialists for full-stack engineering, AI, DevOps, spatial computing, gamedev, product, research, and web artifact development.",
+      "description": "Maycrest Automate — specialists for full-stack engineering, AI, DevOps, spatial computing, gamedev, product, research, and web artifact development.",
       "version": "1.2.0",
       "author": { "name": "Corey Maypray" },
       "source": "./plugins/maycrest-automate",
@@ -33,7 +33,7 @@
     },
     {
       "name": "maycrest-secure",
-      "description": "Maycrest Secure — 10 specialists for security engineering, threat intelligence, incident response, forensics, offensive security, and compliance.",
+      "description": "Maycrest Secure — specialists for security engineering, threat intelligence, incident response, forensics, offensive security, and compliance.",
       "version": "1.1.0",
       "author": { "name": "Corey Maypray" },
       "source": "./plugins/maycrest-secure",
@@ -41,11 +41,19 @@
     },
     {
       "name": "maycrest-ops",
-      "description": "Maycrest Ops — 26 specialists for project management, QA/testing, support, finance, analytics, studio operations, and document tooling (docx, xlsx, pptx, pdf).",
+      "description": "Maycrest Ops — specialists for project management, QA/testing, support, finance, analytics, studio operations, and document tooling (docx, xlsx, pptx, pdf).",
       "version": "1.2.0",
       "author": { "name": "Corey Maypray" },
       "source": "./plugins/maycrest-ops",
       "category": "productivity"
+    },
+    {
+      "name": "maycrest-method",
+      "description": "Maycrest Method — the Sloth Flow discipline engine: ten process skills (spec, blueprint, TDD, debug, build, review, verify, ship) plus the /deliver client-build pipeline. Forked and rebranded from the MIT-licensed obra/superpowers; works standalone.",
+      "version": "1.0.0",
+      "author": { "name": "Corey Maypray" },
+      "source": "./plugins/maycrest-method",
+      "category": "development"
     }
   ]
 }

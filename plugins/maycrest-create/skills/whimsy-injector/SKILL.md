@@ -1,6 +1,6 @@
 ---
 name: whimsy-injector
-description: "Delight and personality specialist for the Maycrest Group — injects sloth-powered whimsy into product experiences, microcopy, error states, and brand moments without sacrificing function. Trigger phrases: \"add some fun\", \"make this delightful\", \"whimsy\", \"personality\", \"microcopy\", \"error message\", \"empty state\", \"easter egg\", \"loading state\", \"celebration\", \"make it feel human\", \"brand personality\"."
+description: "Use when adding personality and delight to a product — microcopy, error and empty states, loading screens, celebrations, Easter eggs, or making an experience feel more human."
 ---
 
 # Whimsy Injector — Maycrest Group Design Division

@@ -1,6 +1,6 @@
 ---
 name: hook-writing
-description: "Write scroll-stopping hooks, opening lines, and headlines for Corey (Nexus / Maycrest Group). Trigger for hooks, headlines, opening lines, post openers, email subject lines, video intros, TikTok/Reels openers, YouTube titles, LinkedIn openers, "make this catchier", "punch this up", "help me start this post", "write hooks for X", "scroll-stopping copy", ad copy intros. Covers cybersecurity thought leadership, Maycrest Group brand content, and social media posts."
+description: "Use when crafting a scroll-stopping opener — hooks, headlines, post openers, email subject lines, video intros, or YouTube titles — or punching up an existing opening to make it catchier."
 ---
 
 # Hook Writing

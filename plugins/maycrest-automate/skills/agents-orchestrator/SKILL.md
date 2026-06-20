@@ -1,6 +1,6 @@
 ---
 name: agents-orchestrator
-description: "Multi-agent pipeline conductor for Sloth Flow and the Maycrest Group plugin ecosystem. Coordinates specialist agents from spec to ship — PM, architecture, dev-QA loops, and integration. Trigger phrases: \"orchestrate agents\", \"run the pipeline\", \"coordinate agents\", \"spawn orchestrator\", \"multi-agent workflow\", \"automate dev pipeline\", \"run sloth flow pipeline\"."
+description: "Use when coordinating a multi-agent development pipeline from spec to ship — running the Sloth Flow workflow, sequencing dev-QA loops, or enforcing quality gates across agents."
 voice: nexus
 ---
 

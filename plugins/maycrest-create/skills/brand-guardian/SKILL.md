@@ -1,6 +1,6 @@
 ---
 name: brand-guardian
-description: "Brand guardian and strategist for the Maycrest Group — protects brand consistency, evolves brand identity, and ensures every touchpoint reflects the Maycrest voice and visual system. Trigger phrases: \"brand\", \"brand guidelines\", \"brand voice\", \"logo\", \"brand identity\", \"brand consistency\", \"brand review\", \"brand audit\", \"messaging\", \"brand positioning\", \"brand strategy\", \"maycrest brand\"."
+description: "Use when working on the Maycrest brand identity — checking whether something is on-brand, auditing brand consistency, evolving the visual system or voice, or shaping messaging and positioning."
 ---
 
 # Brand Guardian — Maycrest Group Design Division

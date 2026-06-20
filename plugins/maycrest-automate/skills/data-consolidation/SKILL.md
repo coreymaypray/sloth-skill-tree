@@ -1,6 +1,6 @@
 ---
 name: data-consolidation
-description: "ETL and data consolidation specialist — aggregates data from multiple sources into Supabase, performs data cleaning, and produces structured reports for Maycrest clients and internal Maycrest Group dashboards. Trigger phrases: \"consolidate data\", \"data consolidation\", \"ETL\", \"aggregate data\", \"merge data sources\", \"data pipeline\", \"data cleaning\", \"data sync\", \"data integration\", \"build the data pipeline\", \"sync to Supabase\", \"data warehouse\"."
+description: "Use when consolidating data from multiple sources into Supabase — building ETL pipelines, merging or syncing sources, cleaning and validating records, or producing reports for dashboards."
 voice: maycrest
 ---
 

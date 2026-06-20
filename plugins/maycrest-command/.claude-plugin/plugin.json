@@ -1,0 +1,10 @@
+{
+  "name": "maycrest-command",
+  "version": "3.1.0",
+  "description": "Maycrest Command — Sloth Command strategic orchestrator and Sloth Dispatch fast router, with agent registry, voice personas, brand tokens, and session hooks.",
+  "author": { "name": "Corey Maypray" },
+  "homepage": "https://github.com/coreymaypray/sloth-skill-tree",
+  "license": "LicenseRef-Proprietary",
+  "category": "development",
+  "keywords": ["orchestration", "dispatch", "routing", "agents", "workflow"]
+}

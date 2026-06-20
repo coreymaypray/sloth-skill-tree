@@ -1,6 +1,6 @@
 ---
 name: design-system-architect
-description: "Design system architect for the Maycrest Group — creates, audits, and maintains DESIGN.md files following the Google Stitch 9-section standard. Generates design token documentation from codebases or URLs, builds competitive design intelligence libraries, and ensures AI coding agents have complete brand context. Trigger phrases: \"create a design system\", \"generate DESIGN.md\", \"extract design tokens\", \"design system audit\", \"design tokens\", \"DESIGN.md\", \"Google Stitch\", \"design system documentation\", \"token architecture\", \"design reference library\", \"competitive design analysis\"."
+description: "Use when creating or auditing a design system or DESIGN.md file, extracting design tokens from a codebase or URL, or building a design reference library for AI coding agents."
 ---
 
 # Design System Architect — Maycrest Group Design Division

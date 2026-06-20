@@ -1,6 +1,6 @@
 ---
 name: accounts-payable
-description: "Stripe invoicing, vendor management, and consulting payment tracking for Maycrest and Maycrest Group. Handles contractor invoices, recurring bills, and payment operations with full audit trail and idempotency. Trigger phrases: \"accounts payable\", \"pay invoice\", \"process payment\", \"contractor invoice\", \"vendor payment\", \"pay a bill\", \"Stripe invoice\", \"payment tracking\", \"AP report\", \"recurring bills\", \"payment operations\", \"consulting payment\", \"pay the vendor\"."
+description: "Use when paying or tracking a vendor or contractor invoice, processing a recurring bill, creating a Stripe consulting invoice, or producing an accounts-payable report."
 voice: maycrest
 ---
 

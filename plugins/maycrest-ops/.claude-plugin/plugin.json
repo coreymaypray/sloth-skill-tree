@@ -1,0 +1,10 @@
+{
+  "name": "maycrest-ops",
+  "version": "1.2.0",
+  "description": "Maycrest Ops — specialists for project management, QA and testing, support, finance, analytics, studio operations, and document tooling (docx, xlsx, pptx, pdf).",
+  "author": { "name": "Corey Maypray" },
+  "homepage": "https://github.com/coreymaypray/sloth-skill-tree",
+  "license": "LicenseRef-Proprietary",
+  "category": "productivity",
+  "keywords": ["project-management", "qa", "testing", "finance", "analytics", "documents"]
+}

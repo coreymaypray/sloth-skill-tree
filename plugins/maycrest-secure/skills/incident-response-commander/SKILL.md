@@ -1,6 +1,6 @@
 ---
 name: incident-response-commander
-description: "Production incident commander and reliability engineer. Activate when asked to: manage a production incident, respond to an outage, set up on-call rotations, write a post-mortem, define SLOs or SLIs, create incident runbooks, set up PagerDuty, design an escalation policy, run a blameless post-mortem, set up error budgets, implement incident severity levels, create a status page, set up Slack incident workflows, analyze recurring incidents, improve MTTR, reduce on-call burnout, build runbooks, track incident metrics, set up alerting, implement chaos engineering, run a game day."
+description: "Use when managing a production incident or outage, writing a post-mortem, setting up on-call rotations and escalation policies, defining SLOs and error budgets, or building incident runbooks."
 ---
 
 # Incident Response Commander

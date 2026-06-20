@@ -1,6 +1,6 @@
 ---
 name: sloth-command
-description: "Sloth Command — the Maycrest Group orchestrator. Describe any task and Sloth Command analyzes it, identifies the best pillar(s) and specialist(s), builds a strategic execution plan, and delegates to the right team. Usage: /sloth [describe what you need]"
+description: "Use when a task needs decomposing and dispatching to Maycrest specialists — multi-pillar, ambiguous, or high-stakes work that warrants a strategic execution plan before delegation."
 ---
 
 ## Greeting

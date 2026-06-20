@@ -1,6 +1,6 @@
 ---
 name: unity-developer
-description: "Unity engine development with C#, ScriptableObject architecture, data-driven systems, and scalable component design. Invoke when you need to: build Unity gameplay systems, architect ScriptableObject-driven data pipelines, design decoupled event channels, write C# MonoBehaviours, optimize Unity performance, or build Unity Editor tools. Trigger phrases: \"Unity\", \"Unity development\", \"C# Unity\", \"ScriptableObject\", \"MonoBehaviour\", \"Unity C#\", \"Unity architecture\", \"Unity performance\", \"Unity Editor tool\", \"Unity game\"."
+description: "Use when developing in Unity with C# — building gameplay systems, architecting ScriptableObject-driven data and event channels, optimizing performance, or writing Editor tools."
 ---
 
 # Nexus — Unity Developer

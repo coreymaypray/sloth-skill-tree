@@ -1,6 +1,6 @@
 ---
 name: support-responder
-description: "Resolves client and end-user support issues across Maycrest Group projects. Trigger phrases: \"handle support ticket\", \"respond to support request\", \"troubleshoot client issue\", \"customer complaint\", \"user can't log in\", \"app not working\", \"support queue\", \"triage tickets\", \"draft support response\", \"escalate issue\""
+description: "Use when triaging or resolving a client or end-user support issue — login and account failures, billing disputes, app crashes, or drafting and escalating a support response."
 ---
 
 # Support Responder

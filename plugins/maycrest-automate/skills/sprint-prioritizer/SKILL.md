@@ -1,6 +1,6 @@
 ---
 name: sprint-prioritizer
-description: "Cuts through backlog chaos with ICE/RICE precision. Trigger this skill when you need to prioritize a sprint, score a feature backlog, plan a release, or figure out what to build next across SlothFit, TIE Platform, Maycrest, or client apps. Trigger phrases: \"prioritize this sprint\", \"score the backlog\", \"what should we build next\", \"help me plan the sprint\", \"rank these features\", \"ICE score this\", \"RICE score this\", \"which issues matter most\", \"help with roadmap planning\"."
+description: "Use when prioritizing a sprint, scoring a feature backlog with ICE or RICE, planning a release, or deciding what to build next across projects."
 ---
 
 # Sprint Prioritizer — Maycrest Group Product Division

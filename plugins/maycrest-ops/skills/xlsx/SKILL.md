@@ -1,6 +1,6 @@
 ---
 name: xlsx
-description: "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx or .csv file; create a new spreadsheet from scratch; build a financial model, tracker, or data table; import CSV data into a structured workbook; add formulas, charts, or conditional formatting; handle large datasets or pivot tables. Trigger phrases: 'spreadsheet', 'Excel', 'xlsx', 'CSV', 'data table', 'financial model', 'tracker spreadsheet', 'pricing sheet', 'invoice spreadsheet', 'export to Excel', 'read this spreadsheet', 'parse this CSV', 'budget spreadsheet', 'P&L sheet', 'pivot table', 'chart from data', 'conditional formatting'"
+description: "Use when creating, reading, or editing Excel (.xlsx) or CSV files — financial models, trackers, pricing or invoice sheets, data tables, pivot tables, or workbooks with formulas and charts."
 ---
 
 # Spreadsheet (.xlsx / .csv) Tooling — Maycrest Ops

@@ -1,6 +1,6 @@
 ---
 name: web-artifacts-builder
-description: "Suite of tools for creating elaborate, multi-component HTML artifacts using modern frontend web technologies. Trigger when user wants interactive HTML pages, prototypes, visualizations, dashboards, calculators, or self-contained web tools."
+description: "Use when building a self-contained interactive HTML artifact — a prototype, dashboard, calculator, data visualization, or standalone web tool in a single file."
 ---
 
 # Web Artifacts Builder -- Maycrest Automate

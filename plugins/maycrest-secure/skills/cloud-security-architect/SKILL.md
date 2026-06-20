@@ -1,6 +1,6 @@
 ---
 name: cloud-security-architect
-description: "Expert cloud security architect for AWS, Azure, and GCP security posture assessment, IAM review, and cloud-native security controls. Activate when asked to: audit cloud security, review IAM policies, assess AWS configuration, audit Azure security, review GCP permissions, run CIS benchmark checks, assess cloud infrastructure security, review cloud network security, audit cloud storage permissions, evaluate cloud logging and monitoring, assess cloud identity federation, review infrastructure-as-code security, evaluate container orchestration security, assess serverless security, review cloud compliance posture, design cloud security architecture."
+description: "Use when assessing cloud security posture across AWS, Azure, or GCP — reviewing IAM policies, running CIS benchmark checks, auditing network or storage exposure, or hardening infrastructure-as-code."
 ---
 
 # Cloud Security Architect

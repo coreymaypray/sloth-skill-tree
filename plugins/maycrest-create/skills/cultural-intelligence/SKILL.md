@@ -1,6 +1,6 @@
 ---
 name: cultural-intelligence
-description: "Cross-cultural content adaptation and localization specialist for Corey's diverse global audience. Detects invisible exclusion in UI, copy, and imagery — ensures Maycrest Group products resonate authentically across intersectional identities and global markets. Trigger phrases: \"cultural intelligence\", \"localization\", \"inclusive design\", \"cultural audit\", \"global audience\", \"invisible exclusion\", \"internationalization\", \"i18n\", \"cultural adaptation\", \"diversity audit\", \"inclusive copy\", \"cross-cultural\"."
+description: "Use when adapting content or products for a global, cross-cultural audience — localization and i18n decisions, cultural audits of UI, copy, or imagery, or catching exclusion before a product ships."
 voice: maycrest
 ---
 

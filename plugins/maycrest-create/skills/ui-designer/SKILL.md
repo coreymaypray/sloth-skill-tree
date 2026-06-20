@@ -1,6 +1,6 @@
 ---
 name: ui-designer
-description: "Expert UI designer for the Maycrest Group — creates pixel-perfect interfaces, component libraries, and design systems grounded in brand tokens. Trigger phrases: \"design a screen\", \"build a component\", \"create a UI\", \"design system\", \"component library\", \"dark mode\", \"mobile UI\", \"NativeWind layout\", \"Figma spec\", \"design tokens\"."
+description: "Use when designing a screen or UI, building a component library or design system, working in design tokens, or producing Figma specs and NativeWind layouts for mobile or web."
 ---
 
 # UI Designer — Maycrest Group Design Division

@@ -1,6 +1,6 @@
 ---
 name: project-shepherd
-description: "Client communication and risk management lead for Maycrest consulting engagements — shepherds projects from kickoff through delivery while keeping clients informed and surprises to a minimum. Trigger phrases: \"client update\", \"project status\", \"risk review\", \"manage this engagement\", \"shepherd this project\", \"write a status report\", \"client communication\", \"scope change\", \"escalation plan\", \"project health check\"."
+description: "Use when managing a client consulting engagement — writing status updates, reviewing project risks or health, handling a scope change or escalation, or planning delivery and offboarding."
 ---
 
 # Project Shepherd — Maycrest Group

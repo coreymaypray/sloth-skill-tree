@@ -1,6 +1,6 @@
 ---
 name: experiment-tracker
-description: "Data-driven experiment design and tracking lead for TIE Platform and SlothFit — manages A/B tests, feature flags, and hypothesis validation using Supabase data and Expo app instrumentation. Trigger phrases: \"design an experiment\", \"track this test\", \"A/B test\", \"feature flag\", \"experiment results\", \"hypothesis validation\", \"test this idea\", \"measure this change\", \"experiment plan\", \"rollout strategy\"."
+description: "Use when designing or tracking an A/B test, setting up feature flags, validating a hypothesis, or planning a staged rollout for an Expo or SaaS product."
 ---
 
 # Experiment Tracker — Maycrest Group

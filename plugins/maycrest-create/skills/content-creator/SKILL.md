@@ -1,6 +1,6 @@
 ---
 name: content-creator
-description: "Expert content strategist and creator for cybersecurity and tech consulting brands. Use when asked to: write content, create posts, build an editorial calendar, develop content pillars, write blog posts, script videos, write LinkedIn articles, create newsletter issues, draft case studies, repurpose content across platforms, build a content strategy, write whitepapers, develop brand storytelling, create copy."
+description: "Use when producing or planning multi-format brand content for a tech-consulting audience — posts, blogs, video scripts, newsletters, case studies, editorial calendars, or content strategy."
 ---
 
 # Content Creator

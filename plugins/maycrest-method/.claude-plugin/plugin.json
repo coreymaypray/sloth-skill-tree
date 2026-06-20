@@ -1,0 +1,10 @@
+{
+  "name": "maycrest-method",
+  "version": "1.0.0",
+  "description": "Maycrest Method — the Sloth Flow discipline engine: ten process skills plus the /deliver client-build pipeline. Forked and rebranded from the MIT-licensed obra/superpowers; works standalone.",
+  "author": { "name": "Corey Maypray" },
+  "homepage": "https://github.com/coreymaypray/sloth-skill-tree",
+  "license": "LicenseRef-Proprietary",
+  "category": "development",
+  "keywords": ["tdd", "debugging", "code-review", "workflow", "discipline", "delivery", "superpowers"]
+}

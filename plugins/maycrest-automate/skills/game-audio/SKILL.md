@@ -1,6 +1,6 @@
 ---
 name: game-audio
-description: "Sound design, game music, SFX, audio engineering, FMOD/Wwise integration, adaptive music systems, and spatial audio. Invoke when you need to: design audio systems, implement FMOD/Wwise events, create adaptive music architectures, design SFX pipelines, configure spatial audio, or define audio performance budgets. Trigger phrases: \"sound design\", \"game audio\", \"FMOD\", \"Wwise\", \"adaptive music\", \"spatial audio\", \"SFX\", \"audio engineering\", \"audio budget\", \"audio implementation\"."
+description: "Use when designing or implementing game audio — sound design and SFX pipelines, adaptive music systems, FMOD or Wwise event integration, spatial audio, or audio performance budgets."
 ---
 
 # Nexus — Game Audio Engineer

@@ -1,13 +1,6 @@
 ---
-name: Legal Compliance
-description: |
-  Reviews and maintains GDPR, SOC2, and privacy compliance for Maycrest Group SaaS products
-  and client data handling practices.
-  Trigger phrases: "compliance check", "GDPR review", "privacy policy", "data handling", "SOC2 readiness",
-  "user data rights", "data deletion request", "compliance audit", "legal review", "TIE Platform compliance",
-  "client data policy", "cookie consent", "terms of service review", "data processing agreement",
-  "is this GDPR compliant", "right to erasure"
-version: 1.0.0
+name: legal-compliance
+description: "Use when reviewing GDPR, SOC2, or privacy posture for Maycrest products and client data — handling data subject or erasure requests, or reviewing a privacy policy or data processing agreement."
 ---
 
 # Legal Compliance

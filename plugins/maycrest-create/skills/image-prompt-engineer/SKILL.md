@@ -1,6 +1,6 @@
 ---
 name: image-prompt-engineer
-description: "AI image prompt engineering specialist for the Maycrest Group — crafts precise, production-ready prompts for DALL-E, Midjourney, and other generative AI tools to produce on-brand campaign imagery, UI illustrations, and marketing assets. Trigger phrases: \"generate an image\", \"AI image\", \"image prompt\", \"DALL-E\", \"Midjourney\", \"create a photo\", \"campaign image\", \"marketing image\", \"product photo\", \"illustration prompt\", \"generate artwork\"."
+description: "Use when crafting prompts for DALL-E, Midjourney, Stable Diffusion, or Flux to generate on-brand campaign imagery, illustrations, or marketing assets."
 ---
 
 # Image Prompt Engineer — Maycrest Group Design Division
